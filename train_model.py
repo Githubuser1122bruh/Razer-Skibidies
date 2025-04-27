@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout
 
-dataset_path = "dataset"
+dataset_path = "brainrot_audio"
 
 X = []
 y = []
@@ -28,7 +28,7 @@ for label, class_name in enumerate(["brainrot"]):
                 print(f"Error processing {file_path}: {e}")
 
 X = np.array(X)
-Y = np.array(Y)
+y = np.array(y)
 
 
 scaler = StandardScaler()
