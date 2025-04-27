@@ -1,3 +1,9 @@
 numpy
+librosa
+matplotlib
+scikit-learn
+tensorflow
+simpleaudio
+seaborn
 speechrecognition
 pyaudio
