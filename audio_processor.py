@@ -3,7 +3,7 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 import subprocess
-
+import os
 import sounddevice as sd
 
 from glob import glob
@@ -15,11 +15,27 @@ import IPython.display as ipd
 
 from itertools import cycle
 from tensorflow.keras.models import load_model
+
+STOP_FLAG_FILE = "stop_flag.txt"
+
+def check_stop_flag():
+    """checks for stop file"""
+    return os.path.exists(STOP_FLAG_FILE)
+
 model = load_model("brainrot_detector.h5")
+
+scaler_mean = np.load("scaler_mean.npy")
+scaler_scale = np.load("scaler_scale.npy")
+
+X_test = np.load("X_test.npy")
+y_test = np.load("y_test.npy")
 
 sns.set_theme(style="white", palette=None)
 color_pal = plt.rcParams["axes.prop_cycle"].by_key()["color"]
 color_cycle = cycle(plt.rcParams["axes.prop_cycle"].by_key()["color"])
+
+def scale_features(features):
+    return (features - scaler_mean) / scaler_scale
 
 def detect_brainrot(audio_data, sample_rate=22050, threshold=0.5):
     mfccs = librosa.feature.mfcc(y=audio_data, sr=sample_rate, n_mfcc=13)
@@ -28,6 +44,7 @@ def detect_brainrot(audio_data, sample_rate=22050, threshold=0.5):
     mfccs_mean = mfccs_mean.reshape(1,-1)
 
     prediction = model.predict(mfccs_mean)
+    print(f"model prediction: {prediction}")
     return prediction[0][0] > threshold
 
 def detect_voice(threshold=0.02, sample_rate=22050, duration=0.5, headset_name="External Microphone"):
@@ -58,7 +75,7 @@ def detect_voice(threshold=0.02, sample_rate=22050, duration=0.5, headset_name="
         if max_amplitude > threshold:
             print("Sound detected!")
             
-            if detect_brainrot(audio_data.flatten, sample_rate):
+            if detect_brainrot(audio_data.flatten(), sample_rate):
                 print("you brainrot not skibidi alpha")
             else:
                 print("no brainrot you are good")
@@ -76,17 +93,27 @@ if __name__ == "__main__":
     headset_name = "External Microphone"
     threshold = 0.02
     sample_rate = 22050
-    duration = 0.5
+    duration = 3
 
     print("Starting voice detection..., press ctrl+c to end the loop")
     try:
         while True:
+            if check_stop_flag():
+                print("detection ended")
+                os.remove(STOP_FLAG_FILE)
+                break
+
             audio_data = detect_voice(threshold=threshold, sample_rate=sample_rate, duration=duration, headset_name=headset_name)
             if audio_data is not None:
                 np.save("recorded_audio.npy", audio_data)
                 print("Audio data saved to 'recorded_audio.npy'")
             else:
                 print("No audio data to save.")
-    except KeyboardInterrupt:
+    except Exception as e:
+        print("an error occured" + e)
+    finally:
         print("Voice detection ended by user.")
         subprocess.run(["/usr/bin/python3", "/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py"])
+        loss, accuracy = model.evaluate(X_test, y_test)
+        print(f"Test Loss: {loss}")
+        print(f"Test Accuracy: {accuracy}")
