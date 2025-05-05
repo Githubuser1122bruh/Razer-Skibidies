@@ -1330,3 +1330,1700 @@
 2025-05-03 19:47:06 [INFO] 127.0.0.1 - - [03/May/2025 19:47:06] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
 2025-05-03 19:47:09 [INFO] 127.0.0.1 - - [03/May/2025 19:47:09] "[33mGET /download-audio HTTP/1.1[0m" 404 -
 2025-05-03 19:47:13 [INFO] Running audio_processor.py script
+2025-05-03 21:37:35 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-03 21:37:35 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-03 21:37:35 [INFO]  * Restarting with stat
+2025-05-03 21:37:35 [WARNING]  * Debugger is active!
+2025-05-03 21:37:35 [INFO]  * Debugger PIN: 130-251-583
+2025-05-03 21:38:32 [INFO] 127.0.0.1 - - [03/May/2025 21:38:32] "GET / HTTP/1.1" 200 -
+2025-05-03 21:38:32 [INFO] 127.0.0.1 - - [03/May/2025 21:38:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-03 21:38:32 [INFO] 127.0.0.1 - - [03/May/2025 21:38:32] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-03 21:38:45 [INFO] Running audio_processor.py script
+2025-05-03 21:39:01 [INFO] stopping script as user has requested
+2025-05-03 21:39:01 [INFO] 127.0.0.1 - - [03/May/2025 21:39:01] "POST /stop-script HTTP/1.1" 200 -
+2025-05-03 21:39:08 [INFO] 127.0.0.1 - - [03/May/2025 21:39:08] "GET /download-audio HTTP/1.1" 200 -
+2025-05-03 21:39:09 [INFO] script executed normally
+2025-05-03 21:39:09 [INFO] 127.0.0.1 - - [03/May/2025 21:39:09] "POST /run-script HTTP/1.1" 200 -
+2025-05-03 21:54:53 [INFO] 127.0.0.1 - - [03/May/2025 21:54:53] "GET / HTTP/1.1" 200 -
+2025-05-03 21:54:53 [INFO] 127.0.0.1 - - [03/May/2025 21:54:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-03 21:54:53 [INFO] 127.0.0.1 - - [03/May/2025 21:54:53] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-03 21:54:58 [INFO] 127.0.0.1 - - [03/May/2025 21:54:58] "[36mGET /download-audio HTTP/1.1[0m" 304 -
+2025-05-03 21:55:46 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-03 21:55:46 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-03 21:55:46 [INFO]  * Restarting with stat
+2025-05-03 21:55:46 [WARNING]  * Debugger is active!
+2025-05-03 21:55:46 [INFO]  * Debugger PIN: 130-251-583
+2025-05-03 21:55:50 [INFO] 127.0.0.1 - - [03/May/2025 21:55:50] "GET / HTTP/1.1" 200 -
+2025-05-03 21:55:51 [INFO] 127.0.0.1 - - [03/May/2025 21:55:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-03 21:55:51 [INFO] 127.0.0.1 - - [03/May/2025 21:55:51] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-03 21:55:52 [INFO] 127.0.0.1 - - [03/May/2025 21:55:52] "GET / HTTP/1.1" 200 -
+2025-05-03 21:55:52 [INFO] 127.0.0.1 - - [03/May/2025 21:55:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-03 21:55:52 [INFO] 127.0.0.1 - - [03/May/2025 21:55:52] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-03 21:55:52 [INFO] 127.0.0.1 - - [03/May/2025 21:55:52] "GET / HTTP/1.1" 200 -
+2025-05-03 21:55:52 [INFO] 127.0.0.1 - - [03/May/2025 21:55:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-03 21:55:52 [INFO] 127.0.0.1 - - [03/May/2025 21:55:52] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-03 21:55:54 [INFO] 127.0.0.1 - - [03/May/2025 21:55:54] "[36mGET /download-audio HTTP/1.1[0m" 304 -
+2025-05-03 21:57:28 [INFO] 127.0.0.1 - - [03/May/2025 21:57:28] "[33mGET /download-audio HTTP/1.1[0m" 404 -
+2025-05-03 21:57:32 [INFO] 127.0.0.1 - - [03/May/2025 21:57:32] "GET / HTTP/1.1" 200 -
+2025-05-03 21:57:32 [INFO] 127.0.0.1 - - [03/May/2025 21:57:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-03 21:57:32 [INFO] 127.0.0.1 - - [03/May/2025 21:57:32] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-03 21:57:34 [INFO] 127.0.0.1 - - [03/May/2025 21:57:34] "[33mGET /download-audio HTTP/1.1[0m" 404 -
+2025-05-03 21:59:02 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-03 21:59:02 [INFO]  * Restarting with stat
+2025-05-03 21:59:03 [WARNING]  * Debugger is active!
+2025-05-03 21:59:03 [INFO]  * Debugger PIN: 130-251-583
+2025-05-03 21:59:10 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-03 21:59:10 [INFO]  * Restarting with stat
+2025-05-03 21:59:11 [WARNING]  * Debugger is active!
+2025-05-03 21:59:11 [INFO]  * Debugger PIN: 130-251-583
+2025-05-03 21:59:15 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-03 21:59:15 [INFO]  * Restarting with stat
+2025-05-03 21:59:15 [WARNING]  * Debugger is active!
+2025-05-03 21:59:15 [INFO]  * Debugger PIN: 130-251-583
+2025-05-03 21:59:18 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-03 21:59:18 [INFO]  * Restarting with stat
+2025-05-03 21:59:18 [WARNING]  * Debugger is active!
+2025-05-03 21:59:18 [INFO]  * Debugger PIN: 130-251-583
+2025-05-03 21:59:21 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-03 21:59:21 [INFO]  * Restarting with stat
+2025-05-03 21:59:21 [WARNING]  * Debugger is active!
+2025-05-03 21:59:21 [INFO]  * Debugger PIN: 130-251-583
+2025-05-03 21:59:27 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-03 21:59:27 [INFO]  * Restarting with stat
+2025-05-03 21:59:27 [WARNING]  * Debugger is active!
+2025-05-03 21:59:27 [INFO]  * Debugger PIN: 130-251-583
+2025-05-03 21:59:28 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-03 21:59:28 [INFO]  * Restarting with stat
+2025-05-03 21:59:28 [WARNING]  * Debugger is active!
+2025-05-03 21:59:28 [INFO]  * Debugger PIN: 130-251-583
+2025-05-03 21:59:41 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-03 21:59:41 [INFO]  * Restarting with stat
+2025-05-03 21:59:41 [WARNING]  * Debugger is active!
+2025-05-03 21:59:41 [INFO]  * Debugger PIN: 130-251-583
+2025-05-03 21:59:45 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-03 21:59:45 [INFO]  * Restarting with stat
+2025-05-03 21:59:46 [WARNING]  * Debugger is active!
+2025-05-03 21:59:46 [INFO]  * Debugger PIN: 130-251-583
+2025-05-03 21:59:48 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-03 21:59:48 [INFO]  * Restarting with stat
+2025-05-03 21:59:48 [WARNING]  * Debugger is active!
+2025-05-03 21:59:48 [INFO]  * Debugger PIN: 130-251-583
+2025-05-03 21:59:57 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-03 21:59:57 [INFO]  * Restarting with stat
+2025-05-03 21:59:57 [WARNING]  * Debugger is active!
+2025-05-03 21:59:57 [INFO]  * Debugger PIN: 130-251-583
+2025-05-03 22:00:02 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-03 22:00:02 [INFO]  * Restarting with stat
+2025-05-03 22:00:02 [WARNING]  * Debugger is active!
+2025-05-03 22:00:02 [INFO]  * Debugger PIN: 130-251-583
+2025-05-03 22:00:06 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-03 22:00:06 [INFO]  * Restarting with stat
+2025-05-03 22:00:06 [WARNING]  * Debugger is active!
+2025-05-03 22:00:06 [INFO]  * Debugger PIN: 130-251-583
+2025-05-03 22:00:11 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-03 22:00:11 [INFO]  * Restarting with stat
+2025-05-03 22:00:11 [WARNING]  * Debugger is active!
+2025-05-03 22:00:11 [INFO]  * Debugger PIN: 130-251-583
+2025-05-03 22:00:17 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-03 22:00:17 [INFO]  * Restarting with stat
+2025-05-03 22:00:17 [WARNING]  * Debugger is active!
+2025-05-03 22:00:17 [INFO]  * Debugger PIN: 130-251-583
+2025-05-03 22:00:44 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-03 22:00:44 [INFO]  * Restarting with stat
+2025-05-03 22:00:44 [WARNING]  * Debugger is active!
+2025-05-03 22:00:44 [INFO]  * Debugger PIN: 130-251-583
+2025-05-03 22:00:48 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-03 22:00:48 [INFO]  * Restarting with stat
+2025-05-03 22:00:48 [WARNING]  * Debugger is active!
+2025-05-03 22:00:48 [INFO]  * Debugger PIN: 130-251-583
+2025-05-03 22:00:52 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-03 22:00:52 [INFO]  * Restarting with stat
+2025-05-03 22:00:52 [WARNING]  * Debugger is active!
+2025-05-03 22:00:52 [INFO]  * Debugger PIN: 130-251-583
+2025-05-03 22:01:14 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-03 22:01:14 [INFO]  * Restarting with stat
+2025-05-03 22:01:15 [WARNING]  * Debugger is active!
+2025-05-03 22:01:15 [INFO]  * Debugger PIN: 130-251-583
+2025-05-03 22:02:17 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-03 22:02:17 [INFO]  * Restarting with stat
+2025-05-03 22:02:17 [WARNING]  * Debugger is active!
+2025-05-03 22:02:17 [INFO]  * Debugger PIN: 130-251-583
+2025-05-03 22:02:24 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-03 22:02:24 [INFO]  * Restarting with stat
+2025-05-03 22:02:24 [WARNING]  * Debugger is active!
+2025-05-03 22:02:24 [INFO]  * Debugger PIN: 130-251-583
+2025-05-03 22:02:29 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-03 22:02:29 [INFO]  * Restarting with stat
+2025-05-03 22:02:29 [WARNING]  * Debugger is active!
+2025-05-03 22:02:29 [INFO]  * Debugger PIN: 130-251-583
+2025-05-03 22:02:32 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-03 22:02:32 [INFO]  * Restarting with stat
+2025-05-03 22:02:32 [WARNING]  * Debugger is active!
+2025-05-03 22:02:32 [INFO]  * Debugger PIN: 130-251-583
+2025-05-03 22:02:38 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-03 22:02:38 [INFO]  * Restarting with stat
+2025-05-03 22:02:38 [WARNING]  * Debugger is active!
+2025-05-03 22:02:38 [INFO]  * Debugger PIN: 130-251-583
+2025-05-03 22:02:42 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-03 22:02:42 [INFO]  * Restarting with stat
+2025-05-03 22:02:42 [WARNING]  * Debugger is active!
+2025-05-03 22:02:42 [INFO]  * Debugger PIN: 130-251-583
+2025-05-03 22:02:45 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-03 22:02:45 [INFO]  * Restarting with stat
+2025-05-03 22:02:45 [WARNING]  * Debugger is active!
+2025-05-03 22:02:45 [INFO]  * Debugger PIN: 130-251-583
+2025-05-03 22:03:43 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-03 22:03:43 [INFO]  * Restarting with stat
+2025-05-03 22:03:43 [WARNING]  * Debugger is active!
+2025-05-03 22:03:43 [INFO]  * Debugger PIN: 130-251-583
+2025-05-03 22:03:45 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-03 22:03:45 [INFO]  * Restarting with stat
+2025-05-03 22:03:45 [WARNING]  * Debugger is active!
+2025-05-03 22:03:45 [INFO]  * Debugger PIN: 130-251-583
+2025-05-03 22:03:54 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-03 22:03:54 [INFO]  * Restarting with stat
+2025-05-03 22:03:54 [WARNING]  * Debugger is active!
+2025-05-03 22:03:54 [INFO]  * Debugger PIN: 130-251-583
+2025-05-03 22:03:59 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-03 22:03:59 [INFO]  * Restarting with stat
+2025-05-03 22:03:59 [WARNING]  * Debugger is active!
+2025-05-03 22:03:59 [INFO]  * Debugger PIN: 130-251-583
+2025-05-03 22:04:04 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-03 22:04:04 [INFO]  * Restarting with stat
+2025-05-03 22:04:04 [WARNING]  * Debugger is active!
+2025-05-03 22:04:04 [INFO]  * Debugger PIN: 130-251-583
+2025-05-03 22:04:05 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-03 22:04:05 [INFO]  * Restarting with stat
+2025-05-03 22:04:05 [WARNING]  * Debugger is active!
+2025-05-03 22:04:05 [INFO]  * Debugger PIN: 130-251-583
+2025-05-03 22:04:10 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-03 22:04:10 [INFO]  * Restarting with stat
+2025-05-03 22:04:10 [WARNING]  * Debugger is active!
+2025-05-03 22:04:10 [INFO]  * Debugger PIN: 130-251-583
+2025-05-03 22:11:35 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/app.py', reloading
+2025-05-03 22:11:35 [INFO]  * Restarting with stat
+2025-05-04 09:12:52 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-04 09:12:52 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-04 09:12:52 [INFO]  * Restarting with stat
+2025-05-04 09:12:52 [WARNING]  * Debugger is active!
+2025-05-04 09:12:52 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 09:13:29 [INFO] 127.0.0.1 - - [04/May/2025 09:13:29] "GET / HTTP/1.1" 200 -
+2025-05-04 09:13:29 [INFO] 127.0.0.1 - - [04/May/2025 09:13:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 09:13:29 [INFO] 127.0.0.1 - - [04/May/2025 09:13:29] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-05-04 09:13:30 [INFO] 127.0.0.1 - - [04/May/2025 09:13:30] "GET / HTTP/1.1" 200 -
+2025-05-04 09:13:30 [INFO] 127.0.0.1 - - [04/May/2025 09:13:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 09:13:30 [INFO] 127.0.0.1 - - [04/May/2025 09:13:30] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 09:13:46 [INFO] 127.0.0.1 - - [04/May/2025 09:13:46] "GET / HTTP/1.1" 200 -
+2025-05-04 09:13:46 [INFO] 127.0.0.1 - - [04/May/2025 09:13:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 09:13:46 [INFO] 127.0.0.1 - - [04/May/2025 09:13:46] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 09:13:49 [INFO] 127.0.0.1 - - [04/May/2025 09:13:49] "[33mGET /download-audio/recorded_audio_<unique_id>.mp3 HTTP/1.1[0m" 404 -
+2025-05-04 09:13:56 [INFO] Running audio_processor.py script
+2025-05-04 09:14:17 [INFO] stopping script as user has requested
+2025-05-04 09:14:17 [INFO] 127.0.0.1 - - [04/May/2025 09:14:17] "POST /stop-script HTTP/1.1" 200 -
+2025-05-04 09:14:24 [INFO] script executed normally
+2025-05-04 09:14:24 [INFO] 127.0.0.1 - - [04/May/2025 09:14:24] "POST /run-script HTTP/1.1" 200 -
+2025-05-04 09:14:25 [INFO] 127.0.0.1 - - [04/May/2025 09:14:25] "[33mGET /download-audio/recorded_audio_<unique_id>.mp3 HTTP/1.1[0m" 404 -
+2025-05-04 09:14:28 [INFO] 127.0.0.1 - - [04/May/2025 09:14:28] "[33mGET /download-audio/recorded_audio_<unique_id>.mp3 HTTP/1.1[0m" 404 -
+2025-05-04 09:17:26 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 09:17:26 [INFO]  * Restarting with stat
+2025-05-04 09:17:26 [WARNING]  * Debugger is active!
+2025-05-04 09:17:26 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 09:17:32 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 09:17:32 [INFO]  * Restarting with stat
+2025-05-04 09:17:32 [WARNING]  * Debugger is active!
+2025-05-04 09:17:32 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 09:17:41 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 09:17:41 [INFO]  * Restarting with stat
+2025-05-04 09:17:41 [WARNING]  * Debugger is active!
+2025-05-04 09:17:41 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 09:17:47 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 09:17:47 [INFO]  * Restarting with stat
+2025-05-04 09:17:47 [WARNING]  * Debugger is active!
+2025-05-04 09:17:47 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 09:17:53 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 09:17:53 [INFO]  * Restarting with stat
+2025-05-04 09:17:53 [WARNING]  * Debugger is active!
+2025-05-04 09:17:53 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 09:17:58 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 09:17:58 [INFO]  * Restarting with stat
+2025-05-04 09:17:58 [WARNING]  * Debugger is active!
+2025-05-04 09:17:58 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 09:18:03 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 09:18:03 [INFO]  * Restarting with stat
+2025-05-04 09:18:03 [WARNING]  * Debugger is active!
+2025-05-04 09:18:03 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 09:18:06 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 09:18:06 [INFO]  * Restarting with stat
+2025-05-04 09:18:06 [WARNING]  * Debugger is active!
+2025-05-04 09:18:06 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 09:18:09 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 09:18:09 [INFO]  * Restarting with stat
+2025-05-04 09:18:09 [WARNING]  * Debugger is active!
+2025-05-04 09:18:09 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 09:18:11 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 09:18:11 [INFO]  * Restarting with stat
+2025-05-04 09:18:11 [WARNING]  * Debugger is active!
+2025-05-04 09:18:11 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 09:18:20 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 09:18:20 [INFO]  * Restarting with stat
+2025-05-04 09:18:20 [WARNING]  * Debugger is active!
+2025-05-04 09:18:20 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 09:18:28 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 09:18:28 [INFO]  * Restarting with stat
+2025-05-04 09:18:28 [WARNING]  * Debugger is active!
+2025-05-04 09:18:28 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 09:18:49 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 09:18:49 [INFO]  * Restarting with stat
+2025-05-04 09:18:49 [WARNING]  * Debugger is active!
+2025-05-04 09:18:49 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 09:19:11 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 09:19:11 [INFO]  * Restarting with stat
+2025-05-04 09:19:11 [WARNING]  * Debugger is active!
+2025-05-04 09:19:11 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 09:19:40 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 09:19:40 [INFO]  * Restarting with stat
+2025-05-04 09:19:40 [WARNING]  * Debugger is active!
+2025-05-04 09:19:40 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 09:19:43 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 09:19:43 [INFO]  * Restarting with stat
+2025-05-04 09:19:43 [WARNING]  * Debugger is active!
+2025-05-04 09:19:43 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 09:20:53 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 09:20:53 [INFO]  * Restarting with stat
+2025-05-04 09:20:54 [WARNING]  * Debugger is active!
+2025-05-04 09:20:54 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 09:21:06 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 09:21:06 [INFO]  * Restarting with stat
+2025-05-04 09:21:06 [WARNING]  * Debugger is active!
+2025-05-04 09:21:06 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 09:58:44 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 09:58:44 [INFO]  * Restarting with stat
+2025-05-04 09:58:44 [WARNING]  * Debugger is active!
+2025-05-04 09:58:44 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 09:58:46 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 09:58:46 [INFO]  * Restarting with stat
+2025-05-04 09:58:46 [WARNING]  * Debugger is active!
+2025-05-04 09:58:46 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 09:58:48 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 09:58:48 [INFO]  * Restarting with stat
+2025-05-04 09:58:48 [WARNING]  * Debugger is active!
+2025-05-04 09:58:48 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 09:58:52 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 09:58:52 [INFO]  * Restarting with stat
+2025-05-04 09:58:52 [WARNING]  * Debugger is active!
+2025-05-04 09:58:52 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 09:59:02 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 09:59:02 [INFO]  * Restarting with stat
+2025-05-04 09:59:02 [WARNING]  * Debugger is active!
+2025-05-04 09:59:02 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 09:59:06 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 09:59:06 [INFO]  * Restarting with stat
+2025-05-04 09:59:06 [WARNING]  * Debugger is active!
+2025-05-04 09:59:06 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 09:59:18 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 09:59:18 [INFO]  * Restarting with stat
+2025-05-04 09:59:18 [WARNING]  * Debugger is active!
+2025-05-04 09:59:18 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 10:03:29 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 10:03:29 [INFO]  * Restarting with stat
+2025-05-04 10:03:30 [WARNING]  * Debugger is active!
+2025-05-04 10:03:30 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 10:03:43 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 10:03:43 [INFO]  * Restarting with stat
+2025-05-04 10:03:43 [WARNING]  * Debugger is active!
+2025-05-04 10:03:43 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 10:03:57 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 10:03:57 [INFO]  * Restarting with stat
+2025-05-04 10:03:57 [WARNING]  * Debugger is active!
+2025-05-04 10:03:57 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 10:04:03 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 10:04:03 [INFO]  * Restarting with stat
+2025-05-04 10:04:03 [WARNING]  * Debugger is active!
+2025-05-04 10:04:03 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 10:04:10 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 10:04:10 [INFO]  * Restarting with stat
+2025-05-04 10:04:11 [WARNING]  * Debugger is active!
+2025-05-04 10:04:11 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 10:04:14 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 10:04:14 [INFO]  * Restarting with stat
+2025-05-04 10:04:14 [WARNING]  * Debugger is active!
+2025-05-04 10:04:14 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 10:04:18 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 10:04:18 [INFO]  * Restarting with stat
+2025-05-04 10:04:18 [WARNING]  * Debugger is active!
+2025-05-04 10:04:18 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 10:04:24 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 10:04:25 [INFO]  * Restarting with stat
+2025-05-04 10:04:25 [WARNING]  * Debugger is active!
+2025-05-04 10:04:25 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 10:04:27 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 10:04:27 [INFO]  * Restarting with stat
+2025-05-04 10:04:27 [WARNING]  * Debugger is active!
+2025-05-04 10:04:27 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 10:04:32 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 10:04:32 [INFO]  * Restarting with stat
+2025-05-04 10:04:32 [WARNING]  * Debugger is active!
+2025-05-04 10:04:32 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 10:04:36 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 10:04:36 [INFO]  * Restarting with stat
+2025-05-04 10:04:36 [WARNING]  * Debugger is active!
+2025-05-04 10:04:36 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 10:04:38 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 10:04:38 [INFO]  * Restarting with stat
+2025-05-04 10:04:38 [WARNING]  * Debugger is active!
+2025-05-04 10:04:38 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 10:04:39 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 10:04:39 [INFO]  * Restarting with stat
+2025-05-04 10:04:39 [WARNING]  * Debugger is active!
+2025-05-04 10:04:39 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 10:04:41 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 10:04:41 [INFO]  * Restarting with stat
+2025-05-04 10:04:42 [WARNING]  * Debugger is active!
+2025-05-04 10:04:42 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 10:04:48 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 10:04:48 [INFO]  * Restarting with stat
+2025-05-04 10:04:48 [WARNING]  * Debugger is active!
+2025-05-04 10:04:48 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 10:04:51 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 10:04:51 [INFO]  * Restarting with stat
+2025-05-04 10:04:51 [WARNING]  * Debugger is active!
+2025-05-04 10:04:51 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 10:04:52 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 10:04:52 [INFO]  * Restarting with stat
+2025-05-04 10:04:52 [WARNING]  * Debugger is active!
+2025-05-04 10:04:52 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 10:04:55 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 10:04:55 [INFO]  * Restarting with stat
+2025-05-04 10:04:55 [WARNING]  * Debugger is active!
+2025-05-04 10:04:55 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 10:04:55 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 10:04:55 [INFO]  * Restarting with stat
+2025-05-04 10:04:55 [WARNING]  * Debugger is active!
+2025-05-04 10:04:55 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 10:05:00 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 10:05:00 [INFO]  * Restarting with stat
+2025-05-04 10:05:00 [WARNING]  * Debugger is active!
+2025-05-04 10:05:00 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 10:05:02 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 10:05:02 [INFO]  * Restarting with stat
+2025-05-04 10:05:02 [WARNING]  * Debugger is active!
+2025-05-04 10:05:02 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 10:07:26 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-04 10:07:26 [INFO]  * Restarting with stat
+2025-05-04 10:07:26 [WARNING]  * Debugger is active!
+2025-05-04 10:07:26 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 10:07:29 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-04 10:07:29 [INFO]  * Restarting with stat
+2025-05-04 10:07:30 [WARNING]  * Debugger is active!
+2025-05-04 10:07:30 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 10:07:32 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-04 10:07:32 [INFO]  * Restarting with stat
+2025-05-04 10:07:32 [WARNING]  * Debugger is active!
+2025-05-04 10:07:32 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 10:07:38 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-04 10:07:38 [INFO]  * Restarting with stat
+2025-05-04 10:07:38 [WARNING]  * Debugger is active!
+2025-05-04 10:07:38 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 10:07:39 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-04 10:07:39 [INFO]  * Restarting with stat
+2025-05-04 10:07:39 [WARNING]  * Debugger is active!
+2025-05-04 10:07:39 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 10:07:43 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-04 10:07:43 [INFO]  * Restarting with stat
+2025-05-04 10:07:43 [WARNING]  * Debugger is active!
+2025-05-04 10:07:43 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 10:07:44 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-04 10:07:44 [INFO]  * Restarting with stat
+2025-05-04 10:07:44 [WARNING]  * Debugger is active!
+2025-05-04 10:07:44 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 10:07:48 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-04 10:07:48 [INFO]  * Restarting with stat
+2025-05-04 10:07:48 [WARNING]  * Debugger is active!
+2025-05-04 10:07:48 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 10:14:11 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-04 10:14:11 [INFO]  * Restarting with stat
+2025-05-04 10:14:12 [WARNING]  * Debugger is active!
+2025-05-04 10:14:12 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 10:14:14 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-04 10:14:14 [INFO]  * Restarting with stat
+2025-05-04 10:14:14 [WARNING]  * Debugger is active!
+2025-05-04 10:14:14 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 10:15:00 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 10:15:00 [INFO]  * Restarting with stat
+2025-05-04 10:15:00 [WARNING]  * Debugger is active!
+2025-05-04 10:15:00 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 10:29:57 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/app.py', reloading
+2025-05-04 10:29:57 [INFO]  * Restarting with stat
+2025-05-04 10:29:57 [WARNING]  * Debugger is active!
+2025-05-04 10:29:57 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 10:29:58 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/app.py', reloading
+2025-05-04 10:29:58 [INFO]  * Restarting with stat
+2025-05-04 11:04:05 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-04 11:04:05 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-04 11:04:05 [INFO]  * Restarting with stat
+2025-05-04 11:04:05 [WARNING]  * Debugger is active!
+2025-05-04 11:04:05 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 11:04:14 [INFO] 127.0.0.1 - - [04/May/2025 11:04:14] "GET / HTTP/1.1" 200 -
+2025-05-04 11:04:14 [INFO] 127.0.0.1 - - [04/May/2025 11:04:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 11:04:14 [INFO] 127.0.0.1 - - [04/May/2025 11:04:14] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-05-04 11:04:18 [INFO] 127.0.0.1 - - [04/May/2025 11:04:18] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-04 11:04:23 [INFO] Running audio_processor.py script
+2025-05-04 11:04:28 [ERROR] error:Command '['python3', '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py']' returned non-zero exit status 1.
+2025-05-04 11:04:28 [INFO] 127.0.0.1 - - [04/May/2025 11:04:28] "[35m[1mPOST /run-script HTTP/1.1[0m" 500 -
+2025-05-04 11:18:02 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 11:18:02 [INFO]  * Restarting with stat
+2025-05-04 11:18:02 [WARNING]  * Debugger is active!
+2025-05-04 11:18:02 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 11:18:08 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 11:18:08 [INFO]  * Restarting with stat
+2025-05-04 11:18:08 [WARNING]  * Debugger is active!
+2025-05-04 11:18:08 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 11:18:21 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-04 11:18:21 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-04 11:18:21 [INFO]  * Restarting with stat
+2025-05-04 11:18:21 [WARNING]  * Debugger is active!
+2025-05-04 11:18:21 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 11:22:46 [INFO] 127.0.0.1 - - [04/May/2025 11:22:46] "GET / HTTP/1.1" 200 -
+2025-05-04 11:22:46 [INFO] 127.0.0.1 - - [04/May/2025 11:22:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 11:22:46 [INFO] 127.0.0.1 - - [04/May/2025 11:22:46] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 11:22:48 [INFO] 127.0.0.1 - - [04/May/2025 11:22:48] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-04 11:23:05 [INFO] Running audio_processor.py script
+2025-05-04 11:23:09 [ERROR] error:Command '['python3', '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py']' returned non-zero exit status 1.
+2025-05-04 11:23:09 [INFO] 127.0.0.1 - - [04/May/2025 11:23:09] "[35m[1mPOST /run-script HTTP/1.1[0m" 500 -
+2025-05-04 11:27:23 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 11:27:23 [INFO]  * Restarting with stat
+2025-05-04 11:27:24 [WARNING]  * Debugger is active!
+2025-05-04 11:27:24 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 11:56:29 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 11:56:29 [INFO]  * Restarting with stat
+2025-05-04 11:56:29 [WARNING]  * Debugger is active!
+2025-05-04 11:56:29 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 11:56:30 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 11:56:30 [INFO]  * Restarting with stat
+2025-05-04 11:56:30 [WARNING]  * Debugger is active!
+2025-05-04 11:56:30 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 11:56:44 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 11:56:44 [INFO]  * Restarting with stat
+2025-05-04 11:56:44 [WARNING]  * Debugger is active!
+2025-05-04 11:56:44 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 11:56:47 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 11:56:47 [INFO]  * Restarting with stat
+2025-05-04 11:56:48 [WARNING]  * Debugger is active!
+2025-05-04 11:56:48 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 11:56:50 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 11:56:50 [INFO]  * Restarting with stat
+2025-05-04 11:56:50 [WARNING]  * Debugger is active!
+2025-05-04 11:56:50 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 11:56:51 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 11:56:51 [INFO]  * Restarting with stat
+2025-05-04 11:56:51 [WARNING]  * Debugger is active!
+2025-05-04 11:56:51 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 11:56:53 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 11:56:53 [INFO]  * Restarting with stat
+2025-05-04 11:56:53 [WARNING]  * Debugger is active!
+2025-05-04 11:56:53 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 11:57:00 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 11:57:00 [INFO]  * Restarting with stat
+2025-05-04 11:57:00 [WARNING]  * Debugger is active!
+2025-05-04 11:57:00 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 11:57:04 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 11:57:04 [INFO]  * Restarting with stat
+2025-05-04 11:57:04 [WARNING]  * Debugger is active!
+2025-05-04 11:57:04 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 11:57:13 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 11:57:13 [INFO]  * Restarting with stat
+2025-05-04 11:57:14 [WARNING]  * Debugger is active!
+2025-05-04 11:57:14 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 11:57:15 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 11:57:15 [INFO]  * Restarting with stat
+2025-05-04 11:57:16 [WARNING]  * Debugger is active!
+2025-05-04 11:57:16 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 11:57:20 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 11:57:20 [INFO]  * Restarting with stat
+2025-05-04 11:57:20 [WARNING]  * Debugger is active!
+2025-05-04 11:57:20 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 11:57:26 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 11:57:26 [INFO]  * Restarting with stat
+2025-05-04 11:57:26 [WARNING]  * Debugger is active!
+2025-05-04 11:57:26 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 11:57:30 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 11:57:30 [INFO]  * Restarting with stat
+2025-05-04 11:57:30 [WARNING]  * Debugger is active!
+2025-05-04 11:57:30 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 11:57:31 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 11:57:31 [INFO]  * Restarting with stat
+2025-05-04 11:57:31 [WARNING]  * Debugger is active!
+2025-05-04 11:57:31 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 11:57:32 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 11:57:32 [INFO]  * Restarting with stat
+2025-05-04 11:57:32 [WARNING]  * Debugger is active!
+2025-05-04 11:57:32 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 11:57:37 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 11:57:37 [INFO]  * Restarting with stat
+2025-05-04 11:57:37 [WARNING]  * Debugger is active!
+2025-05-04 11:57:37 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 11:57:40 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 11:57:40 [INFO]  * Restarting with stat
+2025-05-04 11:57:40 [WARNING]  * Debugger is active!
+2025-05-04 11:57:40 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 11:57:41 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 11:57:41 [INFO]  * Restarting with stat
+2025-05-04 11:57:41 [WARNING]  * Debugger is active!
+2025-05-04 11:57:41 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 11:57:44 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 11:57:44 [INFO]  * Restarting with stat
+2025-05-04 11:57:44 [WARNING]  * Debugger is active!
+2025-05-04 11:57:44 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 11:57:46 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 11:57:46 [INFO]  * Restarting with stat
+2025-05-04 11:57:46 [WARNING]  * Debugger is active!
+2025-05-04 11:57:46 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 11:57:50 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 11:57:50 [INFO]  * Restarting with stat
+2025-05-04 11:57:50 [WARNING]  * Debugger is active!
+2025-05-04 11:57:50 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 11:57:52 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 11:57:52 [INFO]  * Restarting with stat
+2025-05-04 11:57:52 [WARNING]  * Debugger is active!
+2025-05-04 11:57:52 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 12:09:54 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 12:09:54 [INFO]  * Restarting with stat
+2025-05-04 12:09:54 [WARNING]  * Debugger is active!
+2025-05-04 12:09:54 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 12:09:57 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 12:09:57 [INFO]  * Restarting with stat
+2025-05-04 12:09:57 [WARNING]  * Debugger is active!
+2025-05-04 12:09:57 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 12:10:00 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 12:10:00 [INFO]  * Restarting with stat
+2025-05-04 12:10:00 [WARNING]  * Debugger is active!
+2025-05-04 12:10:00 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 12:10:04 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 12:10:04 [INFO]  * Restarting with stat
+2025-05-04 12:10:04 [WARNING]  * Debugger is active!
+2025-05-04 12:10:04 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 12:10:11 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 12:10:11 [INFO]  * Restarting with stat
+2025-05-04 12:10:11 [WARNING]  * Debugger is active!
+2025-05-04 12:10:11 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 12:10:13 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 12:10:13 [INFO]  * Restarting with stat
+2025-05-04 12:10:13 [WARNING]  * Debugger is active!
+2025-05-04 12:10:13 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 12:10:51 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-04 12:10:51 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-04 12:10:51 [INFO]  * Restarting with stat
+2025-05-04 12:10:51 [WARNING]  * Debugger is active!
+2025-05-04 12:10:51 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 12:10:58 [INFO] 127.0.0.1 - - [04/May/2025 12:10:58] "GET / HTTP/1.1" 200 -
+2025-05-04 12:10:58 [INFO] 127.0.0.1 - - [04/May/2025 12:10:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 12:10:58 [INFO] 127.0.0.1 - - [04/May/2025 12:10:58] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 12:10:58 [INFO] 127.0.0.1 - - [04/May/2025 12:10:58] "GET / HTTP/1.1" 200 -
+2025-05-04 12:10:58 [INFO] 127.0.0.1 - - [04/May/2025 12:10:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 12:10:58 [INFO] 127.0.0.1 - - [04/May/2025 12:10:58] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 12:11:01 [INFO] 127.0.0.1 - - [04/May/2025 12:11:01] "GET /get-latest-audio HTTP/1.1" 200 -
+2025-05-04 12:11:30 [INFO] Running audio_processor.py script
+2025-05-04 12:11:34 [ERROR] error:Command '['python3', '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py']' returned non-zero exit status 1.
+2025-05-04 12:11:34 [INFO] 127.0.0.1 - - [04/May/2025 12:11:34] "[35m[1mPOST /run-script HTTP/1.1[0m" 500 -
+2025-05-04 12:26:15 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-04 12:26:15 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-04 12:26:15 [INFO]  * Restarting with stat
+2025-05-04 12:26:15 [WARNING]  * Debugger is active!
+2025-05-04 12:26:15 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 12:27:06 [INFO] 127.0.0.1 - - [04/May/2025 12:27:06] "GET /get-latest-audio HTTP/1.1" 200 -
+2025-05-04 12:27:11 [INFO] 127.0.0.1 - - [04/May/2025 12:27:11] "GET /get-latest-audio HTTP/1.1" 200 -
+2025-05-04 12:28:03 [INFO] 127.0.0.1 - - [04/May/2025 12:28:03] "GET /get-latest-audio HTTP/1.1" 200 -
+2025-05-04 12:28:11 [INFO] Running audio_processor.py script
+2025-05-04 12:28:16 [ERROR] error:Command '['python3', '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py']' returned non-zero exit status 1.
+2025-05-04 12:28:16 [INFO] 127.0.0.1 - - [04/May/2025 12:28:16] "[35m[1mPOST /run-script HTTP/1.1[0m" 500 -
+2025-05-04 12:30:09 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/app.py', reloading
+2025-05-04 12:30:09 [INFO]  * Restarting with stat
+2025-05-04 12:30:09 [WARNING]  * Debugger is active!
+2025-05-04 12:30:09 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 12:30:15 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/app.py', reloading
+2025-05-04 12:30:15 [INFO]  * Restarting with stat
+2025-05-04 12:30:15 [WARNING]  * Debugger is active!
+2025-05-04 12:30:15 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:31:09 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:31:09 [INFO]  * Restarting with stat
+2025-05-04 13:31:09 [WARNING]  * Debugger is active!
+2025-05-04 13:31:09 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:31:24 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:31:24 [INFO]  * Restarting with stat
+2025-05-04 13:31:24 [WARNING]  * Debugger is active!
+2025-05-04 13:31:24 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:31:36 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:31:36 [INFO]  * Restarting with stat
+2025-05-04 13:31:36 [WARNING]  * Debugger is active!
+2025-05-04 13:31:36 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:31:41 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:31:41 [INFO]  * Restarting with stat
+2025-05-04 13:31:41 [WARNING]  * Debugger is active!
+2025-05-04 13:31:41 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:31:46 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:31:46 [INFO]  * Restarting with stat
+2025-05-04 13:31:47 [WARNING]  * Debugger is active!
+2025-05-04 13:31:47 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:31:50 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:31:50 [INFO]  * Restarting with stat
+2025-05-04 13:31:50 [WARNING]  * Debugger is active!
+2025-05-04 13:31:50 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:31:55 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:31:55 [INFO]  * Restarting with stat
+2025-05-04 13:31:55 [WARNING]  * Debugger is active!
+2025-05-04 13:31:55 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:31:58 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:31:58 [INFO]  * Restarting with stat
+2025-05-04 13:31:58 [WARNING]  * Debugger is active!
+2025-05-04 13:31:58 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:32:05 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:32:05 [INFO]  * Restarting with stat
+2025-05-04 13:32:05 [WARNING]  * Debugger is active!
+2025-05-04 13:32:05 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:32:11 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:32:11 [INFO]  * Restarting with stat
+2025-05-04 13:32:12 [WARNING]  * Debugger is active!
+2025-05-04 13:32:12 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:32:25 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:32:25 [INFO]  * Restarting with stat
+2025-05-04 13:32:25 [WARNING]  * Debugger is active!
+2025-05-04 13:32:25 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:32:27 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:32:27 [INFO]  * Restarting with stat
+2025-05-04 13:32:27 [WARNING]  * Debugger is active!
+2025-05-04 13:32:27 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:32:30 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:32:30 [INFO]  * Restarting with stat
+2025-05-04 13:32:30 [WARNING]  * Debugger is active!
+2025-05-04 13:32:30 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:32:41 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:32:41 [INFO]  * Restarting with stat
+2025-05-04 13:32:41 [WARNING]  * Debugger is active!
+2025-05-04 13:32:41 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:32:42 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:32:42 [INFO]  * Restarting with stat
+2025-05-04 13:32:43 [WARNING]  * Debugger is active!
+2025-05-04 13:32:43 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:32:45 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:32:45 [INFO]  * Restarting with stat
+2025-05-04 13:32:45 [WARNING]  * Debugger is active!
+2025-05-04 13:32:45 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:32:47 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:32:47 [INFO]  * Restarting with stat
+2025-05-04 13:32:48 [WARNING]  * Debugger is active!
+2025-05-04 13:32:48 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:32:57 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:32:57 [INFO]  * Restarting with stat
+2025-05-04 13:32:57 [WARNING]  * Debugger is active!
+2025-05-04 13:32:57 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:32:58 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:32:58 [INFO]  * Restarting with stat
+2025-05-04 13:32:58 [WARNING]  * Debugger is active!
+2025-05-04 13:32:58 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:33:00 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:33:00 [INFO]  * Restarting with stat
+2025-05-04 13:33:01 [WARNING]  * Debugger is active!
+2025-05-04 13:33:01 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:33:29 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:33:29 [INFO]  * Restarting with stat
+2025-05-04 13:33:30 [WARNING]  * Debugger is active!
+2025-05-04 13:33:30 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:33:31 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:33:31 [INFO]  * Restarting with stat
+2025-05-04 13:33:31 [WARNING]  * Debugger is active!
+2025-05-04 13:33:31 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:33:39 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:33:39 [INFO]  * Restarting with stat
+2025-05-04 13:33:39 [WARNING]  * Debugger is active!
+2025-05-04 13:33:39 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:33:47 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:33:47 [INFO]  * Restarting with stat
+2025-05-04 13:33:47 [WARNING]  * Debugger is active!
+2025-05-04 13:33:47 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:33:48 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:33:48 [INFO]  * Restarting with stat
+2025-05-04 13:33:48 [WARNING]  * Debugger is active!
+2025-05-04 13:33:48 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:33:51 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:33:51 [INFO]  * Restarting with stat
+2025-05-04 13:33:52 [WARNING]  * Debugger is active!
+2025-05-04 13:33:52 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:33:56 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:33:56 [INFO]  * Restarting with stat
+2025-05-04 13:33:56 [WARNING]  * Debugger is active!
+2025-05-04 13:33:56 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:33:59 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:33:59 [INFO]  * Restarting with stat
+2025-05-04 13:33:59 [WARNING]  * Debugger is active!
+2025-05-04 13:33:59 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:34:07 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:34:07 [INFO]  * Restarting with stat
+2025-05-04 13:34:07 [WARNING]  * Debugger is active!
+2025-05-04 13:34:07 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:34:10 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:34:10 [INFO]  * Restarting with stat
+2025-05-04 13:34:11 [WARNING]  * Debugger is active!
+2025-05-04 13:34:11 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:34:11 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:34:11 [INFO]  * Restarting with stat
+2025-05-04 13:34:11 [WARNING]  * Debugger is active!
+2025-05-04 13:34:12 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:34:13 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:34:13 [INFO]  * Restarting with stat
+2025-05-04 13:34:13 [WARNING]  * Debugger is active!
+2025-05-04 13:34:13 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:35:37 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:35:37 [INFO]  * Restarting with stat
+2025-05-04 13:35:37 [WARNING]  * Debugger is active!
+2025-05-04 13:35:37 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:35:43 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:35:43 [INFO]  * Restarting with stat
+2025-05-04 13:35:43 [WARNING]  * Debugger is active!
+2025-05-04 13:35:43 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:35:46 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:35:46 [INFO]  * Restarting with stat
+2025-05-04 13:35:47 [WARNING]  * Debugger is active!
+2025-05-04 13:35:47 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:35:50 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:35:50 [INFO]  * Restarting with stat
+2025-05-04 13:35:50 [WARNING]  * Debugger is active!
+2025-05-04 13:35:50 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:35:53 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:35:53 [INFO]  * Restarting with stat
+2025-05-04 13:35:53 [WARNING]  * Debugger is active!
+2025-05-04 13:35:53 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:35:58 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:35:58 [INFO]  * Restarting with stat
+2025-05-04 13:35:58 [WARNING]  * Debugger is active!
+2025-05-04 13:35:58 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:35:59 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:35:59 [INFO]  * Restarting with stat
+2025-05-04 13:35:59 [WARNING]  * Debugger is active!
+2025-05-04 13:35:59 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:36:03 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:36:03 [INFO]  * Restarting with stat
+2025-05-04 13:36:03 [WARNING]  * Debugger is active!
+2025-05-04 13:36:03 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:36:09 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:36:09 [INFO]  * Restarting with stat
+2025-05-04 13:36:09 [WARNING]  * Debugger is active!
+2025-05-04 13:36:09 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:36:16 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:36:16 [INFO]  * Restarting with stat
+2025-05-04 13:36:16 [WARNING]  * Debugger is active!
+2025-05-04 13:36:16 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:36:18 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:36:18 [INFO]  * Restarting with stat
+2025-05-04 13:36:18 [WARNING]  * Debugger is active!
+2025-05-04 13:36:18 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:36:21 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:36:21 [INFO]  * Restarting with stat
+2025-05-04 13:36:21 [WARNING]  * Debugger is active!
+2025-05-04 13:36:21 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:36:26 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:36:26 [INFO]  * Restarting with stat
+2025-05-04 13:36:27 [WARNING]  * Debugger is active!
+2025-05-04 13:36:27 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:36:29 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:36:29 [INFO]  * Restarting with stat
+2025-05-04 13:36:29 [WARNING]  * Debugger is active!
+2025-05-04 13:36:29 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:36:30 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:36:30 [INFO]  * Restarting with stat
+2025-05-04 13:36:30 [WARNING]  * Debugger is active!
+2025-05-04 13:36:30 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:36:35 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:36:35 [INFO]  * Restarting with stat
+2025-05-04 13:36:35 [WARNING]  * Debugger is active!
+2025-05-04 13:36:35 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:36:38 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:36:38 [INFO]  * Restarting with stat
+2025-05-04 13:36:38 [WARNING]  * Debugger is active!
+2025-05-04 13:36:38 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:36:52 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:36:52 [INFO]  * Restarting with stat
+2025-05-04 13:36:52 [WARNING]  * Debugger is active!
+2025-05-04 13:36:52 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:36:55 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:36:55 [INFO]  * Restarting with stat
+2025-05-04 13:36:55 [WARNING]  * Debugger is active!
+2025-05-04 13:36:55 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:36:57 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:36:57 [INFO]  * Restarting with stat
+2025-05-04 13:36:57 [WARNING]  * Debugger is active!
+2025-05-04 13:36:57 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:36:58 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:36:58 [INFO]  * Restarting with stat
+2025-05-04 13:36:58 [WARNING]  * Debugger is active!
+2025-05-04 13:36:58 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:37:06 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:37:06 [INFO]  * Restarting with stat
+2025-05-04 13:37:06 [WARNING]  * Debugger is active!
+2025-05-04 13:37:06 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:37:09 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:37:09 [INFO]  * Restarting with stat
+2025-05-04 13:37:09 [WARNING]  * Debugger is active!
+2025-05-04 13:37:09 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:37:16 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:37:16 [INFO]  * Restarting with stat
+2025-05-04 13:37:16 [WARNING]  * Debugger is active!
+2025-05-04 13:37:16 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:37:27 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:37:27 [INFO]  * Restarting with stat
+2025-05-04 13:37:27 [WARNING]  * Debugger is active!
+2025-05-04 13:37:27 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:37:43 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:37:43 [INFO]  * Restarting with stat
+2025-05-04 13:37:43 [WARNING]  * Debugger is active!
+2025-05-04 13:37:43 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:37:45 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:37:45 [INFO]  * Restarting with stat
+2025-05-04 13:37:46 [WARNING]  * Debugger is active!
+2025-05-04 13:37:46 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:38:05 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:38:05 [INFO]  * Restarting with stat
+2025-05-04 13:38:06 [WARNING]  * Debugger is active!
+2025-05-04 13:38:06 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:38:17 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:38:17 [INFO]  * Restarting with stat
+2025-05-04 13:38:17 [WARNING]  * Debugger is active!
+2025-05-04 13:38:17 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:38:21 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:38:21 [INFO]  * Restarting with stat
+2025-05-04 13:38:22 [WARNING]  * Debugger is active!
+2025-05-04 13:38:22 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:43:01 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-04 13:43:01 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-04 13:43:01 [INFO]  * Restarting with stat
+2025-05-04 13:43:02 [WARNING]  * Debugger is active!
+2025-05-04 13:43:02 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:43:07 [INFO] 127.0.0.1 - - [04/May/2025 13:43:07] "GET / HTTP/1.1" 200 -
+2025-05-04 13:43:07 [INFO] 127.0.0.1 - - [04/May/2025 13:43:07] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 13:43:07 [INFO] 127.0.0.1 - - [04/May/2025 13:43:07] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-05-04 13:43:10 [INFO] 127.0.0.1 - - [04/May/2025 13:43:10] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-04 13:43:13 [INFO] 127.0.0.1 - - [04/May/2025 13:43:13] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-04 13:43:15 [INFO] Running audio_processor.py script
+2025-05-04 13:43:19 [ERROR] error:Command '['python3', '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py']' returned non-zero exit status 1.
+2025-05-04 13:43:19 [INFO] 127.0.0.1 - - [04/May/2025 13:43:19] "[35m[1mPOST /run-script HTTP/1.1[0m" 500 -
+2025-05-04 13:43:55 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-04 13:43:55 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-04 13:43:55 [INFO]  * Restarting with stat
+2025-05-04 13:43:55 [WARNING]  * Debugger is active!
+2025-05-04 13:43:55 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:43:59 [INFO] 127.0.0.1 - - [04/May/2025 13:43:59] "GET / HTTP/1.1" 200 -
+2025-05-04 13:43:59 [INFO] 127.0.0.1 - - [04/May/2025 13:43:59] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 13:43:59 [INFO] 127.0.0.1 - - [04/May/2025 13:43:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 13:43:59 [INFO] 127.0.0.1 - - [04/May/2025 13:43:59] "GET / HTTP/1.1" 200 -
+2025-05-04 13:43:59 [INFO] 127.0.0.1 - - [04/May/2025 13:43:59] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 13:43:59 [INFO] 127.0.0.1 - - [04/May/2025 13:43:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 13:44:01 [INFO] 127.0.0.1 - - [04/May/2025 13:44:01] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-04 13:44:04 [INFO] Running audio_processor.py script
+2025-05-04 13:44:17 [INFO] script executed normally
+2025-05-04 13:44:17 [INFO] 127.0.0.1 - - [04/May/2025 13:44:17] "POST /run-script HTTP/1.1" 200 -
+2025-05-04 13:44:17 [INFO] 127.0.0.1 - - [04/May/2025 13:44:17] "GET /get-latest-audio HTTP/1.1" 200 -
+2025-05-04 13:44:17 [INFO] 127.0.0.1 - - [04/May/2025 13:44:17] "GET /download-audio/merged_audio_61d5e03d4fb24db186665ad8bb9203ea.mp3 HTTP/1.1" 200 -
+2025-05-04 13:44:50 [INFO] 127.0.0.1 - - [04/May/2025 13:44:50] "GET / HTTP/1.1" 200 -
+2025-05-04 13:44:50 [INFO] 127.0.0.1 - - [04/May/2025 13:44:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 13:44:50 [INFO] 127.0.0.1 - - [04/May/2025 13:44:50] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 13:44:52 [INFO] Running audio_processor.py script
+2025-05-04 13:45:05 [INFO] script executed normally
+2025-05-04 13:45:05 [INFO] 127.0.0.1 - - [04/May/2025 13:45:05] "POST /run-script HTTP/1.1" 200 -
+2025-05-04 13:53:29 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:53:29 [INFO]  * Restarting with stat
+2025-05-04 13:53:29 [WARNING]  * Debugger is active!
+2025-05-04 13:53:29 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:53:31 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:53:31 [INFO]  * Restarting with stat
+2025-05-04 13:53:32 [WARNING]  * Debugger is active!
+2025-05-04 13:53:32 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:53:35 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:53:35 [INFO]  * Restarting with stat
+2025-05-04 13:53:35 [WARNING]  * Debugger is active!
+2025-05-04 13:53:35 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:53:40 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:53:40 [INFO]  * Restarting with stat
+2025-05-04 13:53:40 [WARNING]  * Debugger is active!
+2025-05-04 13:53:40 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:53:42 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:53:42 [INFO]  * Restarting with stat
+2025-05-04 13:53:42 [WARNING]  * Debugger is active!
+2025-05-04 13:53:42 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:53:45 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:53:45 [INFO]  * Restarting with stat
+2025-05-04 13:53:45 [WARNING]  * Debugger is active!
+2025-05-04 13:53:45 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:53:46 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:53:46 [INFO]  * Restarting with stat
+2025-05-04 13:53:46 [WARNING]  * Debugger is active!
+2025-05-04 13:53:46 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:53:53 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:53:53 [INFO]  * Restarting with stat
+2025-05-04 13:53:53 [WARNING]  * Debugger is active!
+2025-05-04 13:53:53 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:54:12 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:54:12 [INFO]  * Restarting with stat
+2025-05-04 13:54:13 [WARNING]  * Debugger is active!
+2025-05-04 13:54:13 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:54:14 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:54:14 [INFO]  * Restarting with stat
+2025-05-04 13:54:14 [WARNING]  * Debugger is active!
+2025-05-04 13:54:14 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:54:16 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:54:16 [INFO]  * Restarting with stat
+2025-05-04 13:54:16 [WARNING]  * Debugger is active!
+2025-05-04 13:54:16 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:54:22 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:54:22 [INFO]  * Restarting with stat
+2025-05-04 13:54:22 [WARNING]  * Debugger is active!
+2025-05-04 13:54:22 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:54:23 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:54:23 [INFO]  * Restarting with stat
+2025-05-04 13:54:24 [WARNING]  * Debugger is active!
+2025-05-04 13:54:24 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:54:32 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:54:32 [INFO]  * Restarting with stat
+2025-05-04 13:54:32 [WARNING]  * Debugger is active!
+2025-05-04 13:54:32 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:54:36 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:54:36 [INFO]  * Restarting with stat
+2025-05-04 13:54:37 [WARNING]  * Debugger is active!
+2025-05-04 13:54:37 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:54:40 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:54:40 [INFO]  * Restarting with stat
+2025-05-04 13:54:40 [WARNING]  * Debugger is active!
+2025-05-04 13:54:40 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:54:49 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:54:49 [INFO]  * Restarting with stat
+2025-05-04 13:54:49 [WARNING]  * Debugger is active!
+2025-05-04 13:54:49 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:54:53 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 13:54:53 [INFO]  * Restarting with stat
+2025-05-04 13:54:53 [WARNING]  * Debugger is active!
+2025-05-04 13:54:53 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:55:03 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-04 13:55:03 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-04 13:55:03 [INFO]  * Restarting with stat
+2025-05-04 13:55:03 [WARNING]  * Debugger is active!
+2025-05-04 13:55:03 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 13:55:26 [INFO] 127.0.0.1 - - [04/May/2025 13:55:26] "GET / HTTP/1.1" 200 -
+2025-05-04 13:55:26 [INFO] 127.0.0.1 - - [04/May/2025 13:55:26] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 13:55:26 [INFO] 127.0.0.1 - - [04/May/2025 13:55:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 13:55:28 [INFO] 127.0.0.1 - - [04/May/2025 13:55:28] "GET /get-latest-audio HTTP/1.1" 200 -
+2025-05-04 13:55:28 [INFO] 127.0.0.1 - - [04/May/2025 13:55:28] "GET /download-audio/merged_audio_d756f5d6d1a84819bc099ec9af657df8.mp3 HTTP/1.1" 200 -
+2025-05-04 13:55:30 [INFO] 127.0.0.1 - - [04/May/2025 13:55:30] "GET /get-latest-audio HTTP/1.1" 200 -
+2025-05-04 13:55:30 [INFO] 127.0.0.1 - - [04/May/2025 13:55:30] "[36mGET /download-audio/merged_audio_d756f5d6d1a84819bc099ec9af657df8.mp3 HTTP/1.1[0m" 304 -
+2025-05-04 13:55:34 [INFO] Running audio_processor.py script
+2025-05-04 13:55:55 [INFO] stopping script as user has requested
+2025-05-04 13:55:55 [INFO] 127.0.0.1 - - [04/May/2025 13:55:55] "POST /stop-script HTTP/1.1" 200 -
+2025-05-04 13:55:58 [INFO] 127.0.0.1 - - [04/May/2025 13:55:58] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-04 13:55:59 [INFO] 127.0.0.1 - - [04/May/2025 13:55:59] "GET /get-latest-audio HTTP/1.1" 200 -
+2025-05-04 13:55:59 [INFO] 127.0.0.1 - - [04/May/2025 13:55:59] "GET /download-audio/merged_audio_2c93f76d813d4abb91f4e29863c9ec21.mp3 HTTP/1.1" 200 -
+2025-05-04 13:56:04 [INFO] script executed normally
+2025-05-04 13:56:04 [INFO] 127.0.0.1 - - [04/May/2025 13:56:04] "POST /run-script HTTP/1.1" 200 -
+2025-05-04 13:56:05 [INFO] 127.0.0.1 - - [04/May/2025 13:56:05] "GET /get-latest-audio HTTP/1.1" 200 -
+2025-05-04 13:56:05 [INFO] 127.0.0.1 - - [04/May/2025 13:56:05] "[36mGET /download-audio/merged_audio_2c93f76d813d4abb91f4e29863c9ec21.mp3 HTTP/1.1[0m" 304 -
+2025-05-04 13:56:06 [INFO] 127.0.0.1 - - [04/May/2025 13:56:06] "GET /get-latest-audio HTTP/1.1" 200 -
+2025-05-04 13:56:06 [INFO] 127.0.0.1 - - [04/May/2025 13:56:06] "[36mGET /download-audio/merged_audio_2c93f76d813d4abb91f4e29863c9ec21.mp3 HTTP/1.1[0m" 304 -
+2025-05-04 14:11:21 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 14:11:21 [INFO]  * Restarting with stat
+2025-05-04 14:11:21 [WARNING]  * Debugger is active!
+2025-05-04 14:11:21 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 14:11:41 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 14:11:41 [INFO]  * Restarting with stat
+2025-05-04 14:11:41 [WARNING]  * Debugger is active!
+2025-05-04 14:11:41 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 14:25:39 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 14:25:39 [INFO]  * Restarting with stat
+2025-05-04 14:25:40 [WARNING]  * Debugger is active!
+2025-05-04 14:25:40 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 14:25:43 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 14:25:43 [INFO]  * Restarting with stat
+2025-05-04 14:25:43 [WARNING]  * Debugger is active!
+2025-05-04 14:25:43 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 14:25:45 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 14:25:45 [INFO]  * Restarting with stat
+2025-05-04 14:25:45 [WARNING]  * Debugger is active!
+2025-05-04 14:25:45 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 14:39:15 [INFO] 127.0.0.1 - - [04/May/2025 14:39:15] "GET /get-latest-audio HTTP/1.1" 200 -
+2025-05-04 14:39:15 [INFO] 127.0.0.1 - - [04/May/2025 14:39:15] "[36mGET /download-audio/merged_audio_2c93f76d813d4abb91f4e29863c9ec21.mp3 HTTP/1.1[0m" 304 -
+2025-05-04 14:39:57 [INFO] 127.0.0.1 - - [04/May/2025 14:39:57] "GET / HTTP/1.1" 200 -
+2025-05-04 14:39:57 [INFO] 127.0.0.1 - - [04/May/2025 14:39:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 14:39:57 [INFO] 127.0.0.1 - - [04/May/2025 14:39:57] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 14:40:29 [INFO] 127.0.0.1 - - [04/May/2025 14:40:29] "GET / HTTP/1.1" 200 -
+2025-05-04 14:40:29 [INFO] 127.0.0.1 - - [04/May/2025 14:40:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 14:40:29 [INFO] 127.0.0.1 - - [04/May/2025 14:40:29] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 14:40:40 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-04 14:40:40 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-04 14:40:40 [INFO]  * Restarting with stat
+2025-05-04 14:40:40 [WARNING]  * Debugger is active!
+2025-05-04 14:40:40 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 14:40:43 [INFO] 127.0.0.1 - - [04/May/2025 14:40:43] "GET / HTTP/1.1" 200 -
+2025-05-04 14:40:43 [INFO] 127.0.0.1 - - [04/May/2025 14:40:43] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 14:40:43 [INFO] 127.0.0.1 - - [04/May/2025 14:40:43] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 14:40:52 [INFO] 127.0.0.1 - - [04/May/2025 14:40:52] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-04 14:45:39 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/app.py', reloading
+2025-05-04 14:45:39 [INFO]  * Restarting with stat
+2025-05-04 14:52:36 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-04 14:52:36 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-04 14:52:36 [INFO]  * Restarting with stat
+2025-05-04 14:52:36 [WARNING]  * Debugger is active!
+2025-05-04 14:52:36 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 14:53:05 [INFO] 127.0.0.1 - - [04/May/2025 14:53:05] "GET / HTTP/1.1" 200 -
+2025-05-04 14:53:05 [INFO] 127.0.0.1 - - [04/May/2025 14:53:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 14:53:05 [INFO] 127.0.0.1 - - [04/May/2025 14:53:05] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 14:53:06 [INFO] 127.0.0.1 - - [04/May/2025 14:53:06] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-04 14:53:10 [INFO] Running audio_processor.py script
+2025-05-04 14:53:30 [INFO] stopping script as user has requested
+2025-05-04 14:53:30 [INFO] 127.0.0.1 - - [04/May/2025 14:53:30] "POST /stop-script HTTP/1.1" 200 -
+2025-05-04 14:53:31 [INFO] 127.0.0.1 - - [04/May/2025 14:53:31] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-04 14:53:33 [INFO] 127.0.0.1 - - [04/May/2025 14:53:33] "GET /get-latest-audio HTTP/1.1" 200 -
+2025-05-04 14:53:33 [INFO] 127.0.0.1 - - [04/May/2025 14:53:33] "[35m[1mGET /download-audio/merged_audio_bb478b197a8a485eba95488cd6c39f7d.mp3 HTTP/1.1[0m" 500 -
+2025-05-04 14:53:39 [INFO] script executed normally
+2025-05-04 14:53:39 [INFO] 127.0.0.1 - - [04/May/2025 14:53:39] "POST /run-script HTTP/1.1" 200 -
+2025-05-04 14:54:54 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/app.py', reloading
+2025-05-04 14:54:54 [INFO]  * Restarting with stat
+2025-05-04 14:56:35 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-04 14:56:35 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-04 14:56:35 [INFO]  * Restarting with stat
+2025-05-04 14:56:35 [WARNING]  * Debugger is active!
+2025-05-04 14:56:35 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 14:56:39 [INFO] 127.0.0.1 - - [04/May/2025 14:56:39] "GET / HTTP/1.1" 200 -
+2025-05-04 14:56:39 [INFO] 127.0.0.1 - - [04/May/2025 14:56:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 14:56:39 [INFO] 127.0.0.1 - - [04/May/2025 14:56:39] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 14:56:42 [INFO] 127.0.0.1 - - [04/May/2025 14:56:42] "GET /get-latest-audio HTTP/1.1" 200 -
+2025-05-04 14:56:42 [INFO] 127.0.0.1 - - [04/May/2025 14:56:42] "[35m[1mGET /download-audio/merged_audio_bb478b197a8a485eba95488cd6c39f7d.mp3 HTTP/1.1[0m" 500 -
+2025-05-04 14:57:01 [INFO] Running audio_processor.py script
+2025-05-04 14:58:01 [INFO] stopping script as user has requested
+2025-05-04 14:58:01 [INFO] 127.0.0.1 - - [04/May/2025 14:58:01] "POST /stop-script HTTP/1.1" 200 -
+2025-05-04 14:58:15 [INFO] 127.0.0.1 - - [04/May/2025 14:58:15] "GET /get-latest-audio HTTP/1.1" 200 -
+2025-05-04 14:58:15 [INFO] 127.0.0.1 - - [04/May/2025 14:58:15] "[35m[1mGET /download-audio/merged_audio_55ec3d9e27b540f9ae9bf5750825ce7d.mp3 HTTP/1.1[0m" 500 -
+2025-05-04 14:58:16 [INFO] script executed normally
+2025-05-04 14:58:16 [INFO] 127.0.0.1 - - [04/May/2025 14:58:16] "POST /run-script HTTP/1.1" 200 -
+2025-05-04 14:58:17 [INFO] 127.0.0.1 - - [04/May/2025 14:58:17] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-04 14:58:19 [INFO] 127.0.0.1 - - [04/May/2025 14:58:19] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-04 14:58:32 [INFO] 127.0.0.1 - - [04/May/2025 14:58:32] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-04 14:58:32 [INFO] 127.0.0.1 - - [04/May/2025 14:58:32] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-04 14:58:33 [INFO] 127.0.0.1 - - [04/May/2025 14:58:33] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-04 14:58:35 [INFO] Running audio_processor.py script
+2025-05-04 14:58:38 [INFO] stopping script as user has requested
+2025-05-04 14:58:38 [INFO] 127.0.0.1 - - [04/May/2025 14:58:38] "POST /stop-script HTTP/1.1" 200 -
+2025-05-04 14:58:39 [INFO] 127.0.0.1 - - [04/May/2025 14:58:39] "GET /get-latest-audio HTTP/1.1" 200 -
+2025-05-04 14:58:39 [INFO] 127.0.0.1 - - [04/May/2025 14:58:39] "[35m[1mGET /download-audio/merged_audio_f592360e7dc942879d3432447565d211.mp3 HTTP/1.1[0m" 500 -
+2025-05-04 14:58:40 [INFO] 127.0.0.1 - - [04/May/2025 14:58:40] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-04 14:58:40 [INFO] 127.0.0.1 - - [04/May/2025 14:58:40] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-04 14:58:40 [INFO] 127.0.0.1 - - [04/May/2025 14:58:40] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-04 14:58:43 [INFO] 127.0.0.1 - - [04/May/2025 14:58:43] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-04 14:58:44 [INFO] 127.0.0.1 - - [04/May/2025 14:58:44] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-04 14:58:44 [INFO] script executed normally
+2025-05-04 14:58:44 [INFO] 127.0.0.1 - - [04/May/2025 14:58:44] "POST /run-script HTTP/1.1" 200 -
+2025-05-04 14:58:44 [INFO] 127.0.0.1 - - [04/May/2025 14:58:44] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-04 14:58:44 [INFO] 127.0.0.1 - - [04/May/2025 14:58:44] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-04 14:58:44 [INFO] 127.0.0.1 - - [04/May/2025 14:58:44] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-04 14:58:45 [INFO] 127.0.0.1 - - [04/May/2025 14:58:45] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-04 14:58:45 [INFO] 127.0.0.1 - - [04/May/2025 14:58:45] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-04 14:58:45 [INFO] 127.0.0.1 - - [04/May/2025 14:58:45] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-04 14:58:45 [INFO] 127.0.0.1 - - [04/May/2025 14:58:45] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-04 14:58:45 [INFO] 127.0.0.1 - - [04/May/2025 14:58:45] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-04 14:58:45 [INFO] 127.0.0.1 - - [04/May/2025 14:58:45] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-04 14:58:46 [INFO] 127.0.0.1 - - [04/May/2025 14:58:46] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-04 14:58:46 [INFO] 127.0.0.1 - - [04/May/2025 14:58:46] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-04 14:58:46 [INFO] 127.0.0.1 - - [04/May/2025 14:58:46] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-04 14:58:46 [INFO] 127.0.0.1 - - [04/May/2025 14:58:46] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-04 14:59:12 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/app.py', reloading
+2025-05-04 14:59:12 [INFO]  * Restarting with stat
+2025-05-04 14:59:12 [WARNING]  * Debugger is active!
+2025-05-04 14:59:12 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:04:14 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/app.py', reloading
+2025-05-04 15:04:14 [INFO]  * Restarting with stat
+2025-05-04 15:04:14 [WARNING]  * Debugger is active!
+2025-05-04 15:04:14 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:04:16 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/app.py', reloading
+2025-05-04 15:04:16 [INFO]  * Restarting with stat
+2025-05-04 15:04:16 [WARNING]  * Debugger is active!
+2025-05-04 15:04:16 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:04:18 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/app.py', reloading
+2025-05-04 15:04:18 [INFO]  * Restarting with stat
+2025-05-04 15:04:18 [WARNING]  * Debugger is active!
+2025-05-04 15:04:18 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:04:25 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/app.py', reloading
+2025-05-04 15:04:25 [INFO]  * Restarting with stat
+2025-05-04 15:04:25 [WARNING]  * Debugger is active!
+2025-05-04 15:04:25 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:04:33 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/app.py', reloading
+2025-05-04 15:04:33 [INFO]  * Restarting with stat
+2025-05-04 15:06:04 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-04 15:06:04 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-04 15:06:04 [INFO]  * Restarting with stat
+2025-05-04 15:06:04 [WARNING]  * Debugger is active!
+2025-05-04 15:06:04 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:07:12 [INFO] 127.0.0.1 - - [04/May/2025 15:07:12] "GET / HTTP/1.1" 200 -
+2025-05-04 15:07:12 [INFO] 127.0.0.1 - - [04/May/2025 15:07:12] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 15:07:12 [INFO] 127.0.0.1 - - [04/May/2025 15:07:12] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 15:07:13 [INFO] 127.0.0.1 - - [04/May/2025 15:07:13] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-04 15:07:16 [INFO] Running audio_processor.py script
+2025-05-04 15:07:35 [INFO] stopping script as user has requested
+2025-05-04 15:07:35 [INFO] 127.0.0.1 - - [04/May/2025 15:07:35] "POST /stop-script HTTP/1.1" 200 -
+2025-05-04 15:07:43 [INFO] 127.0.0.1 - - [04/May/2025 15:07:43] "GET /get-latest-audio HTTP/1.1" 200 -
+2025-05-04 15:07:43 [INFO] File /Users/samhithpola/Documents/GitHub/Razer-Skibidies#/recordings/merged_audio_5c390fe126d74eab90d49b9f53e299b1.mp3 deleted
+2025-05-04 15:07:43 [INFO] 127.0.0.1 - - [04/May/2025 15:07:43] "GET /download-audio/merged_audio_5c390fe126d74eab90d49b9f53e299b1.mp3 HTTP/1.1" 200 -
+2025-05-04 15:07:43 [INFO] script executed normally
+2025-05-04 15:07:43 [INFO] 127.0.0.1 - - [04/May/2025 15:07:43] "POST /run-script HTTP/1.1" 200 -
+2025-05-04 15:16:07 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:16:07 [INFO]  * Restarting with stat
+2025-05-04 15:16:07 [WARNING]  * Debugger is active!
+2025-05-04 15:16:07 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:16:13 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:16:13 [INFO]  * Restarting with stat
+2025-05-04 15:16:13 [WARNING]  * Debugger is active!
+2025-05-04 15:16:13 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:16:17 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:16:17 [INFO]  * Restarting with stat
+2025-05-04 15:16:17 [WARNING]  * Debugger is active!
+2025-05-04 15:16:17 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:16:20 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:16:20 [INFO]  * Restarting with stat
+2025-05-04 15:16:20 [WARNING]  * Debugger is active!
+2025-05-04 15:16:20 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:16:25 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:16:25 [INFO]  * Restarting with stat
+2025-05-04 15:16:25 [WARNING]  * Debugger is active!
+2025-05-04 15:16:25 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:16:28 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:16:28 [INFO]  * Restarting with stat
+2025-05-04 15:16:29 [WARNING]  * Debugger is active!
+2025-05-04 15:16:29 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:16:30 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:16:30 [INFO]  * Restarting with stat
+2025-05-04 15:16:30 [WARNING]  * Debugger is active!
+2025-05-04 15:16:30 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:16:33 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:16:33 [INFO]  * Restarting with stat
+2025-05-04 15:16:33 [WARNING]  * Debugger is active!
+2025-05-04 15:16:33 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:16:36 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:16:36 [INFO]  * Restarting with stat
+2025-05-04 15:16:36 [WARNING]  * Debugger is active!
+2025-05-04 15:16:36 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:16:38 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:16:38 [INFO]  * Restarting with stat
+2025-05-04 15:16:38 [WARNING]  * Debugger is active!
+2025-05-04 15:16:38 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:16:44 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:16:44 [INFO]  * Restarting with stat
+2025-05-04 15:16:44 [WARNING]  * Debugger is active!
+2025-05-04 15:16:44 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:16:46 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:16:46 [INFO]  * Restarting with stat
+2025-05-04 15:16:46 [WARNING]  * Debugger is active!
+2025-05-04 15:16:46 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:16:50 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:16:50 [INFO]  * Restarting with stat
+2025-05-04 15:16:50 [WARNING]  * Debugger is active!
+2025-05-04 15:16:50 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:16:54 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:16:54 [INFO]  * Restarting with stat
+2025-05-04 15:16:54 [WARNING]  * Debugger is active!
+2025-05-04 15:16:54 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:16:56 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:16:56 [INFO]  * Restarting with stat
+2025-05-04 15:16:57 [WARNING]  * Debugger is active!
+2025-05-04 15:16:57 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:17:02 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:17:02 [INFO]  * Restarting with stat
+2025-05-04 15:17:02 [WARNING]  * Debugger is active!
+2025-05-04 15:17:02 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:17:06 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:17:06 [INFO]  * Restarting with stat
+2025-05-04 15:17:06 [WARNING]  * Debugger is active!
+2025-05-04 15:17:06 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:17:07 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:17:07 [INFO]  * Restarting with stat
+2025-05-04 15:17:07 [WARNING]  * Debugger is active!
+2025-05-04 15:17:07 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:17:13 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:17:13 [INFO]  * Restarting with stat
+2025-05-04 15:17:13 [WARNING]  * Debugger is active!
+2025-05-04 15:17:13 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:17:16 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:17:16 [INFO]  * Restarting with stat
+2025-05-04 15:17:16 [WARNING]  * Debugger is active!
+2025-05-04 15:17:16 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:17:19 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:17:19 [INFO]  * Restarting with stat
+2025-05-04 15:17:19 [WARNING]  * Debugger is active!
+2025-05-04 15:17:19 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:17:20 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:17:20 [INFO]  * Restarting with stat
+2025-05-04 15:17:20 [WARNING]  * Debugger is active!
+2025-05-04 15:17:20 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:17:26 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:17:26 [INFO]  * Restarting with stat
+2025-05-04 15:17:26 [WARNING]  * Debugger is active!
+2025-05-04 15:17:26 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:17:28 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:17:28 [INFO]  * Restarting with stat
+2025-05-04 15:17:28 [WARNING]  * Debugger is active!
+2025-05-04 15:17:28 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:17:31 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:17:31 [INFO]  * Restarting with stat
+2025-05-04 15:17:31 [WARNING]  * Debugger is active!
+2025-05-04 15:17:31 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:17:33 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:17:33 [INFO]  * Restarting with stat
+2025-05-04 15:17:33 [WARNING]  * Debugger is active!
+2025-05-04 15:17:33 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:17:36 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:17:36 [INFO]  * Restarting with stat
+2025-05-04 15:17:36 [WARNING]  * Debugger is active!
+2025-05-04 15:17:36 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:17:37 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:17:37 [INFO]  * Restarting with stat
+2025-05-04 15:17:37 [WARNING]  * Debugger is active!
+2025-05-04 15:17:37 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:17:44 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:17:44 [INFO]  * Restarting with stat
+2025-05-04 15:17:44 [WARNING]  * Debugger is active!
+2025-05-04 15:17:44 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:17:48 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:17:48 [INFO]  * Restarting with stat
+2025-05-04 15:17:49 [WARNING]  * Debugger is active!
+2025-05-04 15:17:49 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:17:52 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:17:52 [INFO]  * Restarting with stat
+2025-05-04 15:17:52 [WARNING]  * Debugger is active!
+2025-05-04 15:17:52 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:17:55 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:17:55 [INFO]  * Restarting with stat
+2025-05-04 15:17:55 [WARNING]  * Debugger is active!
+2025-05-04 15:17:55 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:17:57 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:17:57 [INFO]  * Restarting with stat
+2025-05-04 15:17:57 [WARNING]  * Debugger is active!
+2025-05-04 15:17:57 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:18:03 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:18:03 [INFO]  * Restarting with stat
+2025-05-04 15:18:03 [WARNING]  * Debugger is active!
+2025-05-04 15:18:03 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:18:05 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:18:05 [INFO]  * Restarting with stat
+2025-05-04 15:18:05 [WARNING]  * Debugger is active!
+2025-05-04 15:18:05 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:18:08 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:18:08 [INFO]  * Restarting with stat
+2025-05-04 15:18:08 [WARNING]  * Debugger is active!
+2025-05-04 15:18:08 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:18:09 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:18:09 [INFO]  * Restarting with stat
+2025-05-04 15:18:09 [WARNING]  * Debugger is active!
+2025-05-04 15:18:09 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:18:14 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:18:14 [INFO]  * Restarting with stat
+2025-05-04 15:18:14 [WARNING]  * Debugger is active!
+2025-05-04 15:18:14 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:18:16 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:18:16 [INFO]  * Restarting with stat
+2025-05-04 15:18:16 [WARNING]  * Debugger is active!
+2025-05-04 15:18:16 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:18:21 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:18:21 [INFO]  * Restarting with stat
+2025-05-04 15:18:21 [WARNING]  * Debugger is active!
+2025-05-04 15:18:21 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:18:22 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:18:22 [INFO]  * Restarting with stat
+2025-05-04 15:18:22 [WARNING]  * Debugger is active!
+2025-05-04 15:18:22 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:18:23 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:18:23 [INFO]  * Restarting with stat
+2025-05-04 15:18:23 [WARNING]  * Debugger is active!
+2025-05-04 15:18:23 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:18:29 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:18:29 [INFO]  * Restarting with stat
+2025-05-04 15:18:29 [WARNING]  * Debugger is active!
+2025-05-04 15:18:29 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:18:32 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:18:32 [INFO]  * Restarting with stat
+2025-05-04 15:18:33 [WARNING]  * Debugger is active!
+2025-05-04 15:18:33 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:18:36 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:18:36 [INFO]  * Restarting with stat
+2025-05-04 15:18:36 [WARNING]  * Debugger is active!
+2025-05-04 15:18:36 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:18:44 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:18:44 [INFO]  * Restarting with stat
+2025-05-04 15:18:44 [WARNING]  * Debugger is active!
+2025-05-04 15:18:44 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:18:48 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:18:48 [INFO]  * Restarting with stat
+2025-05-04 15:18:48 [WARNING]  * Debugger is active!
+2025-05-04 15:18:48 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:18:53 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:18:53 [INFO]  * Restarting with stat
+2025-05-04 15:18:54 [WARNING]  * Debugger is active!
+2025-05-04 15:18:54 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:18:56 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:18:56 [INFO]  * Restarting with stat
+2025-05-04 15:18:56 [WARNING]  * Debugger is active!
+2025-05-04 15:18:56 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:18:58 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:18:58 [INFO]  * Restarting with stat
+2025-05-04 15:18:59 [WARNING]  * Debugger is active!
+2025-05-04 15:18:59 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:19:04 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:19:04 [INFO]  * Restarting with stat
+2025-05-04 15:19:04 [WARNING]  * Debugger is active!
+2025-05-04 15:19:04 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:19:05 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:19:05 [INFO]  * Restarting with stat
+2025-05-04 15:19:06 [WARNING]  * Debugger is active!
+2025-05-04 15:19:06 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:19:11 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:19:11 [INFO]  * Restarting with stat
+2025-05-04 15:19:11 [WARNING]  * Debugger is active!
+2025-05-04 15:19:11 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:19:30 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:19:30 [INFO]  * Restarting with stat
+2025-05-04 15:19:30 [WARNING]  * Debugger is active!
+2025-05-04 15:19:30 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:19:33 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:19:33 [INFO]  * Restarting with stat
+2025-05-04 15:19:33 [WARNING]  * Debugger is active!
+2025-05-04 15:19:33 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:19:41 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:19:41 [INFO]  * Restarting with stat
+2025-05-04 15:19:41 [WARNING]  * Debugger is active!
+2025-05-04 15:19:41 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:19:42 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:19:42 [INFO]  * Restarting with stat
+2025-05-04 15:19:42 [WARNING]  * Debugger is active!
+2025-05-04 15:19:42 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:19:46 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:19:46 [INFO]  * Restarting with stat
+2025-05-04 15:19:46 [WARNING]  * Debugger is active!
+2025-05-04 15:19:46 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:19:47 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:19:47 [INFO]  * Restarting with stat
+2025-05-04 15:19:47 [WARNING]  * Debugger is active!
+2025-05-04 15:19:47 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:19:49 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:19:49 [INFO]  * Restarting with stat
+2025-05-04 15:19:49 [WARNING]  * Debugger is active!
+2025-05-04 15:19:49 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:19:55 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:19:55 [INFO]  * Restarting with stat
+2025-05-04 15:19:55 [WARNING]  * Debugger is active!
+2025-05-04 15:19:55 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:20:02 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:20:02 [INFO]  * Restarting with stat
+2025-05-04 15:20:02 [WARNING]  * Debugger is active!
+2025-05-04 15:20:02 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:20:05 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:20:05 [INFO]  * Restarting with stat
+2025-05-04 15:20:05 [WARNING]  * Debugger is active!
+2025-05-04 15:20:05 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:20:06 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:20:06 [INFO]  * Restarting with stat
+2025-05-04 15:20:07 [WARNING]  * Debugger is active!
+2025-05-04 15:20:07 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:20:11 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:20:11 [INFO]  * Restarting with stat
+2025-05-04 15:20:11 [WARNING]  * Debugger is active!
+2025-05-04 15:20:11 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:20:16 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:20:16 [INFO]  * Restarting with stat
+2025-05-04 15:20:16 [WARNING]  * Debugger is active!
+2025-05-04 15:20:16 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:20:20 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:20:20 [INFO]  * Restarting with stat
+2025-05-04 15:20:20 [WARNING]  * Debugger is active!
+2025-05-04 15:20:20 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:20:21 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:20:21 [INFO]  * Restarting with stat
+2025-05-04 15:20:21 [WARNING]  * Debugger is active!
+2025-05-04 15:20:21 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:20:23 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:20:23 [INFO]  * Restarting with stat
+2025-05-04 15:20:24 [WARNING]  * Debugger is active!
+2025-05-04 15:20:24 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:20:25 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:20:25 [INFO]  * Restarting with stat
+2025-05-04 15:20:25 [WARNING]  * Debugger is active!
+2025-05-04 15:20:25 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:20:29 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:20:29 [INFO]  * Restarting with stat
+2025-05-04 15:20:29 [WARNING]  * Debugger is active!
+2025-05-04 15:20:29 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:20:32 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 15:20:32 [INFO]  * Restarting with stat
+2025-05-04 15:20:32 [WARNING]  * Debugger is active!
+2025-05-04 15:20:32 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:23:19 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-04 15:23:19 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-04 15:23:19 [INFO]  * Restarting with stat
+2025-05-04 15:23:19 [WARNING]  * Debugger is active!
+2025-05-04 15:23:19 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 15:23:28 [INFO] 127.0.0.1 - - [04/May/2025 15:23:28] "GET / HTTP/1.1" 200 -
+2025-05-04 15:23:28 [INFO] 127.0.0.1 - - [04/May/2025 15:23:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 15:23:28 [INFO] 127.0.0.1 - - [04/May/2025 15:23:28] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 15:23:29 [INFO] 127.0.0.1 - - [04/May/2025 15:23:29] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-04 15:23:32 [INFO] Running audio_processor.py script
+2025-05-04 15:23:49 [INFO] stopping script as user has requested
+2025-05-04 15:23:49 [INFO] 127.0.0.1 - - [04/May/2025 15:23:49] "POST /stop-script HTTP/1.1" 200 -
+2025-05-04 15:23:58 [INFO] 127.0.0.1 - - [04/May/2025 15:23:58] "GET /get-latest-audio HTTP/1.1" 200 -
+2025-05-04 15:23:58 [INFO] File /Users/samhithpola/Documents/GitHub/Razer-Skibidies#/recordings/merged_audio_c89d9513ac384d17a2e9fac75e1eaee7.mp3 deleted
+2025-05-04 15:23:58 [INFO] 127.0.0.1 - - [04/May/2025 15:23:58] "GET /download-audio/merged_audio_c89d9513ac384d17a2e9fac75e1eaee7.mp3 HTTP/1.1" 200 -
+2025-05-04 15:23:58 [ERROR] error:Command '['python3', '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py']' returned non-zero exit status 1.
+2025-05-04 15:23:58 [INFO] 127.0.0.1 - - [04/May/2025 15:23:58] "[35m[1mPOST /run-script HTTP/1.1[0m" 500 -
+2025-05-04 16:01:52 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 16:01:52 [INFO]  * Restarting with stat
+2025-05-04 16:01:53 [WARNING]  * Debugger is active!
+2025-05-04 16:01:53 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 16:01:54 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 16:01:54 [INFO]  * Restarting with stat
+2025-05-04 16:01:54 [WARNING]  * Debugger is active!
+2025-05-04 16:01:54 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 16:02:42 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 16:02:42 [INFO]  * Restarting with stat
+2025-05-04 16:02:42 [WARNING]  * Debugger is active!
+2025-05-04 16:02:42 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 16:02:47 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 16:02:47 [INFO]  * Restarting with stat
+2025-05-04 16:02:47 [WARNING]  * Debugger is active!
+2025-05-04 16:02:47 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 16:03:01 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-04 16:03:01 [INFO]  * Restarting with stat
+2025-05-04 16:03:01 [WARNING]  * Debugger is active!
+2025-05-04 16:03:01 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 16:07:51 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/process_audio.py', reloading
+2025-05-04 16:07:51 [INFO]  * Restarting with stat
+2025-05-04 16:07:51 [WARNING]  * Debugger is active!
+2025-05-04 16:07:51 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 16:09:03 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 16:09:03 [INFO]  * Restarting with stat
+2025-05-04 16:09:04 [WARNING]  * Debugger is active!
+2025-05-04 16:09:04 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 16:09:06 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-04 16:09:06 [INFO]  * Restarting with stat
+2025-05-04 16:09:06 [WARNING]  * Debugger is active!
+2025-05-04 16:09:06 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 16:09:34 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-04 16:09:34 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-04 16:09:34 [INFO]  * Restarting with stat
+2025-05-04 16:09:34 [WARNING]  * Debugger is active!
+2025-05-04 16:09:34 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 16:09:43 [INFO] 127.0.0.1 - - [04/May/2025 16:09:43] "GET / HTTP/1.1" 200 -
+2025-05-04 16:09:43 [INFO] 127.0.0.1 - - [04/May/2025 16:09:43] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 16:09:43 [INFO] 127.0.0.1 - - [04/May/2025 16:09:43] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 16:09:47 [INFO] 127.0.0.1 - - [04/May/2025 16:09:47] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-04 16:09:50 [INFO] Running audio_processor.py script
+2025-05-04 16:10:08 [INFO] stopping script as user has requested
+2025-05-04 16:10:08 [INFO] 127.0.0.1 - - [04/May/2025 16:10:08] "POST /stop-script HTTP/1.1" 200 -
+2025-05-04 16:10:14 [INFO] 127.0.0.1 - - [04/May/2025 16:10:14] "GET /get-latest-audio HTTP/1.1" 200 -
+2025-05-04 16:10:14 [INFO] File /Users/samhithpola/Documents/GitHub/Razer-Skibidies#/recordings/merged_audio_6ca79fcfc27d476db438c6ff01ae6cff.mp3 deleted
+2025-05-04 16:10:14 [INFO] 127.0.0.1 - - [04/May/2025 16:10:14] "GET /download-audio/merged_audio_6ca79fcfc27d476db438c6ff01ae6cff.mp3 HTTP/1.1" 200 -
+2025-05-04 16:10:16 [INFO] script executed normally
+2025-05-04 16:10:16 [INFO] 127.0.0.1 - - [04/May/2025 16:10:16] "POST /run-script HTTP/1.1" 200 -
+2025-05-04 16:11:41 [INFO] Running audio_processor.py script
+2025-05-04 18:19:57 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-04 18:19:57 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-04 18:19:57 [INFO]  * Restarting with stat
+2025-05-04 18:19:57 [WARNING]  * Debugger is active!
+2025-05-04 18:19:57 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 18:20:03 [INFO] 127.0.0.1 - - [04/May/2025 18:20:03] "GET / HTTP/1.1" 200 -
+2025-05-04 18:20:03 [INFO] 127.0.0.1 - - [04/May/2025 18:20:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 18:20:03 [INFO] 127.0.0.1 - - [04/May/2025 18:20:03] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 18:20:03 [INFO] 127.0.0.1 - - [04/May/2025 18:20:03] "GET /static/js/audiovisualizer.js HTTP/1.1" 200 -
+2025-05-04 18:23:23 [INFO] 127.0.0.1 - - [04/May/2025 18:23:23] "GET / HTTP/1.1" 200 -
+2025-05-04 18:23:23 [INFO] 127.0.0.1 - - [04/May/2025 18:23:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 18:23:23 [INFO] 127.0.0.1 - - [04/May/2025 18:23:23] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 18:23:23 [INFO] 127.0.0.1 - - [04/May/2025 18:23:23] "GET /static/js/audiovisualizer.js HTTP/1.1" 200 -
+2025-05-04 18:25:44 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/app.py', reloading
+2025-05-04 18:25:44 [INFO]  * Restarting with stat
+2025-05-04 18:25:44 [WARNING]  * Debugger is active!
+2025-05-04 18:25:44 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 18:25:47 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/app.py', reloading
+2025-05-04 18:25:47 [INFO]  * Restarting with stat
+2025-05-04 18:27:31 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-04 18:27:31 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-04 18:27:31 [INFO]  * Restarting with stat
+2025-05-04 18:27:31 [WARNING]  * Debugger is active!
+2025-05-04 18:27:31 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 18:27:36 [INFO] 127.0.0.1 - - [04/May/2025 18:27:36] "GET / HTTP/1.1" 200 -
+2025-05-04 18:27:36 [INFO] 127.0.0.1 - - [04/May/2025 18:27:36] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 18:27:36 [INFO] 127.0.0.1 - - [04/May/2025 18:27:36] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 18:27:36 [INFO] 127.0.0.1 - - [04/May/2025 18:27:36] "GET /static/js/audiovisualizer.js HTTP/1.1" 200 -
+2025-05-04 18:29:35 [INFO] 127.0.0.1 - - [04/May/2025 18:29:35] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-04 18:29:35 [INFO] 127.0.0.1 - - [04/May/2025 18:29:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 18:33:45 [INFO] 127.0.0.1 - - [04/May/2025 18:33:45] "GET / HTTP/1.1" 200 -
+2025-05-04 18:33:45 [INFO] 127.0.0.1 - - [04/May/2025 18:33:45] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 18:33:45 [INFO] 127.0.0.1 - - [04/May/2025 18:33:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 18:33:45 [INFO] 127.0.0.1 - - [04/May/2025 18:33:45] "GET /static/js/audiovisualizer.js HTTP/1.1" 200 -
+2025-05-04 18:38:20 [INFO] 127.0.0.1 - - [04/May/2025 18:38:20] "GET / HTTP/1.1" 200 -
+2025-05-04 18:38:20 [INFO] 127.0.0.1 - - [04/May/2025 18:38:20] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-04 18:38:20 [INFO] 127.0.0.1 - - [04/May/2025 18:38:20] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 18:38:20 [INFO] 127.0.0.1 - - [04/May/2025 18:38:20] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 18:38:54 [INFO] 127.0.0.1 - - [04/May/2025 18:38:54] "GET / HTTP/1.1" 200 -
+2025-05-04 18:38:54 [INFO] 127.0.0.1 - - [04/May/2025 18:38:54] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-04 18:38:54 [INFO] 127.0.0.1 - - [04/May/2025 18:38:54] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 18:38:54 [INFO] 127.0.0.1 - - [04/May/2025 18:38:54] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 18:38:54 [INFO] 127.0.0.1 - - [04/May/2025 18:38:54] "GET / HTTP/1.1" 200 -
+2025-05-04 18:38:54 [INFO] 127.0.0.1 - - [04/May/2025 18:38:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 18:38:54 [INFO] 127.0.0.1 - - [04/May/2025 18:38:54] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 18:38:54 [INFO] 127.0.0.1 - - [04/May/2025 18:38:54] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 18:38:57 [INFO] 127.0.0.1 - - [04/May/2025 18:38:57] "GET / HTTP/1.1" 200 -
+2025-05-04 18:38:57 [INFO] 127.0.0.1 - - [04/May/2025 18:38:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 18:38:57 [INFO] 127.0.0.1 - - [04/May/2025 18:38:57] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 18:38:57 [INFO] 127.0.0.1 - - [04/May/2025 18:38:57] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 18:39:09 [INFO] 127.0.0.1 - - [04/May/2025 18:39:09] "GET / HTTP/1.1" 200 -
+2025-05-04 18:39:09 [INFO] 127.0.0.1 - - [04/May/2025 18:39:09] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 18:39:09 [INFO] 127.0.0.1 - - [04/May/2025 18:39:09] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 18:39:09 [INFO] 127.0.0.1 - - [04/May/2025 18:39:09] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-04 18:39:22 [INFO] 127.0.0.1 - - [04/May/2025 18:39:22] "GET / HTTP/1.1" 200 -
+2025-05-04 18:39:22 [INFO] 127.0.0.1 - - [04/May/2025 18:39:22] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 18:39:22 [INFO] 127.0.0.1 - - [04/May/2025 18:39:22] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-04 18:39:22 [INFO] 127.0.0.1 - - [04/May/2025 18:39:22] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 18:39:37 [INFO] 127.0.0.1 - - [04/May/2025 18:39:37] "GET / HTTP/1.1" 200 -
+2025-05-04 18:39:38 [INFO] 127.0.0.1 - - [04/May/2025 18:39:38] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-04 18:39:38 [INFO] 127.0.0.1 - - [04/May/2025 18:39:38] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 18:39:38 [INFO] 127.0.0.1 - - [04/May/2025 18:39:38] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 18:40:45 [INFO] 127.0.0.1 - - [04/May/2025 18:40:45] "GET / HTTP/1.1" 200 -
+2025-05-04 18:40:45 [INFO] 127.0.0.1 - - [04/May/2025 18:40:45] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 18:40:45 [INFO] 127.0.0.1 - - [04/May/2025 18:40:45] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-04 18:40:45 [INFO] 127.0.0.1 - - [04/May/2025 18:40:45] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 18:40:54 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-04 18:40:54 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-04 18:40:54 [INFO]  * Restarting with stat
+2025-05-04 18:40:54 [WARNING]  * Debugger is active!
+2025-05-04 18:40:54 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 18:40:57 [INFO] 127.0.0.1 - - [04/May/2025 18:40:57] "GET / HTTP/1.1" 200 -
+2025-05-04 18:40:58 [INFO] 127.0.0.1 - - [04/May/2025 18:40:58] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 18:40:58 [INFO] 127.0.0.1 - - [04/May/2025 18:40:58] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 18:40:58 [INFO] 127.0.0.1 - - [04/May/2025 18:40:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 18:40:58 [INFO] 127.0.0.1 - - [04/May/2025 18:40:58] "GET / HTTP/1.1" 200 -
+2025-05-04 18:40:58 [INFO] 127.0.0.1 - - [04/May/2025 18:40:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 18:40:58 [INFO] 127.0.0.1 - - [04/May/2025 18:40:58] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 18:40:58 [INFO] 127.0.0.1 - - [04/May/2025 18:40:58] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 18:40:58 [INFO] 127.0.0.1 - - [04/May/2025 18:40:58] "GET / HTTP/1.1" 200 -
+2025-05-04 18:40:58 [INFO] 127.0.0.1 - - [04/May/2025 18:40:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 18:40:58 [INFO] 127.0.0.1 - - [04/May/2025 18:40:58] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 18:40:58 [INFO] 127.0.0.1 - - [04/May/2025 18:40:58] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 18:41:00 [INFO] 127.0.0.1 - - [04/May/2025 18:41:00] "GET / HTTP/1.1" 200 -
+2025-05-04 18:41:00 [INFO] 127.0.0.1 - - [04/May/2025 18:41:00] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 18:41:00 [INFO] 127.0.0.1 - - [04/May/2025 18:41:00] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 18:41:00 [INFO] 127.0.0.1 - - [04/May/2025 18:41:00] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 18:41:15 [INFO] 127.0.0.1 - - [04/May/2025 18:41:15] "GET / HTTP/1.1" 200 -
+2025-05-04 18:41:15 [INFO] 127.0.0.1 - - [04/May/2025 18:41:15] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-04 18:41:15 [INFO] 127.0.0.1 - - [04/May/2025 18:41:15] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 18:41:15 [INFO] 127.0.0.1 - - [04/May/2025 18:41:15] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 18:41:15 [INFO] 127.0.0.1 - - [04/May/2025 18:41:15] "GET / HTTP/1.1" 200 -
+2025-05-04 18:41:15 [INFO] 127.0.0.1 - - [04/May/2025 18:41:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 18:41:15 [INFO] 127.0.0.1 - - [04/May/2025 18:41:15] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 18:41:15 [INFO] 127.0.0.1 - - [04/May/2025 18:41:15] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 18:41:33 [INFO] 127.0.0.1 - - [04/May/2025 18:41:33] "GET / HTTP/1.1" 200 -
+2025-05-04 18:41:33 [INFO] 127.0.0.1 - - [04/May/2025 18:41:33] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 18:41:33 [INFO] 127.0.0.1 - - [04/May/2025 18:41:33] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-04 18:41:33 [INFO] 127.0.0.1 - - [04/May/2025 18:41:33] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 18:41:55 [INFO] 127.0.0.1 - - [04/May/2025 18:41:55] "GET / HTTP/1.1" 200 -
+2025-05-04 18:41:55 [INFO] 127.0.0.1 - - [04/May/2025 18:41:55] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-04 18:41:55 [INFO] 127.0.0.1 - - [04/May/2025 18:41:55] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 18:41:55 [INFO] 127.0.0.1 - - [04/May/2025 18:41:55] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 18:42:13 [INFO] 127.0.0.1 - - [04/May/2025 18:42:13] "GET / HTTP/1.1" 200 -
+2025-05-04 18:42:13 [INFO] 127.0.0.1 - - [04/May/2025 18:42:13] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-04 18:42:13 [INFO] 127.0.0.1 - - [04/May/2025 18:42:13] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 18:42:13 [INFO] 127.0.0.1 - - [04/May/2025 18:42:13] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 18:42:37 [INFO] 127.0.0.1 - - [04/May/2025 18:42:37] "GET / HTTP/1.1" 200 -
+2025-05-04 18:42:37 [INFO] 127.0.0.1 - - [04/May/2025 18:42:37] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-04 18:42:37 [INFO] 127.0.0.1 - - [04/May/2025 18:42:37] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 18:42:37 [INFO] 127.0.0.1 - - [04/May/2025 18:42:37] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 18:43:23 [INFO] 127.0.0.1 - - [04/May/2025 18:43:23] "GET / HTTP/1.1" 200 -
+2025-05-04 18:43:23 [INFO] 127.0.0.1 - - [04/May/2025 18:43:23] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 18:43:23 [INFO] 127.0.0.1 - - [04/May/2025 18:43:23] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 18:43:23 [INFO] 127.0.0.1 - - [04/May/2025 18:43:23] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-04 18:43:40 [INFO] 127.0.0.1 - - [04/May/2025 18:43:40] "GET / HTTP/1.1" 200 -
+2025-05-04 18:43:40 [INFO] 127.0.0.1 - - [04/May/2025 18:43:40] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 18:43:40 [INFO] 127.0.0.1 - - [04/May/2025 18:43:40] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-04 18:43:40 [INFO] 127.0.0.1 - - [04/May/2025 18:43:40] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 18:43:51 [INFO] 127.0.0.1 - - [04/May/2025 18:43:51] "GET / HTTP/1.1" 200 -
+2025-05-04 18:43:51 [INFO] 127.0.0.1 - - [04/May/2025 18:43:51] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-04 18:43:51 [INFO] 127.0.0.1 - - [04/May/2025 18:43:51] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 18:43:51 [INFO] 127.0.0.1 - - [04/May/2025 18:43:51] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 18:46:01 [INFO] 127.0.0.1 - - [04/May/2025 18:46:01] "GET / HTTP/1.1" 200 -
+2025-05-04 18:46:01 [INFO] 127.0.0.1 - - [04/May/2025 18:46:01] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-04 18:46:01 [INFO] 127.0.0.1 - - [04/May/2025 18:46:01] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 18:46:01 [INFO] 127.0.0.1 - - [04/May/2025 18:46:01] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 18:46:12 [INFO] 127.0.0.1 - - [04/May/2025 18:46:12] "GET / HTTP/1.1" 200 -
+2025-05-04 18:46:12 [INFO] 127.0.0.1 - - [04/May/2025 18:46:12] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 18:46:12 [INFO] 127.0.0.1 - - [04/May/2025 18:46:12] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-04 18:46:12 [INFO] 127.0.0.1 - - [04/May/2025 18:46:12] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 18:46:25 [INFO] 127.0.0.1 - - [04/May/2025 18:46:25] "GET / HTTP/1.1" 200 -
+2025-05-04 18:46:25 [INFO] 127.0.0.1 - - [04/May/2025 18:46:25] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 18:46:25 [INFO] 127.0.0.1 - - [04/May/2025 18:46:25] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-04 18:46:25 [INFO] 127.0.0.1 - - [04/May/2025 18:46:25] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 18:46:33 [INFO] 127.0.0.1 - - [04/May/2025 18:46:33] "GET / HTTP/1.1" 200 -
+2025-05-04 18:46:33 [INFO] 127.0.0.1 - - [04/May/2025 18:46:33] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-04 18:46:33 [INFO] 127.0.0.1 - - [04/May/2025 18:46:33] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 18:46:33 [INFO] 127.0.0.1 - - [04/May/2025 18:46:33] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 18:46:43 [INFO] 127.0.0.1 - - [04/May/2025 18:46:43] "GET / HTTP/1.1" 200 -
+2025-05-04 18:46:43 [INFO] 127.0.0.1 - - [04/May/2025 18:46:43] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-04 18:46:43 [INFO] 127.0.0.1 - - [04/May/2025 18:46:43] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 18:46:43 [INFO] 127.0.0.1 - - [04/May/2025 18:46:43] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 18:46:51 [INFO] 127.0.0.1 - - [04/May/2025 18:46:51] "GET / HTTP/1.1" 200 -
+2025-05-04 18:46:51 [INFO] 127.0.0.1 - - [04/May/2025 18:46:51] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 18:46:51 [INFO] 127.0.0.1 - - [04/May/2025 18:46:51] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-04 18:46:51 [INFO] 127.0.0.1 - - [04/May/2025 18:46:51] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -

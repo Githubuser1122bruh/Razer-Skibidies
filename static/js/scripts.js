@@ -3,6 +3,7 @@ const recordStop = document.getElementById("recordStop");
 const muteButton = document.getElementById("muteButton")
 const downloadAudio = document.getElementById("downloadAudio")
 let isdisabled = false;
+const errorMessage = document.getElementById("errorMessage")
 
 recordButton.addEventListener("click", () => {
     alert("Recording Started");
@@ -71,35 +72,44 @@ muteButton.addEventListener("click", () => {
 });
 
 downloadAudio.addEventListener("click", () => {
-    alert("Downloading recorded audio")
-    fetch("http://127.0.0.1:5001/download-audio", {
-        method: "GET",
-    })
-    .then(response => {
-        if (response.ok) {
-            return response.blob();
-        } else {
-            return response.json().then(data => {
-                throw new Error(data.error);
-            })
-        }
-    })
-    .then(blob => {
-        const url = window.URL.createObjectURL(blob);
-        const a = document.createElement("a");
-        a.href = url;
-        a.download = "recorded_audio.mp3";
-        document.body.appendChild(a);
-        a.click();
-        a.remove();
-    })
-    .catch(error => {
-        const errorMessage = document.getElementById(errorMessage);
-        // display the error msg
-        if (errorMessage) {
-            errorMessage.innerText = error.message;
-        } else {
-            alert(error.message);
-        }
-    });
-})
+    fetch("/get-latest-audio")
+        .then(response => {
+            if (response.ok) {
+                return response.json();
+            } else {
+                return response.json().then(data => {
+                    throw new Error(data.error);
+                });
+            }
+        })
+        .then(data => {
+            const filename = data.filename;
+
+            return fetch(`/download-audio/${filename}`);
+        })
+        .then(response => {
+            if (response.ok) {
+                return response.blob();
+            } else {
+                return response.json().then(data => {
+                    throw new Error(data.error || "File not found.");
+                });
+            }
+        })
+        .then(blob => {
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement("a");
+            a.href = url;
+            a.download = "recorded_audio.mp3";
+            document.body.appendChild(a);
+            a.click();
+            a.remove();
+
+            errorMessage.innerText = "";
+        })
+        .catch(error => {
+            console.error("Error downloading file:", error);
+
+            errorMessage.innerText = "Error: " + error.message;
+        });
+});

@@ -105,7 +105,7 @@ model.summary()
 model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=200, batch_size=64, class_weight=class_weights)
 
 history = model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=200, batch_size=64, class_weight=class_weights)
-
+print(history)
 plt.plot(history.history['accuracy'], label='Training')
 plt.plot(history.history['val_accuracy'], label='Validation Accuracy')
 plt.xlabel('Epochs')

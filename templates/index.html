@@ -14,14 +14,16 @@
         <main>
             <h2>Welcome to the Razer Skibidi website!</h2>
             <h2>Hit start recording if you want to start analyzing your brainrot!</h2>
-            <p id="errorMessage"></p>
+            <p id="errorMessage" style="color: red;"></p>
         </main>
         <button id="recordButton">Start Recording</button>
         <button id="recordStop">Stop Recording</button>
         <button id="muteButton">Mute</button>
         <button id="downloadAudio">Download Audio</button>
+        <canvas id="audioVisualizer" width="400" height="200"></canvas>
     </div>
 
     <script src="static/js/scripts.js"></script>
+    <script src="static/js/audiovisualizer.js"></script>
 </body>
 </html>

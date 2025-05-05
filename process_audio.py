@@ -4,32 +4,21 @@ import librosa.display
 from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
 from pydub import AudioSegment
-
+import os
+import uuid
+import time
 
 try:
-    try:
-        # Load the recorded audio
-        audio_data = np.load("recorded_audio.npy")
-        print("Loaded audio data:", audio_data)
+    base_dir = os.path.expanduser("~")
+    recordings_dir = os.path.join(base_dir, "Razer-Skibidies", "recordings")
+    os.makedirs(recordings_dir, exist_ok=True) 
+    # Load the recorded audio
+    audio_data = np.load("recorded_audio.npy")
+    print("Loaded audio data:", audio_data)
 
-        # Convert the NumPy array to a format compatible with pydub
-        audio_data = (audio_data * 32767).astype(np.int16)  # Scale to 16-bit PCM format
-        sample_rate = 22050
-
-        # Save as a WAV file first (pydub requires a file-like object)
-        wav_file = "recorded_audio.wav"
-        from scipy.io.wavfile import write
-        write(wav_file, sample_rate, audio_data)
-
-        # Convert WAV to MP3
-        mp3_file = "recorded_audio.mp3"
-        audio = AudioSegment.from_wav(wav_file)
-        audio.export(mp3_file, format="mp3")
-        print(f"Audio saved as {mp3_file}")
-    except FileNotFoundError:
-        print("No file found, please run the script again.")
-    except Exception as e:
-        print("An error occurred: " + str(e))
+    # Convert the NumPy array to a format compatible with pydub
+    audio_data = (audio_data * 32767).astype(np.int16)  # Scale to 16-bit PCM format
+    sample_rate = 44100
 
 
     audio_data = np.load("recorded_audio.npy")
@@ -39,7 +28,7 @@ try:
     audio_data = audio_data.flatten()
     print("flattened data", audio_data)
 
-    sample_rate = 22050
+    sample_rate = 44100
 
     plt.figure(figsize=(10,4))
     librosa.display.waveshow(audio_data, sr=sample_rate)
