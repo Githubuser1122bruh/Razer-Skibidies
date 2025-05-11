@@ -3027,3 +3027,820 @@
 2025-05-04 18:46:51 [INFO] 127.0.0.1 - - [04/May/2025 18:46:51] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
 2025-05-04 18:46:51 [INFO] 127.0.0.1 - - [04/May/2025 18:46:51] "GET /static/css/styles.css HTTP/1.1" 200 -
 2025-05-04 18:46:51 [INFO] 127.0.0.1 - - [04/May/2025 18:46:51] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 18:50:44 [INFO] 127.0.0.1 - - [04/May/2025 18:50:44] "GET / HTTP/1.1" 200 -
+2025-05-04 18:50:44 [INFO] 127.0.0.1 - - [04/May/2025 18:50:44] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 18:50:44 [INFO] 127.0.0.1 - - [04/May/2025 18:50:44] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 18:50:44 [INFO] 127.0.0.1 - - [04/May/2025 18:50:44] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-04 18:51:13 [INFO] 127.0.0.1 - - [04/May/2025 18:51:13] "GET / HTTP/1.1" 200 -
+2025-05-04 18:51:13 [INFO] 127.0.0.1 - - [04/May/2025 18:51:13] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-04 18:51:13 [INFO] 127.0.0.1 - - [04/May/2025 18:51:13] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 18:51:13 [INFO] 127.0.0.1 - - [04/May/2025 18:51:13] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 20:53:22 [INFO] 127.0.0.1 - - [04/May/2025 20:53:22] "GET / HTTP/1.1" 200 -
+2025-05-04 20:53:22 [INFO] 127.0.0.1 - - [04/May/2025 20:53:22] "GET /static/js/audiovisualizer.js HTTP/1.1" 200 -
+2025-05-04 20:53:22 [INFO] 127.0.0.1 - - [04/May/2025 20:53:22] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 20:53:22 [INFO] 127.0.0.1 - - [04/May/2025 20:53:22] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 20:53:22 [INFO] 127.0.0.1 - - [04/May/2025 20:53:22] "[33mGET /Users/samhithpola/Documents/GitHub/Razer-Skibidies HTTP/1.1[0m" 404 -
+2025-05-04 20:53:24 [INFO] 127.0.0.1 - - [04/May/2025 20:53:24] "GET / HTTP/1.1" 200 -
+2025-05-04 20:53:24 [INFO] 127.0.0.1 - - [04/May/2025 20:53:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 20:53:24 [INFO] 127.0.0.1 - - [04/May/2025 20:53:24] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 20:53:24 [INFO] 127.0.0.1 - - [04/May/2025 20:53:24] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 20:53:24 [INFO] 127.0.0.1 - - [04/May/2025 20:53:24] "[33mGET /Users/samhithpola/Documents/GitHub/Razer-Skibidies HTTP/1.1[0m" 404 -
+2025-05-04 20:53:24 [INFO] 127.0.0.1 - - [04/May/2025 20:53:24] "GET / HTTP/1.1" 200 -
+2025-05-04 20:53:24 [INFO] 127.0.0.1 - - [04/May/2025 20:53:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 20:53:24 [INFO] 127.0.0.1 - - [04/May/2025 20:53:24] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 20:53:24 [INFO] 127.0.0.1 - - [04/May/2025 20:53:24] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 20:53:24 [INFO] 127.0.0.1 - - [04/May/2025 20:53:24] "[33mGET /Users/samhithpola/Documents/GitHub/Razer-Skibidies HTTP/1.1[0m" 404 -
+2025-05-04 20:53:25 [INFO] 127.0.0.1 - - [04/May/2025 20:53:25] "GET / HTTP/1.1" 200 -
+2025-05-04 20:53:25 [INFO] 127.0.0.1 - - [04/May/2025 20:53:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 20:53:25 [INFO] 127.0.0.1 - - [04/May/2025 20:53:25] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 20:53:25 [INFO] 127.0.0.1 - - [04/May/2025 20:53:25] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 20:53:25 [INFO] 127.0.0.1 - - [04/May/2025 20:53:25] "[33mGET /Users/samhithpola/Documents/GitHub/Razer-Skibidies HTTP/1.1[0m" 404 -
+2025-05-04 20:53:26 [INFO] 127.0.0.1 - - [04/May/2025 20:53:26] "GET / HTTP/1.1" 200 -
+2025-05-04 20:53:26 [INFO] 127.0.0.1 - - [04/May/2025 20:53:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 20:53:26 [INFO] 127.0.0.1 - - [04/May/2025 20:53:26] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 20:53:26 [INFO] 127.0.0.1 - - [04/May/2025 20:53:26] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 20:53:26 [INFO] 127.0.0.1 - - [04/May/2025 20:53:26] "[33mGET /Users/samhithpola/Documents/GitHub/Razer-Skibidies HTTP/1.1[0m" 404 -
+2025-05-04 20:53:26 [INFO] 127.0.0.1 - - [04/May/2025 20:53:26] "GET / HTTP/1.1" 200 -
+2025-05-04 20:53:26 [INFO] 127.0.0.1 - - [04/May/2025 20:53:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 20:53:26 [INFO] 127.0.0.1 - - [04/May/2025 20:53:26] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 20:53:26 [INFO] 127.0.0.1 - - [04/May/2025 20:53:26] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 20:53:26 [INFO] 127.0.0.1 - - [04/May/2025 20:53:26] "[33mGET /Users/samhithpola/Documents/GitHub/Razer-Skibidies HTTP/1.1[0m" 404 -
+2025-05-04 21:05:45 [INFO] 127.0.0.1 - - [04/May/2025 21:05:45] "GET / HTTP/1.1" 200 -
+2025-05-04 21:05:45 [INFO] 127.0.0.1 - - [04/May/2025 21:05:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 21:05:45 [INFO] 127.0.0.1 - - [04/May/2025 21:05:45] "GET /static/js/audiovisualizer.js HTTP/1.1" 200 -
+2025-05-04 21:05:45 [INFO] 127.0.0.1 - - [04/May/2025 21:05:45] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 21:05:45 [INFO] 127.0.0.1 - - [04/May/2025 21:05:45] "[33mGET /Users/samhithpola/Documents/GitHub/Razer-Skibidies HTTP/1.1[0m" 404 -
+2025-05-04 21:05:46 [INFO] 127.0.0.1 - - [04/May/2025 21:05:46] "GET / HTTP/1.1" 200 -
+2025-05-04 21:05:46 [INFO] 127.0.0.1 - - [04/May/2025 21:05:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 21:05:46 [INFO] 127.0.0.1 - - [04/May/2025 21:05:46] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 21:05:46 [INFO] 127.0.0.1 - - [04/May/2025 21:05:46] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 21:05:46 [INFO] 127.0.0.1 - - [04/May/2025 21:05:46] "[33mGET /Users/samhithpola/Documents/GitHub/Razer-Skibidies HTTP/1.1[0m" 404 -
+2025-05-04 21:05:48 [INFO] 127.0.0.1 - - [04/May/2025 21:05:48] "GET / HTTP/1.1" 200 -
+2025-05-04 21:05:48 [INFO] 127.0.0.1 - - [04/May/2025 21:05:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 21:05:48 [INFO] 127.0.0.1 - - [04/May/2025 21:05:48] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 21:05:48 [INFO] 127.0.0.1 - - [04/May/2025 21:05:48] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 21:05:48 [INFO] 127.0.0.1 - - [04/May/2025 21:05:48] "[33mGET /Users/samhithpola/Documents/GitHub/Razer-Skibidies HTTP/1.1[0m" 404 -
+2025-05-04 21:05:48 [INFO] 127.0.0.1 - - [04/May/2025 21:05:48] "GET / HTTP/1.1" 200 -
+2025-05-04 21:05:48 [INFO] 127.0.0.1 - - [04/May/2025 21:05:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 21:05:48 [INFO] 127.0.0.1 - - [04/May/2025 21:05:48] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 21:05:48 [INFO] 127.0.0.1 - - [04/May/2025 21:05:48] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 21:05:48 [INFO] 127.0.0.1 - - [04/May/2025 21:05:48] "[33mGET /Users/samhithpola/Documents/GitHub/Razer-Skibidies HTTP/1.1[0m" 404 -
+2025-05-04 21:05:49 [INFO] 127.0.0.1 - - [04/May/2025 21:05:49] "GET / HTTP/1.1" 200 -
+2025-05-04 21:05:49 [INFO] 127.0.0.1 - - [04/May/2025 21:05:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 21:05:49 [INFO] 127.0.0.1 - - [04/May/2025 21:05:49] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 21:05:49 [INFO] 127.0.0.1 - - [04/May/2025 21:05:49] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 21:05:49 [INFO] 127.0.0.1 - - [04/May/2025 21:05:49] "[33mGET /Users/samhithpola/Documents/GitHub/Razer-Skibidies HTTP/1.1[0m" 404 -
+2025-05-04 21:20:48 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-04 21:20:48 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-04 21:20:48 [INFO]  * Restarting with stat
+2025-05-04 21:20:48 [WARNING]  * Debugger is active!
+2025-05-04 21:20:48 [INFO]  * Debugger PIN: 130-251-583
+2025-05-04 21:20:53 [INFO] 127.0.0.1 - - [04/May/2025 21:20:53] "GET / HTTP/1.1" 200 -
+2025-05-04 21:20:53 [INFO] 127.0.0.1 - - [04/May/2025 21:20:53] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 21:20:53 [INFO] 127.0.0.1 - - [04/May/2025 21:20:53] "GET /static/js/audiovisualizer.js HTTP/1.1" 200 -
+2025-05-04 21:20:53 [INFO] 127.0.0.1 - - [04/May/2025 21:20:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 21:20:53 [INFO] 127.0.0.1 - - [04/May/2025 21:20:53] "[33mGET /Users/samhithpola/Documents/GitHub/Razer-Skibidies HTTP/1.1[0m" 404 -
+2025-05-04 21:20:55 [INFO] 127.0.0.1 - - [04/May/2025 21:20:55] "GET / HTTP/1.1" 200 -
+2025-05-04 21:20:55 [INFO] 127.0.0.1 - - [04/May/2025 21:20:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 21:20:55 [INFO] 127.0.0.1 - - [04/May/2025 21:20:55] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 21:20:55 [INFO] 127.0.0.1 - - [04/May/2025 21:20:55] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 21:20:55 [INFO] 127.0.0.1 - - [04/May/2025 21:20:55] "[33mGET /Users/samhithpola/Documents/GitHub/Razer-Skibidies HTTP/1.1[0m" 404 -
+2025-05-04 21:20:55 [INFO] 127.0.0.1 - - [04/May/2025 21:20:55] "GET / HTTP/1.1" 200 -
+2025-05-04 21:20:55 [INFO] 127.0.0.1 - - [04/May/2025 21:20:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 21:20:55 [INFO] 127.0.0.1 - - [04/May/2025 21:20:55] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 21:20:55 [INFO] 127.0.0.1 - - [04/May/2025 21:20:55] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 21:20:55 [INFO] 127.0.0.1 - - [04/May/2025 21:20:55] "[33mGET /Users/samhithpola/Documents/GitHub/Razer-Skibidies HTTP/1.1[0m" 404 -
+2025-05-04 21:20:56 [INFO] 127.0.0.1 - - [04/May/2025 21:20:56] "GET / HTTP/1.1" 200 -
+2025-05-04 21:20:56 [INFO] 127.0.0.1 - - [04/May/2025 21:20:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 21:20:56 [INFO] 127.0.0.1 - - [04/May/2025 21:20:56] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 21:20:56 [INFO] 127.0.0.1 - - [04/May/2025 21:20:56] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 21:20:56 [INFO] 127.0.0.1 - - [04/May/2025 21:20:56] "[33mGET /Users/samhithpola/Documents/GitHub/Razer-Skibidies HTTP/1.1[0m" 404 -
+2025-05-04 21:20:57 [INFO] 127.0.0.1 - - [04/May/2025 21:20:57] "GET / HTTP/1.1" 200 -
+2025-05-04 21:20:57 [INFO] 127.0.0.1 - - [04/May/2025 21:20:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 21:20:57 [INFO] 127.0.0.1 - - [04/May/2025 21:20:57] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 21:20:57 [INFO] 127.0.0.1 - - [04/May/2025 21:20:57] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 21:20:57 [INFO] 127.0.0.1 - - [04/May/2025 21:20:57] "[33mGET /Users/samhithpola/Documents/GitHub/Razer-Skibidies HTTP/1.1[0m" 404 -
+2025-05-04 21:20:58 [INFO] 127.0.0.1 - - [04/May/2025 21:20:58] "GET / HTTP/1.1" 200 -
+2025-05-04 21:20:58 [INFO] 127.0.0.1 - - [04/May/2025 21:20:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 21:20:58 [INFO] 127.0.0.1 - - [04/May/2025 21:20:58] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 21:20:58 [INFO] 127.0.0.1 - - [04/May/2025 21:20:58] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 21:20:58 [INFO] 127.0.0.1 - - [04/May/2025 21:20:58] "[33mGET /Users/samhithpola/Documents/GitHub/Razer-Skibidies HTTP/1.1[0m" 404 -
+2025-05-04 21:20:58 [INFO] 127.0.0.1 - - [04/May/2025 21:20:58] "GET / HTTP/1.1" 200 -
+2025-05-04 21:20:58 [INFO] 127.0.0.1 - - [04/May/2025 21:20:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-04 21:20:58 [INFO] 127.0.0.1 - - [04/May/2025 21:20:58] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-04 21:20:58 [INFO] 127.0.0.1 - - [04/May/2025 21:20:58] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-04 21:20:58 [INFO] 127.0.0.1 - - [04/May/2025 21:20:58] "[33mGET /Users/samhithpola/Documents/GitHub/Razer-Skibidies HTTP/1.1[0m" 404 -
+2025-05-04 21:21:06 [INFO] Running audio_processor.py script
+2025-05-04 21:21:09 [INFO] stopping script as user has requested
+2025-05-04 21:21:09 [INFO] 127.0.0.1 - - [04/May/2025 21:21:09] "POST /stop-script HTTP/1.1" 200 -
+2025-05-04 21:21:16 [INFO] 127.0.0.1 - - [04/May/2025 21:21:16] "GET /get-latest-audio HTTP/1.1" 200 -
+2025-05-04 21:21:16 [INFO] File /Users/samhithpola/Documents/GitHub/Razer-Skibidies#/recordings/merged_audio_aad202633c7242e584b5022e8bb6b67c.mp3 deleted
+2025-05-04 21:21:16 [INFO] 127.0.0.1 - - [04/May/2025 21:21:16] "GET /download-audio/merged_audio_aad202633c7242e584b5022e8bb6b67c.mp3 HTTP/1.1" 200 -
+2025-05-04 21:21:16 [INFO] script executed normally
+2025-05-04 21:21:16 [INFO] 127.0.0.1 - - [04/May/2025 21:21:16] "POST /run-script HTTP/1.1" 200 -
+2025-05-05 16:23:55 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-05 16:23:55 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-05 16:23:55 [INFO]  * Restarting with stat
+2025-05-05 16:23:55 [WARNING]  * Debugger is active!
+2025-05-05 16:23:55 [INFO]  * Debugger PIN: 130-251-583
+2025-05-05 16:24:01 [INFO] 127.0.0.1 - - [05/May/2025 16:24:01] "GET / HTTP/1.1" 200 -
+2025-05-05 16:24:01 [INFO] 127.0.0.1 - - [05/May/2025 16:24:01] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-05 16:24:01 [INFO] 127.0.0.1 - - [05/May/2025 16:24:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-05 16:24:01 [INFO] 127.0.0.1 - - [05/May/2025 16:24:01] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-05 16:24:01 [INFO] 127.0.0.1 - - [05/May/2025 16:24:01] "[33mGET /Users/samhithpola/Documents/GitHub/Razer-Skibidies HTTP/1.1[0m" 404 -
+2025-05-05 16:24:01 [INFO] 127.0.0.1 - - [05/May/2025 16:24:01] "GET / HTTP/1.1" 200 -
+2025-05-05 16:24:02 [INFO] 127.0.0.1 - - [05/May/2025 16:24:02] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-05 16:24:02 [INFO] 127.0.0.1 - - [05/May/2025 16:24:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-05 16:24:02 [INFO] 127.0.0.1 - - [05/May/2025 16:24:02] "[36mGET /static/js/audiovisualizer.js HTTP/1.1[0m" 304 -
+2025-05-05 16:24:02 [INFO] 127.0.0.1 - - [05/May/2025 16:24:02] "[33mGET /Users/samhithpola/Documents/GitHub/Razer-Skibidies HTTP/1.1[0m" 404 -
+2025-05-05 16:25:47 [INFO] 127.0.0.1 - - [05/May/2025 16:25:47] "GET / HTTP/1.1" 200 -
+2025-05-05 16:25:55 [INFO] 127.0.0.1 - - [05/May/2025 16:25:55] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-05 16:25:55 [INFO] 127.0.0.1 - - [05/May/2025 16:25:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-05 16:26:01 [INFO] 127.0.0.1 - - [05/May/2025 16:26:01] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-05 16:26:56 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-05 16:26:56 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-05 16:26:56 [INFO]  * Restarting with stat
+2025-05-05 16:26:56 [WARNING]  * Debugger is active!
+2025-05-05 16:26:56 [INFO]  * Debugger PIN: 130-251-583
+2025-05-05 16:26:59 [INFO] 127.0.0.1 - - [05/May/2025 16:26:59] "GET / HTTP/1.1" 200 -
+2025-05-05 16:26:59 [INFO] 127.0.0.1 - - [05/May/2025 16:26:59] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-05 16:26:59 [INFO] 127.0.0.1 - - [05/May/2025 16:26:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-05 16:26:59 [INFO] 127.0.0.1 - - [05/May/2025 16:26:59] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-05 16:26:59 [INFO] 127.0.0.1 - - [05/May/2025 16:26:59] "GET /static/js/audiovisualizer.js HTTP/1.1" 200 -
+2025-05-05 16:26:59 [INFO] 127.0.0.1 - - [05/May/2025 16:26:59] "[33mGET /static/audio/brainrot0.wav HTTP/1.1[0m" 404 -
+2025-05-05 16:28:39 [INFO] 127.0.0.1 - - [05/May/2025 16:28:39] "[33mGET /static/audio/brainrot0.wav HTTP/1.1[0m" 404 -
+2025-05-05 16:29:02 [INFO] 127.0.0.1 - - [05/May/2025 16:29:02] "GET /static/brainrot0.wav HTTP/1.1" 200 -
+2025-05-05 16:29:02 [INFO] 127.0.0.1 - - [05/May/2025 16:29:02] "[35m[1mGET /static/brainrot0.wav HTTP/1.1[0m" 206 -
+2025-05-05 16:29:18 [INFO] 127.0.0.1 - - [05/May/2025 16:29:18] "GET / HTTP/1.1" 200 -
+2025-05-05 16:29:18 [INFO] 127.0.0.1 - - [05/May/2025 16:29:18] "GET /static/js/audiovisualizer.js HTTP/1.1" 200 -
+2025-05-05 16:29:18 [INFO] 127.0.0.1 - - [05/May/2025 16:29:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-05 16:29:18 [INFO] 127.0.0.1 - - [05/May/2025 16:29:18] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-05 16:29:18 [INFO] 127.0.0.1 - - [05/May/2025 16:29:18] "[35m[1mGET /static/brainrot0.wav HTTP/1.1[0m" 206 -
+2025-05-05 16:56:13 [INFO] 127.0.0.1 - - [05/May/2025 16:56:13] "GET / HTTP/1.1" 200 -
+2025-05-05 16:56:13 [INFO] 127.0.0.1 - - [05/May/2025 16:56:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-05 16:56:13 [INFO] 127.0.0.1 - - [05/May/2025 16:56:13] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-05 16:56:13 [INFO] 127.0.0.1 - - [05/May/2025 16:56:13] "GET /static/js/audiovisualizer.js HTTP/1.1" 200 -
+2025-05-06 16:04:40 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-06 16:04:40 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-06 16:04:40 [INFO]  * Restarting with stat
+2025-05-06 16:04:40 [WARNING]  * Debugger is active!
+2025-05-06 16:04:40 [INFO]  * Debugger PIN: 130-251-583
+2025-05-06 16:04:45 [INFO] 127.0.0.1 - - [06/May/2025 16:04:45] "GET / HTTP/1.1" 200 -
+2025-05-06 16:04:46 [INFO] 127.0.0.1 - - [06/May/2025 16:04:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-06 16:04:46 [INFO] 127.0.0.1 - - [06/May/2025 16:04:46] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-05-06 16:06:35 [INFO] 127.0.0.1 - - [06/May/2025 16:06:35] "GET / HTTP/1.1" 200 -
+2025-05-06 16:06:35 [INFO] 127.0.0.1 - - [06/May/2025 16:06:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-06 16:06:35 [INFO] 127.0.0.1 - - [06/May/2025 16:06:35] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-05-06 16:26:02 [INFO] 127.0.0.1 - - [06/May/2025 16:26:02] "GET / HTTP/1.1" 200 -
+2025-05-06 16:26:03 [INFO] 127.0.0.1 - - [06/May/2025 16:26:03] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-06 16:26:03 [INFO] 127.0.0.1 - - [06/May/2025 16:26:03] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-06 16:26:15 [INFO] 127.0.0.1 - - [06/May/2025 16:26:15] "GET / HTTP/1.1" 200 -
+2025-05-06 16:26:15 [INFO] 127.0.0.1 - - [06/May/2025 16:26:15] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-06 16:26:15 [INFO] 127.0.0.1 - - [06/May/2025 16:26:15] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-06 16:26:24 [INFO] 127.0.0.1 - - [06/May/2025 16:26:24] "GET / HTTP/1.1" 200 -
+2025-05-06 16:26:24 [INFO] 127.0.0.1 - - [06/May/2025 16:26:24] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-06 16:26:24 [INFO] 127.0.0.1 - - [06/May/2025 16:26:24] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-06 16:26:38 [INFO] 127.0.0.1 - - [06/May/2025 16:26:38] "GET / HTTP/1.1" 200 -
+2025-05-06 16:26:38 [INFO] 127.0.0.1 - - [06/May/2025 16:26:38] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-06 16:26:38 [INFO] 127.0.0.1 - - [06/May/2025 16:26:38] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-06 16:26:56 [INFO] 127.0.0.1 - - [06/May/2025 16:26:56] "GET / HTTP/1.1" 200 -
+2025-05-06 16:26:56 [INFO] 127.0.0.1 - - [06/May/2025 16:26:56] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-06 16:26:56 [INFO] 127.0.0.1 - - [06/May/2025 16:26:56] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-06 16:27:13 [INFO] 127.0.0.1 - - [06/May/2025 16:27:13] "GET / HTTP/1.1" 200 -
+2025-05-06 16:27:13 [INFO] 127.0.0.1 - - [06/May/2025 16:27:13] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-06 16:27:13 [INFO] 127.0.0.1 - - [06/May/2025 16:27:13] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-06 16:27:33 [INFO] 127.0.0.1 - - [06/May/2025 16:27:33] "GET / HTTP/1.1" 200 -
+2025-05-06 16:27:33 [INFO] 127.0.0.1 - - [06/May/2025 16:27:33] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-06 16:27:33 [INFO] 127.0.0.1 - - [06/May/2025 16:27:33] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-06 16:30:59 [INFO] 127.0.0.1 - - [06/May/2025 16:30:59] "GET / HTTP/1.1" 200 -
+2025-05-06 16:30:59 [INFO] 127.0.0.1 - - [06/May/2025 16:30:59] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-06 16:30:59 [INFO] 127.0.0.1 - - [06/May/2025 16:30:59] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-06 16:35:15 [INFO] 127.0.0.1 - - [06/May/2025 16:35:15] "GET / HTTP/1.1" 200 -
+2025-05-06 16:35:16 [INFO] 127.0.0.1 - - [06/May/2025 16:35:16] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-06 16:35:16 [INFO] 127.0.0.1 - - [06/May/2025 16:35:16] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-06 16:35:35 [INFO] 127.0.0.1 - - [06/May/2025 16:35:35] "GET / HTTP/1.1" 200 -
+2025-05-06 16:35:35 [INFO] 127.0.0.1 - - [06/May/2025 16:35:35] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-06 16:35:35 [INFO] 127.0.0.1 - - [06/May/2025 16:35:35] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-06 16:37:17 [INFO] 127.0.0.1 - - [06/May/2025 16:37:17] "GET / HTTP/1.1" 200 -
+2025-05-06 16:37:17 [INFO] 127.0.0.1 - - [06/May/2025 16:37:17] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-06 16:37:17 [INFO] 127.0.0.1 - - [06/May/2025 16:37:17] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-06 16:37:33 [INFO] 127.0.0.1 - - [06/May/2025 16:37:33] "GET / HTTP/1.1" 200 -
+2025-05-06 16:37:33 [INFO] 127.0.0.1 - - [06/May/2025 16:37:33] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-06 16:37:33 [INFO] 127.0.0.1 - - [06/May/2025 16:37:33] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-06 19:53:16 [INFO] 127.0.0.1 - - [06/May/2025 19:53:16] "GET / HTTP/1.1" 200 -
+2025-05-06 19:53:16 [INFO] 127.0.0.1 - - [06/May/2025 19:53:16] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-06 19:53:16 [INFO] 127.0.0.1 - - [06/May/2025 19:53:16] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-06 19:53:34 [INFO] 127.0.0.1 - - [06/May/2025 19:53:34] "GET / HTTP/1.1" 200 -
+2025-05-06 19:53:34 [INFO] 127.0.0.1 - - [06/May/2025 19:53:34] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-06 19:53:34 [INFO] 127.0.0.1 - - [06/May/2025 19:53:34] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-06 19:57:24 [INFO] 127.0.0.1 - - [06/May/2025 19:57:24] "GET / HTTP/1.1" 200 -
+2025-05-06 19:57:25 [INFO] 127.0.0.1 - - [06/May/2025 19:57:25] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-06 19:57:25 [INFO] 127.0.0.1 - - [06/May/2025 19:57:25] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-06 19:57:51 [INFO] 127.0.0.1 - - [06/May/2025 19:57:51] "GET / HTTP/1.1" 200 -
+2025-05-06 19:57:51 [INFO] 127.0.0.1 - - [06/May/2025 19:57:51] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-06 19:57:51 [INFO] 127.0.0.1 - - [06/May/2025 19:57:51] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-06 20:17:20 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/train_model.py', reloading
+2025-05-06 20:17:20 [INFO]  * Restarting with stat
+2025-05-06 20:17:20 [WARNING]  * Debugger is active!
+2025-05-06 20:17:20 [INFO]  * Debugger PIN: 130-251-583
+2025-05-06 20:17:25 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/train_model.py', reloading
+2025-05-06 20:17:25 [INFO]  * Restarting with stat
+2025-05-06 20:17:25 [WARNING]  * Debugger is active!
+2025-05-06 20:17:25 [INFO]  * Debugger PIN: 130-251-583
+2025-05-06 20:17:26 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/train_model.py', reloading
+2025-05-06 20:17:26 [INFO]  * Restarting with stat
+2025-05-06 20:17:26 [WARNING]  * Debugger is active!
+2025-05-06 20:17:26 [INFO]  * Debugger PIN: 130-251-583
+2025-05-06 20:22:47 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-06 20:22:47 [INFO]  * Restarting with stat
+2025-05-06 20:22:47 [WARNING]  * Debugger is active!
+2025-05-06 20:22:47 [INFO]  * Debugger PIN: 130-251-583
+2025-05-06 20:32:35 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-06 20:32:35 [INFO]  * Restarting with stat
+2025-05-06 20:32:36 [WARNING]  * Debugger is active!
+2025-05-06 20:32:36 [INFO]  * Debugger PIN: 130-251-583
+2025-05-06 20:32:40 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-06 20:32:40 [INFO]  * Restarting with stat
+2025-05-06 20:32:40 [WARNING]  * Debugger is active!
+2025-05-06 20:32:40 [INFO]  * Debugger PIN: 130-251-583
+2025-05-06 20:32:41 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-06 20:32:41 [INFO]  * Restarting with stat
+2025-05-06 20:32:41 [WARNING]  * Debugger is active!
+2025-05-06 20:32:41 [INFO]  * Debugger PIN: 130-251-583
+2025-05-06 20:32:43 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-06 20:32:43 [INFO]  * Restarting with stat
+2025-05-06 20:32:43 [WARNING]  * Debugger is active!
+2025-05-06 20:32:43 [INFO]  * Debugger PIN: 130-251-583
+2025-05-06 20:32:47 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-06 20:32:47 [INFO]  * Restarting with stat
+2025-05-06 20:32:47 [WARNING]  * Debugger is active!
+2025-05-06 20:32:47 [INFO]  * Debugger PIN: 130-251-583
+2025-05-06 20:33:00 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-06 20:33:00 [INFO]  * Restarting with stat
+2025-05-06 20:33:00 [WARNING]  * Debugger is active!
+2025-05-06 20:33:00 [INFO]  * Debugger PIN: 130-251-583
+2025-05-06 20:33:04 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-06 20:33:04 [INFO]  * Restarting with stat
+2025-05-06 20:33:04 [WARNING]  * Debugger is active!
+2025-05-06 20:33:04 [INFO]  * Debugger PIN: 130-251-583
+2025-05-06 20:33:06 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-06 20:33:06 [INFO]  * Restarting with stat
+2025-05-06 20:33:06 [WARNING]  * Debugger is active!
+2025-05-06 20:33:06 [INFO]  * Debugger PIN: 130-251-583
+2025-05-06 20:33:09 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-06 20:33:09 [INFO]  * Restarting with stat
+2025-05-06 20:33:09 [WARNING]  * Debugger is active!
+2025-05-06 20:33:09 [INFO]  * Debugger PIN: 130-251-583
+2025-05-06 20:33:31 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-06 20:33:31 [INFO]  * Restarting with stat
+2025-05-06 20:33:31 [WARNING]  * Debugger is active!
+2025-05-06 20:33:31 [INFO]  * Debugger PIN: 130-251-583
+2025-05-06 20:33:36 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-06 20:33:36 [INFO]  * Restarting with stat
+2025-05-06 20:33:36 [WARNING]  * Debugger is active!
+2025-05-06 20:33:36 [INFO]  * Debugger PIN: 130-251-583
+2025-05-06 20:33:39 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-06 20:33:39 [INFO]  * Restarting with stat
+2025-05-06 20:33:40 [WARNING]  * Debugger is active!
+2025-05-06 20:33:40 [INFO]  * Debugger PIN: 130-251-583
+2025-05-06 20:33:43 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-06 20:33:43 [INFO]  * Restarting with stat
+2025-05-06 20:33:43 [WARNING]  * Debugger is active!
+2025-05-06 20:33:43 [INFO]  * Debugger PIN: 130-251-583
+2025-05-06 20:33:50 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-06 20:33:50 [INFO]  * Restarting with stat
+2025-05-06 20:33:50 [WARNING]  * Debugger is active!
+2025-05-06 20:33:50 [INFO]  * Debugger PIN: 130-251-583
+2025-05-06 20:33:52 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-06 20:33:52 [INFO]  * Restarting with stat
+2025-05-06 20:33:52 [WARNING]  * Debugger is active!
+2025-05-06 20:33:52 [INFO]  * Debugger PIN: 130-251-583
+2025-05-06 20:34:33 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-06 20:34:33 [INFO]  * Restarting with stat
+2025-05-06 20:34:33 [WARNING]  * Debugger is active!
+2025-05-06 20:34:33 [INFO]  * Debugger PIN: 130-251-583
+2025-05-06 20:34:35 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-06 20:34:35 [INFO]  * Restarting with stat
+2025-05-06 20:34:35 [WARNING]  * Debugger is active!
+2025-05-06 20:34:35 [INFO]  * Debugger PIN: 130-251-583
+2025-05-06 20:34:39 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-06 20:34:39 [INFO]  * Restarting with stat
+2025-05-06 20:34:39 [WARNING]  * Debugger is active!
+2025-05-06 20:34:39 [INFO]  * Debugger PIN: 130-251-583
+2025-05-06 20:36:56 [INFO] 127.0.0.1 - - [06/May/2025 20:36:56] "GET / HTTP/1.1" 200 -
+2025-05-06 20:36:56 [INFO] 127.0.0.1 - - [06/May/2025 20:36:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-06 20:36:56 [INFO] 127.0.0.1 - - [06/May/2025 20:36:56] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-05-06 20:39:47 [INFO] 127.0.0.1 - - [06/May/2025 20:39:47] "GET / HTTP/1.1" 200 -
+2025-05-06 20:39:47 [INFO] 127.0.0.1 - - [06/May/2025 20:39:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-06 20:39:47 [INFO] 127.0.0.1 - - [06/May/2025 20:39:47] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-05-06 20:40:03 [INFO] 127.0.0.1 - - [06/May/2025 20:40:03] "GET / HTTP/1.1" 200 -
+2025-05-06 20:40:03 [INFO] 127.0.0.1 - - [06/May/2025 20:40:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-06 20:40:03 [INFO] 127.0.0.1 - - [06/May/2025 20:40:03] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-06 20:40:17 [INFO] 127.0.0.1 - - [06/May/2025 20:40:17] "GET / HTTP/1.1" 200 -
+2025-05-06 20:40:17 [INFO] 127.0.0.1 - - [06/May/2025 20:40:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-06 20:40:17 [INFO] 127.0.0.1 - - [06/May/2025 20:40:17] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-06 20:40:17 [INFO] 127.0.0.1 - - [06/May/2025 20:40:17] "GET / HTTP/1.1" 200 -
+2025-05-06 20:40:17 [INFO] 127.0.0.1 - - [06/May/2025 20:40:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-06 20:40:17 [INFO] 127.0.0.1 - - [06/May/2025 20:40:17] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-06 20:40:18 [INFO] 127.0.0.1 - - [06/May/2025 20:40:18] "GET / HTTP/1.1" 200 -
+2025-05-06 20:40:18 [INFO] 127.0.0.1 - - [06/May/2025 20:40:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-06 20:40:18 [INFO] 127.0.0.1 - - [06/May/2025 20:40:18] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-06 20:40:18 [INFO] 127.0.0.1 - - [06/May/2025 20:40:18] "GET / HTTP/1.1" 200 -
+2025-05-06 20:40:18 [INFO] 127.0.0.1 - - [06/May/2025 20:40:18] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-06 20:40:18 [INFO] 127.0.0.1 - - [06/May/2025 20:40:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-06 20:40:19 [INFO] 127.0.0.1 - - [06/May/2025 20:40:19] "GET / HTTP/1.1" 200 -
+2025-05-06 20:40:19 [INFO] 127.0.0.1 - - [06/May/2025 20:40:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-06 20:40:19 [INFO] 127.0.0.1 - - [06/May/2025 20:40:19] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-06 20:46:27 [INFO] 127.0.0.1 - - [06/May/2025 20:46:27] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-06 20:46:27 [INFO] 127.0.0.1 - - [06/May/2025 20:46:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-06 20:46:31 [INFO] 127.0.0.1 - - [06/May/2025 20:46:31] "GET / HTTP/1.1" 200 -
+2025-05-06 20:46:31 [INFO] 127.0.0.1 - - [06/May/2025 20:46:31] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-06 20:46:31 [INFO] 127.0.0.1 - - [06/May/2025 20:46:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-06 20:46:31 [INFO] 127.0.0.1 - - [06/May/2025 20:46:31] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-06 21:14:33 [INFO] 127.0.0.1 - - [06/May/2025 21:14:33] "GET / HTTP/1.1" 200 -
+2025-05-06 21:14:33 [INFO] 127.0.0.1 - - [06/May/2025 21:14:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-06 21:14:33 [INFO] 127.0.0.1 - - [06/May/2025 21:14:33] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-06 21:15:00 [INFO] Running audio_processor.py script
+2025-05-06 21:16:54 [INFO] 127.0.0.1 - - [06/May/2025 21:16:54] "GET / HTTP/1.1" 200 -
+2025-05-06 21:16:54 [INFO] 127.0.0.1 - - [06/May/2025 21:16:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-06 21:16:54 [INFO] 127.0.0.1 - - [06/May/2025 21:16:54] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-06 21:21:11 [INFO] 127.0.0.1 - - [06/May/2025 21:21:11] "GET / HTTP/1.1" 200 -
+2025-05-06 21:21:11 [INFO] 127.0.0.1 - - [06/May/2025 21:21:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-06 21:21:11 [INFO] 127.0.0.1 - - [06/May/2025 21:21:11] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-05-06 21:21:17 [INFO] 127.0.0.1 - - [06/May/2025 21:21:17] "GET / HTTP/1.1" 200 -
+2025-05-06 21:21:17 [INFO] 127.0.0.1 - - [06/May/2025 21:21:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-06 21:21:17 [INFO] 127.0.0.1 - - [06/May/2025 21:21:17] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-06 21:26:27 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-06 21:26:27 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-06 21:26:27 [INFO]  * Restarting with stat
+2025-05-06 21:26:27 [WARNING]  * Debugger is active!
+2025-05-06 21:26:27 [INFO]  * Debugger PIN: 130-251-583
+2025-05-06 21:26:30 [INFO] 127.0.0.1 - - [06/May/2025 21:26:30] "GET / HTTP/1.1" 200 -
+2025-05-06 21:26:30 [INFO] 127.0.0.1 - - [06/May/2025 21:26:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-06 21:26:30 [INFO] 127.0.0.1 - - [06/May/2025 21:26:30] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-05-07 15:09:48 [INFO] 127.0.0.1 - - [07/May/2025 15:09:48] "GET / HTTP/1.1" 200 -
+2025-05-07 15:09:48 [INFO] 127.0.0.1 - - [07/May/2025 15:09:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-07 15:09:48 [INFO] 127.0.0.1 - - [07/May/2025 15:09:48] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-07 17:26:30 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-07 17:26:30 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-07 17:26:30 [INFO]  * Restarting with stat
+2025-05-07 17:26:30 [WARNING]  * Debugger is active!
+2025-05-07 17:26:30 [INFO]  * Debugger PIN: 130-251-583
+2025-05-07 17:27:08 [INFO] 127.0.0.1 - - [07/May/2025 17:27:08] "GET / HTTP/1.1" 200 -
+2025-05-07 17:27:08 [INFO] 127.0.0.1 - - [07/May/2025 17:27:08] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-07 17:27:08 [INFO] 127.0.0.1 - - [07/May/2025 17:27:08] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-05-07 17:27:14 [INFO] 127.0.0.1 - - [07/May/2025 17:27:14] "GET / HTTP/1.1" 200 -
+2025-05-07 17:27:14 [INFO] 127.0.0.1 - - [07/May/2025 17:27:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-07 17:27:14 [INFO] 127.0.0.1 - - [07/May/2025 17:27:14] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-07 17:27:48 [INFO] 127.0.0.1 - - [07/May/2025 17:27:48] "GET / HTTP/1.1" 200 -
+2025-05-07 17:27:48 [INFO] 127.0.0.1 - - [07/May/2025 17:27:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-07 17:27:48 [INFO] 127.0.0.1 - - [07/May/2025 17:27:48] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-07 17:29:20 [INFO] 127.0.0.1 - - [07/May/2025 17:29:20] "GET / HTTP/1.1" 200 -
+2025-05-07 17:29:20 [INFO] 127.0.0.1 - - [07/May/2025 17:29:20] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-07 17:29:20 [INFO] 127.0.0.1 - - [07/May/2025 17:29:20] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-05-07 17:31:19 [INFO] 127.0.0.1 - - [07/May/2025 17:31:19] "GET / HTTP/1.1" 200 -
+2025-05-07 17:31:20 [INFO] 127.0.0.1 - - [07/May/2025 17:31:20] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-07 17:31:20 [INFO] 127.0.0.1 - - [07/May/2025 17:31:20] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-05-07 17:40:49 [INFO] 127.0.0.1 - - [07/May/2025 17:40:49] "GET / HTTP/1.1" 200 -
+2025-05-07 17:40:49 [INFO] 127.0.0.1 - - [07/May/2025 17:40:49] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-05-07 17:40:49 [INFO] 127.0.0.1 - - [07/May/2025 17:40:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-07 17:41:03 [INFO] 127.0.0.1 - - [07/May/2025 17:41:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-07 17:41:03 [INFO] 127.0.0.1 - - [07/May/2025 17:41:03] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-07 21:16:15 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-07 21:16:15 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-07 21:16:15 [INFO]  * Restarting with stat
+2025-05-07 21:16:15 [WARNING]  * Debugger is active!
+2025-05-07 21:16:15 [INFO]  * Debugger PIN: 130-251-583
+2025-05-07 21:17:57 [INFO] 192.168.1.63 - - [07/May/2025 21:17:57] "GET / HTTP/1.1" 200 -
+2025-05-07 21:17:57 [INFO] 192.168.1.63 - - [07/May/2025 21:17:57] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-07 21:17:57 [INFO] 192.168.1.63 - - [07/May/2025 21:17:57] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-05-07 21:17:57 [INFO] 192.168.1.63 - - [07/May/2025 21:17:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-07 21:18:04 [INFO] 192.168.1.63 - - [07/May/2025 21:18:04] "GET / HTTP/1.1" 200 -
+2025-05-07 21:18:04 [INFO] 192.168.1.63 - - [07/May/2025 21:18:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-07 21:18:04 [INFO] 192.168.1.63 - - [07/May/2025 21:18:04] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-07 21:21:25 [INFO] 192.168.1.63 - - [07/May/2025 21:21:25] "GET / HTTP/1.1" 200 -
+2025-05-07 21:21:25 [INFO] 192.168.1.63 - - [07/May/2025 21:21:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-07 21:21:25 [INFO] 192.168.1.63 - - [07/May/2025 21:21:25] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-05-07 21:22:31 [INFO] Running audio_processor.py script
+2025-05-07 21:22:33 [INFO] stopping script as user has requested
+2025-05-07 21:22:33 [INFO] 127.0.0.1 - - [07/May/2025 21:22:33] "POST /stop-script HTTP/1.1" 200 -
+2025-05-07 21:22:36 [INFO] 192.168.1.63 - - [07/May/2025 21:22:36] "GET /get-latest-audio HTTP/1.1" 200 -
+2025-05-07 21:22:36 [INFO] File /Users/samhithpola/Documents/GitHub/Razer-Skibidies#/recordings/merged_audio_b316892bd2f645f4ae7be7bdeabf0ce4.mp3 deleted
+2025-05-07 21:22:36 [INFO] 192.168.1.63 - - [07/May/2025 21:22:36] "GET /download-audio/merged_audio_b316892bd2f645f4ae7be7bdeabf0ce4.mp3 HTTP/1.1" 200 -
+2025-05-07 21:22:41 [INFO] 192.168.1.63 - - [07/May/2025 21:22:41] "GET /get-latest-audio HTTP/1.1" 200 -
+2025-05-07 21:22:41 [INFO] File /Users/samhithpola/Documents/GitHub/Razer-Skibidies#/recordings/merged_audio_2c7a7bcee7d246cf96478b6061848fc2.mp3 deleted
+2025-05-07 21:22:41 [INFO] 192.168.1.63 - - [07/May/2025 21:22:41] "GET /download-audio/merged_audio_2c7a7bcee7d246cf96478b6061848fc2.mp3 HTTP/1.1" 200 -
+2025-05-07 21:22:46 [INFO] 192.168.1.63 - - [07/May/2025 21:22:46] "GET /get-latest-audio HTTP/1.1" 200 -
+2025-05-07 21:22:46 [INFO] File /Users/samhithpola/Documents/GitHub/Razer-Skibidies#/recordings/merged_audio_2c7a7bcee7d246cf96478b6061848fc2.mp3 deleted
+2025-05-07 21:22:46 [INFO] 192.168.1.63 - - [07/May/2025 21:22:46] "GET /download-audio/merged_audio_2c7a7bcee7d246cf96478b6061848fc2.mp3 HTTP/1.1" 200 -
+2025-05-07 21:22:46 [INFO] script executed normally
+2025-05-07 21:22:46 [INFO] 127.0.0.1 - - [07/May/2025 21:22:46] "POST /run-script HTTP/1.1" 200 -
+2025-05-07 21:22:50 [INFO] 192.168.1.63 - - [07/May/2025 21:22:50] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-07 21:22:51 [INFO] 192.168.1.63 - - [07/May/2025 21:22:51] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-07 21:22:51 [INFO] 192.168.1.63 - - [07/May/2025 21:22:51] "[33mGET /get-latest-audio HTTP/1.1[0m" 404 -
+2025-05-07 21:22:53 [INFO] Running audio_processor.py script
+2025-05-07 21:23:10 [INFO] stopping script as user has requested
+2025-05-07 21:23:10 [INFO] 127.0.0.1 - - [07/May/2025 21:23:10] "POST /stop-script HTTP/1.1" 200 -
+2025-05-07 21:23:18 [INFO] script executed normally
+2025-05-07 21:23:18 [INFO] 127.0.0.1 - - [07/May/2025 21:23:18] "POST /run-script HTTP/1.1" 200 -
+2025-05-07 21:23:19 [INFO] 192.168.1.63 - - [07/May/2025 21:23:19] "GET /get-latest-audio HTTP/1.1" 200 -
+2025-05-07 21:23:19 [INFO] File /Users/samhithpola/Documents/GitHub/Razer-Skibidies#/recordings/merged_audio_404d9c1634f6483782cbb43e351c9a84.mp3 deleted
+2025-05-07 21:23:19 [INFO] 192.168.1.63 - - [07/May/2025 21:23:19] "GET /download-audio/merged_audio_404d9c1634f6483782cbb43e351c9a84.mp3 HTTP/1.1" 200 -
+2025-05-08 15:42:30 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-08 15:42:30 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-08 15:42:30 [INFO]  * Restarting with stat
+2025-05-08 15:42:32 [WARNING]  * Debugger is active!
+2025-05-08 15:42:32 [INFO]  * Debugger PIN: 130-251-583
+2025-05-08 15:48:09 [INFO] 192.168.1.63 - - [08/May/2025 15:48:09] "GET / HTTP/1.1" 200 -
+2025-05-08 15:48:09 [INFO] 192.168.1.63 - - [08/May/2025 15:48:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-08 15:48:09 [INFO] 192.168.1.63 - - [08/May/2025 15:48:09] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-08 15:48:27 [INFO] 127.0.0.1 - - [08/May/2025 15:48:27] "GET / HTTP/1.1" 200 -
+2025-05-08 15:48:27 [INFO] 127.0.0.1 - - [08/May/2025 15:48:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-08 15:48:27 [INFO] 127.0.0.1 - - [08/May/2025 15:48:27] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-05-08 15:49:18 [INFO] Running audio_processor.py script
+2025-05-08 16:02:51 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-08 16:02:51 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-08 16:02:51 [INFO]  * Restarting with stat
+2025-05-08 16:02:52 [WARNING]  * Debugger is active!
+2025-05-08 16:02:52 [INFO]  * Debugger PIN: 130-251-583
+2025-05-09 17:12:01 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-09 17:12:01 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-09 17:12:01 [INFO]  * Restarting with stat
+2025-05-09 17:12:01 [WARNING]  * Debugger is active!
+2025-05-09 17:12:02 [INFO]  * Debugger PIN: 130-251-583
+2025-05-09 17:16:01 [INFO] 127.0.0.1 - - [09/May/2025 17:16:01] "GET / HTTP/1.1" 200 -
+2025-05-09 17:16:01 [INFO] 127.0.0.1 - - [09/May/2025 17:16:01] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-09 17:16:01 [INFO] 127.0.0.1 - - [09/May/2025 17:16:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-09 17:16:08 [INFO] Running audio_processor.py script
+2025-05-09 17:16:42 [INFO] stopping script as user has requested
+2025-05-09 17:16:42 [INFO] 127.0.0.1 - - [09/May/2025 17:16:42] "POST /stop-script HTTP/1.1" 200 -
+2025-05-09 17:33:22 [INFO] script executed normally
+2025-05-09 17:33:22 [INFO] 127.0.0.1 - - [09/May/2025 17:33:22] "POST /run-script HTTP/1.1" 200 -
+2025-05-09 17:40:13 [INFO] stopping script as user has requested
+2025-05-09 17:40:13 [INFO] 127.0.0.1 - - [09/May/2025 17:40:13] "POST /stop-script HTTP/1.1" 200 -
+2025-05-10 08:53:20 [INFO] Running audio_processor.py script
+2025-05-10 08:53:31 [INFO] script executed normally
+2025-05-10 08:53:31 [INFO] 127.0.0.1 - - [10/May/2025 08:53:31] "POST /run-script HTTP/1.1" 200 -
+2025-05-10 08:53:45 [INFO] Running audio_processor.py script
+2025-05-10 10:10:12 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-10 10:10:12 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-10 10:10:12 [INFO]  * Restarting with stat
+2025-05-10 10:10:12 [WARNING]  * Debugger is active!
+2025-05-10 10:10:12 [INFO]  * Debugger PIN: 130-251-583
+2025-05-10 10:10:21 [INFO] 127.0.0.1 - - [10/May/2025 10:10:21] "GET / HTTP/1.1" 200 -
+2025-05-10 10:10:21 [INFO] 127.0.0.1 - - [10/May/2025 10:10:21] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-10 10:10:21 [INFO] 127.0.0.1 - - [10/May/2025 10:10:21] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-10 10:10:26 [INFO] Running audio_processor.py script
+2025-05-10 10:10:59 [INFO] stopping script as user has requested
+2025-05-10 10:10:59 [INFO] 127.0.0.1 - - [10/May/2025 10:10:59] "POST /stop-script HTTP/1.1" 200 -
+2025-05-10 10:11:07 [INFO] script executed normally
+2025-05-10 10:11:07 [INFO] 127.0.0.1 - - [10/May/2025 10:11:07] "POST /run-script HTTP/1.1" 200 -
+2025-05-10 10:16:32 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-10 10:16:32 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-10 10:16:32 [INFO]  * Restarting with stat
+2025-05-10 10:16:32 [WARNING]  * Debugger is active!
+2025-05-10 10:16:32 [INFO]  * Debugger PIN: 130-251-583
+2025-05-10 13:35:15 [INFO] Running audio_processor.py script
+2025-05-10 13:35:16 [INFO] 127.0.0.1 - - [10/May/2025 13:35:16] "GET / HTTP/1.1" 200 -
+2025-05-10 13:35:16 [INFO] 127.0.0.1 - - [10/May/2025 13:35:16] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-10 13:35:16 [INFO] 127.0.0.1 - - [10/May/2025 13:35:16] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-10 13:35:18 [INFO] Running audio_processor.py script
+2025-05-10 13:35:37 [INFO] Running audio_processor.py script
+2025-05-10 13:35:39 [INFO] Running audio_processor.py script
+2025-05-10 13:36:12 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-10 13:36:12 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-10 13:36:12 [INFO]  * Restarting with stat
+2025-05-10 13:36:12 [WARNING]  * Debugger is active!
+2025-05-10 13:36:12 [INFO]  * Debugger PIN: 130-251-583
+2025-05-10 13:36:39 [INFO] 127.0.0.1 - - [10/May/2025 13:36:39] "GET / HTTP/1.1" 200 -
+2025-05-10 13:36:39 [INFO] 127.0.0.1 - - [10/May/2025 13:36:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-10 13:36:39 [INFO] 127.0.0.1 - - [10/May/2025 13:36:39] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-10 13:44:12 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-10 13:44:12 [INFO]  * Restarting with stat
+2025-05-10 13:44:12 [WARNING]  * Debugger is active!
+2025-05-10 13:44:12 [INFO]  * Debugger PIN: 130-251-583
+2025-05-10 14:13:04 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-10 14:13:04 [INFO]  * Restarting with stat
+2025-05-10 14:13:04 [WARNING]  * Debugger is active!
+2025-05-10 14:13:04 [INFO]  * Debugger PIN: 130-251-583
+2025-05-10 14:13:05 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-10 14:13:05 [INFO]  * Restarting with stat
+2025-05-10 14:13:06 [WARNING]  * Debugger is active!
+2025-05-10 14:13:06 [INFO]  * Debugger PIN: 130-251-583
+2025-05-10 15:06:26 [INFO] Running audio_processor.py script
+2025-05-10 15:07:18 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-10 15:07:18 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-10 15:07:18 [INFO]  * Restarting with stat
+2025-05-10 15:07:18 [WARNING]  * Debugger is active!
+2025-05-10 15:07:18 [INFO]  * Debugger PIN: 130-251-583
+2025-05-10 15:07:21 [INFO] 127.0.0.1 - - [10/May/2025 15:07:21] "GET / HTTP/1.1" 200 -
+2025-05-10 15:07:21 [INFO] 127.0.0.1 - - [10/May/2025 15:07:21] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-10 15:07:21 [INFO] 127.0.0.1 - - [10/May/2025 15:07:21] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-10 20:35:03 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-10 20:35:03 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-10 20:35:03 [INFO]  * Restarting with stat
+2025-05-10 20:35:03 [WARNING]  * Debugger is active!
+2025-05-10 20:35:03 [INFO]  * Debugger PIN: 130-251-583
+2025-05-10 20:35:22 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-10 20:35:22 [INFO]  * Restarting with stat
+2025-05-10 20:35:22 [WARNING]  * Debugger is active!
+2025-05-10 20:35:22 [INFO]  * Debugger PIN: 130-251-583
+2025-05-10 20:35:26 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-10 20:35:26 [INFO]  * Restarting with stat
+2025-05-10 20:35:26 [WARNING]  * Debugger is active!
+2025-05-10 20:35:26 [INFO]  * Debugger PIN: 130-251-583
+2025-05-10 20:35:34 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-10 20:35:34 [INFO]  * Restarting with stat
+2025-05-10 20:35:34 [WARNING]  * Debugger is active!
+2025-05-10 20:35:34 [INFO]  * Debugger PIN: 130-251-583
+2025-05-10 20:35:38 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-10 20:35:38 [INFO]  * Restarting with stat
+2025-05-10 20:35:38 [WARNING]  * Debugger is active!
+2025-05-10 20:35:38 [INFO]  * Debugger PIN: 130-251-583
+2025-05-10 20:35:48 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-10 20:35:48 [INFO]  * Restarting with stat
+2025-05-10 20:35:48 [WARNING]  * Debugger is active!
+2025-05-10 20:35:48 [INFO]  * Debugger PIN: 130-251-583
+2025-05-10 20:35:49 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-10 20:35:49 [INFO]  * Restarting with stat
+2025-05-10 20:35:50 [WARNING]  * Debugger is active!
+2025-05-10 20:35:50 [INFO]  * Debugger PIN: 130-251-583
+2025-05-10 20:35:52 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-10 20:35:52 [INFO]  * Restarting with stat
+2025-05-10 20:35:52 [WARNING]  * Debugger is active!
+2025-05-10 20:35:52 [INFO]  * Debugger PIN: 130-251-583
+2025-05-10 20:35:54 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-10 20:35:54 [INFO]  * Restarting with stat
+2025-05-10 20:35:54 [WARNING]  * Debugger is active!
+2025-05-10 20:35:54 [INFO]  * Debugger PIN: 130-251-583
+2025-05-10 20:35:56 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-10 20:35:56 [INFO]  * Restarting with stat
+2025-05-10 20:35:56 [WARNING]  * Debugger is active!
+2025-05-10 20:35:56 [INFO]  * Debugger PIN: 130-251-583
+2025-05-10 20:35:57 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-10 20:35:57 [INFO]  * Restarting with stat
+2025-05-10 20:35:57 [WARNING]  * Debugger is active!
+2025-05-10 20:35:57 [INFO]  * Debugger PIN: 130-251-583
+2025-05-10 20:35:58 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-10 20:35:58 [INFO]  * Restarting with stat
+2025-05-10 20:35:59 [WARNING]  * Debugger is active!
+2025-05-10 20:35:59 [INFO]  * Debugger PIN: 130-251-583
+2025-05-10 20:36:18 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-10 20:36:18 [INFO]  * Restarting with stat
+2025-05-10 20:36:18 [WARNING]  * Debugger is active!
+2025-05-10 20:36:18 [INFO]  * Debugger PIN: 130-251-583
+2025-05-10 20:36:22 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-10 20:36:22 [INFO]  * Restarting with stat
+2025-05-10 20:36:22 [WARNING]  * Debugger is active!
+2025-05-10 20:36:22 [INFO]  * Debugger PIN: 130-251-583
+2025-05-10 20:36:24 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-10 20:36:24 [INFO]  * Restarting with stat
+2025-05-10 20:36:24 [WARNING]  * Debugger is active!
+2025-05-10 20:36:24 [INFO]  * Debugger PIN: 130-251-583
+2025-05-10 20:36:34 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-10 20:36:34 [INFO]  * Restarting with stat
+2025-05-10 20:36:34 [WARNING]  * Debugger is active!
+2025-05-10 20:36:34 [INFO]  * Debugger PIN: 130-251-583
+2025-05-10 20:36:37 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-10 20:36:37 [INFO]  * Restarting with stat
+2025-05-10 20:36:37 [WARNING]  * Debugger is active!
+2025-05-10 20:36:37 [INFO]  * Debugger PIN: 130-251-583
+2025-05-10 20:36:39 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-10 20:36:39 [INFO]  * Restarting with stat
+2025-05-10 20:36:39 [WARNING]  * Debugger is active!
+2025-05-10 20:36:39 [INFO]  * Debugger PIN: 130-251-583
+2025-05-10 20:37:06 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-10 20:37:06 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-10 20:37:06 [INFO]  * Restarting with stat
+2025-05-10 20:37:06 [WARNING]  * Debugger is active!
+2025-05-10 20:37:06 [INFO]  * Debugger PIN: 130-251-583
+2025-05-10 20:37:11 [INFO] 127.0.0.1 - - [10/May/2025 20:37:11] "GET / HTTP/1.1" 200 -
+2025-05-10 20:37:11 [INFO] 127.0.0.1 - - [10/May/2025 20:37:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-10 20:37:11 [INFO] 127.0.0.1 - - [10/May/2025 20:37:11] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-10 20:37:16 [INFO] Running audio_processor.py script
+2025-05-10 21:26:16 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-10 21:26:16 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-10 21:26:16 [INFO]  * Restarting with stat
+2025-05-10 21:26:16 [WARNING]  * Debugger is active!
+2025-05-10 21:26:16 [INFO]  * Debugger PIN: 130-251-583
+2025-05-10 21:26:19 [INFO] 127.0.0.1 - - [10/May/2025 21:26:19] "GET / HTTP/1.1" 200 -
+2025-05-10 21:26:19 [INFO] 127.0.0.1 - - [10/May/2025 21:26:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-10 21:26:19 [INFO] 127.0.0.1 - - [10/May/2025 21:26:19] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-10 21:26:22 [INFO] 127.0.0.1 - - [10/May/2025 21:26:22] "GET / HTTP/1.1" 200 -
+2025-05-10 21:26:22 [INFO] 127.0.0.1 - - [10/May/2025 21:26:22] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-10 21:26:22 [INFO] 127.0.0.1 - - [10/May/2025 21:26:22] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-10 21:26:25 [INFO] Running audio_processor.py script
+2025-05-10 21:32:14 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-10 21:32:14 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-10 21:32:14 [INFO]  * Restarting with stat
+2025-05-10 21:32:14 [WARNING]  * Debugger is active!
+2025-05-10 21:32:14 [INFO]  * Debugger PIN: 130-251-583
+2025-05-10 21:32:26 [INFO] 127.0.0.1 - - [10/May/2025 21:32:26] "GET / HTTP/1.1" 200 -
+2025-05-10 21:32:26 [INFO] 127.0.0.1 - - [10/May/2025 21:32:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-10 21:32:26 [INFO] 127.0.0.1 - - [10/May/2025 21:32:26] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-10 21:32:28 [INFO] Running audio_processor.py script
+2025-05-10 21:51:37 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-10 21:51:37 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-10 21:51:37 [INFO]  * Restarting with stat
+2025-05-10 21:51:38 [WARNING]  * Debugger is active!
+2025-05-10 21:51:38 [INFO]  * Debugger PIN: 130-251-583
+2025-05-10 21:52:51 [INFO] Running audio_processor.py script
+2025-05-10 21:52:52 [INFO] 127.0.0.1 - - [10/May/2025 21:52:52] "GET / HTTP/1.1" 200 -
+2025-05-10 21:52:52 [INFO] 127.0.0.1 - - [10/May/2025 21:52:52] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-10 21:52:52 [INFO] 127.0.0.1 - - [10/May/2025 21:52:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-10 21:52:54 [INFO] Running audio_processor.py script
+2025-05-10 22:46:36 [ERROR] error:Command '['python3', '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py']' died with <Signals.SIGSEGV: 11>.
+2025-05-10 22:46:36 [INFO] 127.0.0.1 - - [10/May/2025 22:46:36] "[35m[1mPOST /run-script HTTP/1.1[0m" 500 -
+2025-05-10 22:46:37 [ERROR] error:Command '['python3', '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py']' died with <Signals.SIGSEGV: 11>.
+2025-05-10 22:46:37 [INFO] 127.0.0.1 - - [10/May/2025 22:46:37] "[35m[1mPOST /run-script HTTP/1.1[0m" 500 -
+2025-05-11 09:09:11 [INFO] 127.0.0.1 - - [11/May/2025 09:09:11] "GET / HTTP/1.1" 200 -
+2025-05-11 09:09:12 [INFO] 127.0.0.1 - - [11/May/2025 09:09:12] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-11 09:09:12 [INFO] 127.0.0.1 - - [11/May/2025 09:09:12] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-11 09:09:14 [INFO] Running audio_processor.py script
+2025-05-11 09:09:28 [INFO] stopping script as user has requested
+2025-05-11 09:09:28 [INFO] 127.0.0.1 - - [11/May/2025 09:09:28] "POST /stop-script HTTP/1.1" 200 -
+2025-05-11 09:09:30 [INFO] stopping script as user has requested
+2025-05-11 09:09:30 [INFO] 127.0.0.1 - - [11/May/2025 09:09:30] "POST /stop-script HTTP/1.1" 200 -
+2025-05-11 09:09:31 [INFO] script executed normally
+2025-05-11 09:09:31 [INFO] 127.0.0.1 - - [11/May/2025 09:09:31] "POST /run-script HTTP/1.1" 200 -
+2025-05-11 11:40:58 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-11 11:40:58 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-11 11:40:58 [INFO]  * Restarting with stat
+2025-05-11 11:40:58 [WARNING]  * Debugger is active!
+2025-05-11 11:40:58 [INFO]  * Debugger PIN: 130-251-583
+2025-05-11 11:41:01 [INFO] 127.0.0.1 - - [11/May/2025 11:41:01] "GET / HTTP/1.1" 200 -
+2025-05-11 11:41:01 [INFO] 127.0.0.1 - - [11/May/2025 11:41:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-11 11:41:01 [INFO] 127.0.0.1 - - [11/May/2025 11:41:01] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-11 11:41:30 [INFO] Running audio_processor.py script
+2025-05-11 12:39:24 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-11 12:39:24 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-11 12:39:24 [INFO]  * Restarting with stat
+2025-05-11 12:39:24 [WARNING]  * Debugger is active!
+2025-05-11 12:39:24 [INFO]  * Debugger PIN: 130-251-583
+2025-05-11 12:40:32 [INFO] Running audio_processor.py script
+2025-05-11 12:59:38 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-11 12:59:38 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-11 12:59:38 [INFO]  * Restarting with stat
+2025-05-11 12:59:38 [WARNING]  * Debugger is active!
+2025-05-11 12:59:38 [INFO]  * Debugger PIN: 130-251-583
+2025-05-11 13:00:45 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-11 13:00:45 [INFO]  * Restarting with stat
+2025-05-11 13:00:45 [WARNING]  * Debugger is active!
+2025-05-11 13:00:45 [INFO]  * Debugger PIN: 130-251-583
+2025-05-11 13:00:51 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-11 13:00:51 [INFO]  * Restarting with stat
+2025-05-11 13:00:51 [WARNING]  * Debugger is active!
+2025-05-11 13:00:51 [INFO]  * Debugger PIN: 130-251-583
+2025-05-11 13:00:54 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-11 13:00:54 [INFO]  * Restarting with stat
+2025-05-11 13:00:54 [WARNING]  * Debugger is active!
+2025-05-11 13:00:54 [INFO]  * Debugger PIN: 130-251-583
+2025-05-11 13:00:56 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-11 13:00:56 [INFO]  * Restarting with stat
+2025-05-11 13:00:56 [WARNING]  * Debugger is active!
+2025-05-11 13:00:56 [INFO]  * Debugger PIN: 130-251-583
+2025-05-11 13:00:58 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-11 13:00:58 [INFO]  * Restarting with stat
+2025-05-11 13:00:58 [WARNING]  * Debugger is active!
+2025-05-11 13:00:58 [INFO]  * Debugger PIN: 130-251-583
+2025-05-11 13:01:03 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-11 13:01:03 [INFO]  * Restarting with stat
+2025-05-11 13:01:03 [WARNING]  * Debugger is active!
+2025-05-11 13:01:03 [INFO]  * Debugger PIN: 130-251-583
+2025-05-11 13:01:09 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-11 13:01:09 [INFO]  * Restarting with stat
+2025-05-11 13:01:10 [WARNING]  * Debugger is active!
+2025-05-11 13:01:10 [INFO]  * Debugger PIN: 130-251-583
+2025-05-11 13:01:17 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-11 13:01:17 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-11 13:01:17 [INFO]  * Restarting with stat
+2025-05-11 13:01:17 [WARNING]  * Debugger is active!
+2025-05-11 13:01:17 [INFO]  * Debugger PIN: 130-251-583
+2025-05-11 13:01:21 [INFO] 127.0.0.1 - - [11/May/2025 13:01:21] "GET / HTTP/1.1" 200 -
+2025-05-11 13:01:21 [INFO] 127.0.0.1 - - [11/May/2025 13:01:21] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-11 13:01:21 [INFO] 127.0.0.1 - - [11/May/2025 13:01:21] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-11 13:01:24 [INFO] Running audio_processor.py script
+2025-05-11 13:01:32 [ERROR] error:Command '['python3', '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py']' returned non-zero exit status 1.
+2025-05-11 13:01:32 [INFO] 127.0.0.1 - - [11/May/2025 13:01:32] "[35m[1mPOST /run-script HTTP/1.1[0m" 500 -
+2025-05-11 13:02:33 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/train_model.py', reloading
+2025-05-11 13:02:33 [INFO]  * Restarting with stat
+2025-05-11 13:02:33 [WARNING]  * Debugger is active!
+2025-05-11 13:02:33 [INFO]  * Debugger PIN: 130-251-583
+2025-05-11 13:02:36 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/train_model.py', reloading
+2025-05-11 13:02:36 [INFO]  * Restarting with stat
+2025-05-11 13:02:36 [WARNING]  * Debugger is active!
+2025-05-11 13:02:36 [INFO]  * Debugger PIN: 130-251-583
+2025-05-11 13:02:37 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/train_model.py', reloading
+2025-05-11 13:02:37 [INFO]  * Restarting with stat
+2025-05-11 13:02:37 [WARNING]  * Debugger is active!
+2025-05-11 13:02:37 [INFO]  * Debugger PIN: 130-251-583
+2025-05-11 13:02:38 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/train_model.py', reloading
+2025-05-11 13:02:38 [INFO]  * Restarting with stat
+2025-05-11 13:02:38 [WARNING]  * Debugger is active!
+2025-05-11 13:02:38 [INFO]  * Debugger PIN: 130-251-583
+2025-05-11 13:04:12 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/train_model.py', reloading
+2025-05-11 13:04:12 [INFO]  * Restarting with stat
+2025-05-11 13:04:12 [WARNING]  * Debugger is active!
+2025-05-11 13:04:12 [INFO]  * Debugger PIN: 130-251-583
+2025-05-11 13:04:14 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/train_model.py', reloading
+2025-05-11 13:04:14 [INFO]  * Restarting with stat
+2025-05-11 13:04:14 [WARNING]  * Debugger is active!
+2025-05-11 13:04:14 [INFO]  * Debugger PIN: 130-251-583
+2025-05-11 13:08:23 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-11 13:08:23 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-11 13:08:23 [INFO]  * Restarting with stat
+2025-05-11 13:08:23 [WARNING]  * Debugger is active!
+2025-05-11 13:08:23 [INFO]  * Debugger PIN: 130-251-583
+2025-05-11 13:08:28 [INFO] 127.0.0.1 - - [11/May/2025 13:08:28] "GET / HTTP/1.1" 200 -
+2025-05-11 13:08:28 [INFO] 127.0.0.1 - - [11/May/2025 13:08:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-11 13:08:28 [INFO] 127.0.0.1 - - [11/May/2025 13:08:28] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-11 13:08:30 [INFO] Running audio_processor.py script
+2025-05-11 13:09:05 [ERROR] error:Command '['python3', '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py']' died with <Signals.SIGSEGV: 11>.
+2025-05-11 13:09:05 [INFO] 127.0.0.1 - - [11/May/2025 13:09:05] "[35m[1mPOST /run-script HTTP/1.1[0m" 500 -
+2025-05-11 13:44:29 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-11 13:44:29 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-11 13:44:29 [INFO]  * Restarting with stat
+2025-05-11 13:44:29 [WARNING]  * Debugger is active!
+2025-05-11 13:44:29 [INFO]  * Debugger PIN: 130-251-583
+2025-05-11 13:44:30 [INFO] 127.0.0.1 - - [11/May/2025 13:44:30] "GET / HTTP/1.1" 200 -
+2025-05-11 13:44:30 [INFO] 127.0.0.1 - - [11/May/2025 13:44:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-11 13:44:30 [INFO] 127.0.0.1 - - [11/May/2025 13:44:30] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-11 13:44:35 [INFO] 127.0.0.1 - - [11/May/2025 13:44:35] "GET / HTTP/1.1" 200 -
+2025-05-11 13:44:35 [INFO] 127.0.0.1 - - [11/May/2025 13:44:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-11 13:44:35 [INFO] 127.0.0.1 - - [11/May/2025 13:44:35] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-11 13:44:37 [INFO] Running audio_processor.py script

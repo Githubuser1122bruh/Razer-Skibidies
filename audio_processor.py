@@ -1,222 +1,117 @@
-import pandas as pd
-import numpy as np
-import seaborn as sns
-import matplotlib.pyplot as plt
-import subprocess
 import os
-import sounddevice as sd
-import wave
-from glob import glob
-import tensorflow as tf
 import uuid
-from pydub import AudioSegment
+import wave
+import numpy as np
+import sounddevice as sd
+import tensorflow as tf
 import librosa
-import librosa.display
-import IPython.display as ipd
-
-from itertools import cycle
+from pydub import AudioSegment
 from tensorflow.keras.models import load_model
+from tensorflow.keras.preprocessing.sequence import pad_sequences
+from sklearn.preprocessing import StandardScaler
 
-recordings_dir = os.path.join(os.getcwd(), "recordings")
-os.makedirs(recordings_dir, exist_ok=True)
-STOP_FLAG_FILE = "stop_flag.txt"
+# Load model and scaler
+if os.path.exists("brainrot_lstm_model.h5"):
+    model = load_model("brainrot_lstm_model.h5")
+elif os.path.exists("best_model.h5"):
+    model = load_model("best_model.h5")
+else:
+    model = load_model("brainrot_detector_advanced.h5")
 
-merged_file = os.path.join(recordings_dir, f"merged_audio_{uuid.uuid4().hex}.wav")
-merged_mp3_file = os.path.join(recordings_dir, f"merged_audio_{uuid.uuid4().hex}.mp3")
-
-latest_audio_file = os.path.join(recordings_dir, "latest_audio.txt")
-with open(latest_audio_file, "w") as f:
-    f.write(os.path.basename(merged_mp3_file))
-
-model = load_model("brainrot_detector.h5")
 scaler_mean = np.load("scaler_mean.npy")
 scaler_scale = np.load("scaler_scale.npy")
 
-X_test = np.load("X_test.npy")
-y_test = np.load("y_test.npy")
+# Audio parameters
+SAMPLE_RATE = 22050
+DURATION = 3  # seconds
+N_MFCC = 13
+THRESHOLD = 0.9
+MAX_TIMESTEPS = 130  # must match training shape
+INPUT_FEATURES = 39  # 13 MFCC + delta + delta2
 
-sns.set_theme(style="white", palette=None)
-color_pal = plt.rcParams["axes.prop_cycle"].by_key()["color"]
-color_cycle = cycle(plt.rcParams["axes.prop_cycle"].by_key()["color"])
+STOP_FLAG_FILE = "stop_flag.txt"
+RECORDINGS_DIR = os.path.join(os.getcwd(), "recordings")
+os.makedirs(RECORDINGS_DIR, exist_ok=True)
+MERGED_FILE = os.path.join(RECORDINGS_DIR, f"merged_audio_{uuid.uuid4().hex}.wav")
 
 def scale_features(features):
-    return (features - scaler_mean) / scaler_scale
+    flat = features.reshape(-1, INPUT_FEATURES)
+    scaled = (flat - scaler_mean) / scaler_scale
+    return scaled.reshape(1, MAX_TIMESTEPS, INPUT_FEATURES)
 
 def check_stop_flag():
-    """checks for stop file"""
     return os.path.exists(STOP_FLAG_FILE)
 
-def record_audio_chunk(sample_rate=44100, duration=3):
-    """Records a 3-second audio chunk and normalizes it to float32."""
-    print("Recording 3-second audio chunk...")
-    audio_data = sd.rec(int(sample_rate * duration), samplerate=sample_rate, channels=1, dtype="int16")
+def record_audio_chunk(duration=DURATION, sample_rate=SAMPLE_RATE):
+    print("Recording...")
+    audio = sd.rec(int(sample_rate * duration), samplerate=sample_rate, channels=1, dtype='float32')
     sd.wait()
+    return audio.flatten()
 
-    # Normalize audio data to float32 in the range [-1.0, 1.0]
-    audio_data = audio_data.astype(np.float32) / 32768.0
-    return audio_data
-
-def detect_brainrot(audio_data, sample_rate=44100, threshold=0.5):
-    if audio_data.dtype != np.float32:
-        audio_data = audio_data.astype(np.float32) / 32768.0
-    mfccs = librosa.feature.mfcc(y=audio_data, sr=sample_rate, n_mfcc=13)
-    mfccs_mean=np.mean(mfccs.T, axis=0)
-    mfccs_mean = mfccs_mean.reshape(1,-1)
-
-    prediction = model.predict(mfccs_mean)
-    print(f"model prediction: {prediction}")
-    return prediction[0][0] > threshold
-
-def detect_voice(threshold=0.02, sample_rate=44100, duration=0.5, headset_name="External Microphone"):
-    """
-    Detects voice in a sound file by using an audio threshold.
-    Returns the recorded audio data as a NumPy array if sound is detected.
-    """
-    devices = sd.query_devices()
-    headset_device = None
-    for i, device in enumerate(devices):
-        if headset_name.lower() in device['name'].lower():
-            headset_device = i
-            break
-    
-    if headset_device is None:
-        print("The skibidy razers are not connected currently, please connect them.")
-        return None 
-    
-    sd.default.device = headset_device
-
-    try:
-        print("Currently listening...")
-        audio_data = sd.rec(int(sample_rate * duration), samplerate=sample_rate, channels=1)
-        sd.wait()
-
-        max_amplitude = np.max(np.abs(audio_data))
-
-        if max_amplitude > threshold:
-            print("Sound detected!")
-            
-            if detect_brainrot(audio_data.flatten(), sample_rate):
-                print("you brainrot not skibidi alpha")
-            else:
-                print("no brainrot you are good")
-            return audio_data
-        else:
-            print("No sound detected.")
-            return None 
-    except Exception as e:
-        print("There was an error: " + str(e))
+def extract_features(audio, sample_rate=SAMPLE_RATE):
+    if np.max(np.abs(audio)) < 1e-4:
+        print("Audio is silent.")
         return None
 
+    mfcc = librosa.feature.mfcc(y=audio, sr=sample_rate, n_mfcc=N_MFCC)
+    delta = librosa.feature.delta(mfcc)
+    delta2 = librosa.feature.delta(mfcc, order=2)
+    full = np.vstack([mfcc, delta, delta2])  # (39, T)
+    full = full.T  # (T, 39)
+    padded = pad_sequences([full], maxlen=MAX_TIMESTEPS, dtype='float32', padding='post')
+    return scale_features(padded[0])
 
-def detect_voice(threshold=0.02, sample_rate=44100, duration=0.5, headset_name="External Microphone"):
-    """
-    Detects voice in a sound file by using an audio threshold.
-    Returns the recorded audio data as a NumPy array if sound is detected.
-    """
-    devices = sd.query_devices()
-    headset_device = None
-    for i, device in enumerate(devices):
-        if headset_name.lower() in device['name'].lower():
-            headset_device = i
-            break
-    
-    if headset_device is None:
-        print("The skibidy razers are not connected currently, please connect them.")
-        return None 
-    
-    sd.default.device = headset_device
+def detect_brainrot():
+    audio = record_audio_chunk()
+    features = extract_features(audio)
+    if features is None:
+        return 0.0
+    padded = tf.keras.preprocessing.sequence.pad_sequences([features], maxlen=130, padding='post', dtype='float32')
+    scaled = (padded[0] - scaler_mean) / scaler_scale
+    prediction = model.predict(scaled)
+    return prediction[0][0]
 
+
+def save_audio(audio, file_path, sample_rate=SAMPLE_RATE):
+    int_audio = (audio * 32767).astype(np.int16)
+    with wave.open(file_path, 'wb') as wf:
+        wf.setnchannels(1)
+        wf.setsampwidth(2)
+        wf.setframerate(sample_rate)
+        wf.writeframes(int_audio.tobytes())
+
+def main_loop():
+    print("Starting voice detection. Press Ctrl+C to stop.")
     try:
-        print("Currently listening...")
-        audio_data = sd.rec(int(sample_rate * duration), samplerate=sample_rate, channels=1)
-        sd.wait()
-
-        max_amplitude = np.max(np.abs(audio_data))
-
-        if max_amplitude > threshold:
-            print("Sound detected!")
-            
-            if detect_brainrot(audio_data.flatten(), sample_rate):
-                print("you brainrot not skibidi alpha")
-            else:
-                print("no brainrot you are good")
-            return audio_data
-        else:
-            print("No sound detected.")
-            return None 
-    except Exception as e:
-        print("There was an error: " + str(e))
-        return None
-
-
-if __name__ == "__main__":
-    import numpy as np
-
-    headset_name = "External Microphone"
-    threshold = 0.02
-    sample_rate = 22050
-    duration = 3
-
-    print("Starting voice detection..., press ctrl+c to end the loop")
-    try:
-        # Open a WAV file to store the merged audio
-        with wave.open(merged_file, "wb") as wf:
-            wf.setnchannels(1)  # Mono audio
-            wf.setsampwidth(2)  # 16-bit PCM
-            wf.setframerate(sample_rate)
+        with wave.open(MERGED_FILE, 'wb') as wf:
+            wf.setnchannels(1)
+            wf.setsampwidth(2)
+            wf.setframerate(SAMPLE_RATE)
 
             while True:
                 if check_stop_flag():
-                    print("Detection ended.")
+                    print("Stop flag detected. Exiting...")
                     os.remove(STOP_FLAG_FILE)
                     break
 
-                # Record a 3-second audio chunk
-                audio_data = record_audio_chunk(sample_rate, duration)
-                wf.writeframes(audio_data.tobytes())
+                audio = record_audio_chunk()
+                wf.writeframes((audio * 32767).astype(np.int16).tobytes())
 
-                # Perform live analysis on the recorded chunk
-                if detect_brainrot(audio_data.flatten(), sample_rate):
-                    print("Live Analysis: You have brainrot, not skibidi alpha.")
-                else:
-                    print("Live Analysis: No brainrot detected, you are good.")
-
+                features = extract_features(audio)
+                if features is not None:
+                    if detect_brainrot(features):
+                        print("Live Analysis: You have brainrot.")
+                    else:
+                        print("Live Analysis: No brainrot detected.")
     except KeyboardInterrupt:
-        print("Voice detection interrupted by user.")
-    except Exception as e:
-        print(f"An error occurred: {e}")
+        print("Interrupted by user.")
     finally:
-        print("Voice detection ended.")
+        # Convert merged WAV to MP3
+        if os.path.exists(MERGED_FILE):
+            audio = AudioSegment.from_wav(MERGED_FILE)
+            mp3_path = MERGED_FILE.replace(".wav", ".mp3")
+            audio.export(mp3_path, format="mp3")
+            print(f"Audio saved as: {mp3_path}")
 
-        # Convert the merged WAV file to MP3
-        if os.path.exists(merged_file):
-            audio = AudioSegment.from_wav(merged_file)
-            audio.export(merged_mp3_file, format="mp3")
-            print(f"Merged audio saved as {merged_mp3_file}")
-
-            # Run the process_audio.py script
-            subprocess.run(["/usr/bin/python3", "process_audio.py"])
-        else:
-            print(f"Error: {merged_file} does not exist.")
-            
-        # Evaluate the model
-        loss, accuracy = model.evaluate(X_test, y_test)
-        print(f"Test Loss: {loss}")
-        print(f"Test Accuracy: {accuracy}")
-
-if os.path.exists(merged_file):
-    with wave.open(merged_file, "rb") as wf:
-        audio_data = wf.readframes(wf.getnframes())
-        audio_data = np.frombuffer(audio_data, dtype=np.float32) * 32768.0
-        audio_data = audio_data.astype(np.int16)
-
-    audio = AudioSegment(
-        audio_data.tobytes(),
-        frame_rate=sample_rate,
-        sample_width=2,
-        channels=1
-    )
-    audio.export(merged_mp3_file, format="mp3")
-    print(f"Merged audio saved as {merged_mp3_file}")
-else:
-    print(f"Error: {merged_file} does not exist.")
+if __name__ == "__main__":
+    main_loop()

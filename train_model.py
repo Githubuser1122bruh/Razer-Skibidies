@@ -1,122 +1,102 @@
 import os
 import numpy as np
 import librosa
-from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import train_test_split
-from tensorflow.keras.models import Sequential, load_model
-from tensorflow.keras.layers import Dense, Dropout
-from sklearn.utils.class_weight import compute_class_weight
 import tensorflow as tf
-import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split
+from sklearn.utils.class_weight import compute_class_weight
+from sklearn.preprocessing import StandardScaler
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import LSTM, Dense, Dropout, Bidirectional
+from tensorflow.keras.callbacks import EarlyStopping
 
-# Path to the dataset
-dataset_path = "/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/brainrot_audio"
+# Constants
+DATA_DIR = "dataset"
+SAMPLE_RATE = 22050
+DURATION = 3
+N_MFCC = 13
+AUGMENT = True
+MODEL_PATH = "brainrot_lstm_model.h5"
 
-model = tf.keras.models.load_model("brainrot_detector.h5")
+def extract_features(file_path):
+    y, sr = librosa.load(file_path, sr=SAMPLE_RATE, duration=DURATION)
+    if len(y) < sr * DURATION:
+        y = np.pad(y, (0, sr * DURATION - len(y)))
 
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+    mfcc = librosa.feature.mfcc(y=y, sr=sr, n_mfcc=N_MFCC)
+    delta = librosa.feature.delta(mfcc)
+    delta2 = librosa.feature.delta(mfcc, order=2)
+    combined = np.vstack([mfcc, delta, delta2])
+    return combined.T  # shape: (time_steps, features)
+    
+def augment_audio(y):
+    noise = y + 0.005 * np.random.randn(len(y))
+    stretch = librosa.effects.time_stretch(y, rate=np.random.uniform(0.8, 1.2))
+    pitch = librosa.effects.pitch_shift(y, sr=SAMPLE_RATE, n_steps=np.random.randint(-2, 2))
+    return [noise[:len(y)], stretch[:len(y)], pitch[:len(y)]]
 
-# Initialize feature and label lists
-X = []
-y = []
+# Load data
+features, labels = [], []
 
-print(f"number of brainrot samples {np.sum(y == 1)}")
-print(f"number of normal samples{np.sum(y == 0)}")
-
-# Load brainrot and normal audio files
-for label, class_name in enumerate(["brainrot", "normal"]):  # 0 for normal, 1 for brainrot
-    class_path = os.path.join(dataset_path, class_name)
-    for file in os.listdir(class_path):
-        if file.endswith(".wav"):
-            file_path = os.path.join(class_path, file)
+for label_dir, label_value in [("brainrot", 1), ("no_brainrot", 0)]:
+    full_dir = os.path.join(DATA_DIR, label_dir)
+    for filename in os.listdir(full_dir):
+        if filename.endswith(".wav"):
+            path = os.path.join(full_dir, filename)
             try:
-                # Load the audio file
-                audio_data, sample_rate = librosa.load(file_path, sr=22050)
-                
-                # Extract MFCC features
-                mfccs = librosa.feature.mfcc(y=audio_data, sr=sample_rate, n_mfcc=13)
-                mfccs_mean = np.mean(mfccs.T, axis=0)
+                y, _ = librosa.load(path, sr=SAMPLE_RATE, duration=DURATION)
+                feats = extract_features(path)
+                features.append(feats)
+                labels.append(label_value)
 
-                # Append features and label
-                X.append(mfccs_mean)
-                y.append(label)
+                if AUGMENT and label_value == 1:
+                    for aug_y in augment_audio(y):
+                        mfcc = librosa.feature.mfcc(y=aug_y, sr=SAMPLE_RATE, n_mfcc=N_MFCC)
+                        delta = librosa.feature.delta(mfcc)
+                        delta2 = librosa.feature.delta(mfcc, order=2)
+                        combined = np.vstack([mfcc, delta, delta2])
+                        features.append(combined.T)
+                        labels.append(label_value)
             except Exception as e:
-                print(f"Error processing {file_path}: {e}")
+                print(f"Error processing {filename}: {e}")
 
-# Convert to NumPy arrays
-X = np.array(X)
-y = np.array(y)
+# Format
+X = tf.keras.preprocessing.sequence.pad_sequences(features, padding='post', dtype='float32')
+y = np.array(labels)
 
-print(X)
-print(y)
-
-class_weights = compute_class_weight('balanced', classes = np.unique(y), y=y)
-class_weights = dict(enumerate(class_weights))
-
-weights, biases = model.layers[0].get_weights()
-print("weights of first layer")
-print(weights)
-
-print("biases of the first layer")
-print(biases)
-
-for i, layer in enumerate(model.layers):
-    print(f"Layer {i} - {layer.name}")
-    if layer.get_weights():  # Check if the layer has weights
-        weights, biases = layer.get_weights()
-        print("Weights:")
-        print(weights)
-        print("Biases:")
-        print(biases)
-    else:
-        print("This layer has no weights or biases.")
-
-# Scale the features
+# Standardize
+# Standardize and save scaler stats
 scaler = StandardScaler()
-X = scaler.fit_transform(X)
+X_flat = X.reshape(-1, X.shape[-1])
+scaler.fit(X_flat)
 
-# Save the scaler parameters for inference
+# Save scaler stats for inference
 np.save("scaler_mean.npy", scaler.mean_)
 np.save("scaler_scale.npy", scaler.scale_)
 
-# Split the dataset into training and testing sets
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+X_scaled = ((X_flat - scaler.mean_) / scaler.scale_).reshape(X.shape)
 
-# Save the test data for evaluation
-np.save("X_test.npy", X_test)
-np.save("y_test.npy", y_test)
+# Split
+X_train, X_test, y_train, y_test = train_test_split(X_scaled, y, test_size=0.2, stratify=y, random_state=42)
 
-# Define the model
+# Class weights
+class_weights = compute_class_weight(class_weight='balanced', classes=np.unique(y_train), y=y_train)
+class_weights = {i: w for i, w in enumerate(class_weights)}
+
+# LSTM model
 model = Sequential([
-    Dense(256, activation='relu', input_shape=(X_train.shape[1],)),
-    Dropout(0.4),
-    Dense(128, activation='relu'),
-    Dropout(0.4),
-    Dense(1, activation='sigmoid')  # Sigmoid for binary classification
+    Bidirectional(LSTM(64, return_sequences=False), input_shape=(X.shape[1], X.shape[2])),
+    Dropout(0.3),
+    Dense(64, activation='relu'),
+    Dropout(0.3),
+    Dense(1, activation='sigmoid')
 ])
 
-# Compile the model
 model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
+early_stop = EarlyStopping(monitor='val_loss', patience=5, restore_best_weights=True)
 
-# Print model summary
-model.summary()
+model.fit(X_train, y_train, validation_split=0.2, epochs=100, batch_size=16,
+          class_weight=class_weights, callbacks=[early_stop])
 
-# Train the model
-model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=200, batch_size=64, class_weight=class_weights)
-
-history = model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=200, batch_size=64, class_weight=class_weights)
-print(history)
-plt.plot(history.history['accuracy'], label='Training')
-plt.plot(history.history['val_accuracy'], label='Validation Accuracy')
-plt.xlabel('Epochs')
-plt.ylabel('Accuracy')
-plt.legend()
-plt.show()
-
-loss, accuracy = model.evaluate(X_test, y_test)
-print(f"test loss: {loss}")
-print(f"test accuracy {accuracy}")
-
-# Save the trained model
-model.save("brainrot_detector.h5")
-print("Model saved as brainrot_detector.h5")
+loss, acc = model.evaluate(X_test, y_test)
+print(f"Test Accuracy: {acc:.4f}")
+model.save(MODEL_PATH)

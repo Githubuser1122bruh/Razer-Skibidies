@@ -56,11 +56,11 @@ button:hover {
 }
 
 canvas {
-    display: block;
-    margin: -80px 470px; /* Center the canvas */
-    border: 2px solid rgb(158, 210, 210); /* Light teal border */
-    border-radius: 10px;
-    background-color: #000000; /* Black background */
-    width: 400px; /* Set a fixed width */
-    height: 200px; /* Set a fixed height */
+        display:block;
+        margin: 40px auto; /* Center the canvas horizontally and add spacing above */
+        border: 2px solid rgb(158, 210, 210); /* Light teal border */
+        border-radius: 5px;
+        background-color: #a03e3e; /* Black background */
+        width: 300px; /* Fixed width */
+        height: 150px; /* Fixed height */
 }

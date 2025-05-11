@@ -4,6 +4,7 @@ from flask import render_template
 import logging
 from flask_cors import CORS
 import os
+import audio_processor
 
 app = Flask(__name__)
 CORS(app)
@@ -63,7 +64,10 @@ def download_audio(filename):
     else:
         return jsonify({"error": "File not found"}), 404
     
-    
+@app.route('/predict', methods=['GET'])
+def predict():
+    result = audio_processor.detect_brainrot()
+    return jsonify({'result': float(result)})
 
 @app.route('/get-latest-audio', methods=['GET'])
 def get_latest_audio():
