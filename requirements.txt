@@ -1,9 +1,22 @@
-numpy
-librosa
-matplotlib
-scikit-learn
-tensorflow
-simpleaudio
-seaborn
-speechrecognition
-pyaudio
+# Core Flask App
+Flask==2.2.5
+flask-cors==3.0.10
+
+# Audio handling
+sounddevice==0.4.6
+pydub==0.25.1
+librosa==0.10.1
+numpy==1.23.5
+scipy==1.10.1
+
+# Audio file IO
+wavefile==1.6
+
+# TensorFlow + Keras
+tensorflow==2.11.0
+
+# ML/Preprocessing
+scikit-learn==1.2.2
+
+# For reproducibility and file ops
+uuid==1.30
