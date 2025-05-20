@@ -20,3 +20,5 @@ scikit-learn==1.2.2
 
 # For reproducibility and file ops
 uuid==1.30
+
+gunicorn
