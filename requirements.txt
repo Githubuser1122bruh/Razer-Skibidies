@@ -1,24 +1,24 @@
 # Core Flask App
-Flask==2.2.5
-flask-cors==3.0.10
+Flask
+flask-cors
 
 # Audio handling
-sounddevice==0.4.6
-pydub==0.25.1
-librosa==0.10.1
-numpy==1.23.5
-scipy==1.10.1
+sounddevice
+pydub
+librosa
+numpy
+scipy
 
 # Audio file IO
-wavefile==1.6
+wavefile
 
 # TensorFlow + Keras
-tensorflow==2.11.0
+tensorflow
 
 # ML/Preprocessing
-scikit-learn==1.2.2
+scikit-learn
 
 # For reproducibility and file ops
-uuid==1.30
+uuid
 
 gunicorn
