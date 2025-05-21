@@ -1,24 +1,7 @@
-# Core Flask App
-Flask
-flask-cors
-
-# Audio handling
-sounddevice
-pydub
-librosa
-numpy
-scipy
-
-# Audio file IO
-wavefile
-
-# TensorFlow + Keras
-tensorflow
-
-# ML/Preprocessing
-scikit-learn
-
-# For reproducibility and file ops
-uuid
-
-gunicorn
+Flask==2.2.5
+flask-cors==3.0.10
+sounddevice==0.4.6
+pydub==0.25.1
+librosa>=0.10.1
+numpy>=1.26.0
+setuptools>=69.0.0
