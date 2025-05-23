@@ -6,7 +6,6 @@ import os
 import audio_processor
 import threading
 import time
-from main import app
 
 app = Flask(__name__)
 CORS(app)
