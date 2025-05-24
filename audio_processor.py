@@ -123,11 +123,7 @@ def main_loop():
             wf.setsampwidth(2)
             wf.setframerate(SAMPLE_RATE)
 
-            while True:
-                if check_stop_flag():
-                    print("Stop flag detected. Exiting main loop...")
-                    os.remove(STOP_FLAG_FILE)
-                    break
+            while not check_stop_flag():
 
                 audio = record_audio_chunk()
                 wf.writeframes((audio * 32767).astype(np.int16).tobytes())

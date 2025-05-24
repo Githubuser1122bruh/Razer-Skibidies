@@ -12,27 +12,59 @@ let controlsMuted = false;
 let visualizerActive = false;
 let audioCtx = null;
 let animationId = null;
-let isRecording = false;
 
 const BASE_URL = "";
+
+let selectedDeviceId = null;
+
+// Create device selector dropdown
+navigator.mediaDevices.enumerateDevices().then(devices => {
+    const audioInputs = devices.filter(d => d.kind === 'audioinput');
+    const selector = document.createElement('select');
+    selector.id = "deviceSelector";
+    selector.style.margin = "10px";
+
+    audioInputs.forEach((device, index) => {
+        const option = document.createElement("option");
+        option.value = device.deviceId;
+        option.textContent = device.label || `Microphone ${index + 1}`;
+        selector.appendChild(option);
+    });
+
+    selector.addEventListener("change", () => {
+        selectedDeviceId = selector.value;
+        console.log("Selected device ID:", selectedDeviceId);
+    });
+
+    document.body.insertBefore(selector, document.body.firstChild);
+
+    if (audioInputs.length > 0) {
+        selectedDeviceId = audioInputs[0].deviceId;
+    }
+});
 
 // --- Recording Start ---
 recordButton?.addEventListener("click", async () => {
     try {
-        const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+        // Request mic permissions on selected device
+        const stream = await navigator.mediaDevices.getUserMedia({ audio: { deviceId: selectedDeviceId } });
+
+        // Stop tracks immediately (we just want permission)
         stream.getTracks().forEach(track => track.stop());
 
-        const response = await fetch(`${BASE_URL}/run-script`, { method: "POST" });
+        // Tell backend to start recording with selected device
+        const response = await fetch(`${BASE_URL}/run-script`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ deviceId: selectedDeviceId })
+        });
         if (!response.ok) throw new Error("Failed to start recording script");
 
         const data = await response.json();
         console.log(data.message);
-
-        isRecording = true;
-        resultLabel.innerText = "🎙️ Recording...";
-        resultLabel.style.color = "orange";
-
         alert("Recording Started");
+        resultLabel.textContent = "Recording...";
+        resultLabel.style.color = "green";
     } catch (error) {
         console.error("Error starting recording:", error);
         errorMessage.innerText = "⚠️ Could not start recording: " + error.message;
@@ -41,18 +73,17 @@ recordButton?.addEventListener("click", async () => {
 
 // --- Recording Stop ---
 recordStop?.addEventListener("click", async () => {
-    isRecording = false;
-    resultLabel.innerText = "🔴 Not recording";
-    resultLabel.style.color = "gray";
-
     try {
+        alert("Recording Stopped");
         const response = await fetch(`${BASE_URL}/stop`, { method: "POST" });
         if (!response.ok) throw new Error("Failed to stop recording");
         const data = await response.json();
         console.log(data.message);
+        resultLabel.textContent = "Not Recording";
+        resultLabel.style.color = "gray";
     } catch (error) {
         console.error("Error stopping recording:", error);
-        errorMessage.innerText = "⚠️ " + error.message;
+        errorMessage.innerText = "⚠️ Could not stop recording: " + error.message;
     }
 });
 
@@ -95,20 +126,18 @@ downloadAudio?.addEventListener("click", async () => {
 
 // --- Prediction Polling ---
 function updatePrediction() {
-    if (!isRecording) return;
-
     fetch(`${BASE_URL}/predict`)
         .then(res => res.json())
         .then(data => {
-            if (data.error) {
-                resultLabel.textContent = "⚠️ Error: " + data.error;
+            if (data.status === "waiting") {
+                resultLabel.textContent = "⏳ Waiting for audio input...";
                 resultLabel.style.color = "gray";
-            } else if (data.status === "waiting") {
-                resultLabel.textContent = "⏳ Waiting for audio...";
+            } else if (data.error) {
+                resultLabel.textContent = "⚠️ Error: " + data.error;
                 resultLabel.style.color = "gray";
             } else {
                 const score = data.score;
-                if (score > 0.9) {
+                if (score > 0.5) {  // threshold set to 0.5
                     resultLabel.textContent = `🧠 You have brainrot (${score.toFixed(2)})`;
                     resultLabel.style.color = "red";
                 } else {

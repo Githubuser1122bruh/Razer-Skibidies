@@ -1,10 +1,11 @@
-from flask import Flask, jsonify, send_file, render_template
+from flask import Flask, jsonify, send_file, render_template, request
 import logging
 from flask_cors import CORS
 import os
 import audio_processor
 import threading
 import multiprocessing
+import sounddevice as sd
 
 multiprocessing.set_start_method("spawn", force=True)
 
@@ -22,8 +23,13 @@ logging.basicConfig(
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 STOP_FLAG_PATH = os.path.join(BASE_DIR, "stop_flag.txt")
 
+selected_device_id = None
+
 def run_detection_loop():
-    audio_processor.main_loop()  # your long-running function
+    try:
+        audio_processor.main_loop(selected_device_id)
+    except Exception as e:
+        app.logger.error(f"Error in detection loop: {e}", exc_info=True)
 
 log = logging.getLogger('werkzeug')
 log.setLevel(logging.DEBUG)
@@ -34,37 +40,24 @@ def index():
 
 @app.route("/run-script", methods=["POST"])
 def run_script():
-    global recording_thread
+    global recording_thread, selected_device_id
     if recording_thread and recording_thread.is_alive():
         return jsonify({"message": "Already running"}), 400
+
+    data = request.get_json()
+    selected_device_id = data.get("deviceId") if data else None
 
     recording_thread = threading.Thread(target=run_detection_loop)
     recording_thread.start()
     return jsonify({"message": "Recording started"}), 200
 
-
 @app.route("/stop", methods=["POST"])
 def stop_script():
-    try:
-        with open(STOP_FLAG_PATH, "w") as f:
-            f.write("stop")
-        app.logger.info("Stop flag with 'stop' created.")
-
-        if recording_thread:
-            app.logger.info("Waiting for recording thread to finish...")
-            recording_thread.join(timeout=5)
-            if recording_thread.is_alive():
-                app.logger.warning("Recording thread still alive after join timeout.")
-            else:
-                app.logger.info("Recording thread stopped successfully.")
-        else:
-            app.logger.info("No recording thread running.")
-
-        return jsonify({"message": "Recording stopped"}), 200
-    except Exception as e:
-        app.logger.error(f"Error creating stop flag: {e}")
-        return jsonify({"error": str(e)}), 500
-
+    global STOP_FLAG_PATH
+    with open(STOP_FLAG_PATH, "w") as f:
+        f.write("stop")
+    app.logger.info("Stop flag file created.")
+    return jsonify({"message": "Recording stopped."}), 200
 
 @app.route('/download-audio/<filename>', methods=['GET'])
 def download_audio(filename):
@@ -88,7 +81,6 @@ def predict():
     try:
         score = audio_processor.detect_brainrot()
 
-        # Check if score is a special flag indicating silence or invalid audio
         if score == -1:
             return jsonify({'status': 'waiting', 'message': 'Waiting for valid audio input...'}), 200
 
@@ -117,5 +109,14 @@ def get_latest_audio():
         app.logger.error(f"Error fetching latest audio: {e}")
         return jsonify({"error": str(e)}), 404
 
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5001, debug=True)
+
+    
+@app.route('/is-recording', methods=['GET'])
+def is_recording():
+    global recording_thread
+    status = bool(recording_thread and recording_thread.is_alive())
+    app.logger.info(f"Recording thread status checked: {'alive' if status else 'not running'}")
+    return jsonify({"is_recording": status}), 200
