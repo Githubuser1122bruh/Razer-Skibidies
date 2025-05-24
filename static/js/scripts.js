@@ -13,7 +13,7 @@ let visualizerActive = false;
 let audioCtx = null;
 let animationId = null;
 
-const BASE_URL = "http://127.0.0.1:5001";
+const BASE_URL = "";
 
 // --- Recording Start ---
 recordButton?.addEventListener("click", async () => {
