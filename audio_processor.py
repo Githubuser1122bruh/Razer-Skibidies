@@ -46,7 +46,7 @@ for i in input_devices:
     print(f"{i}: {devices[i]['name']}")
 
 if not isinstance(sd.default.device, (list, tuple)) or sd.default.device[0] is None:
-    sd.default.device = (input_devices[0], None)
+    sd.default.device = (input_devices[1], None)
 print(f"Using input device: {sd.default.device[0]} – {devices[sd.default.device[0]]['name']}")
 
 def scale_features(features):
