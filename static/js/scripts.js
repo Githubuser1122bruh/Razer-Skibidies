@@ -12,24 +12,26 @@ let controlsMuted = false;
 let visualizerActive = false;
 let audioCtx = null;
 let animationId = null;
+let isRecording = false;
 
-const BASE_URL = "";
+const BASE_URL = "http://127.0.0.1:5001";
 
 // --- Recording Start ---
 recordButton?.addEventListener("click", async () => {
     try {
-        // Ensure mic permissions are granted before proceeding
         const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-
-        // Optional: stop mic immediately after checking access
         stream.getTracks().forEach(track => track.stop());
 
-        // Only now tell the backend to start recording
         const response = await fetch(`${BASE_URL}/run-script`, { method: "POST" });
         if (!response.ok) throw new Error("Failed to start recording script");
 
         const data = await response.json();
         console.log(data.message);
+
+        isRecording = true;
+        resultLabel.innerText = "🎙️ Recording...";
+        resultLabel.style.color = "orange";
+
         alert("Recording Started");
     } catch (error) {
         console.error("Error starting recording:", error);
@@ -37,18 +39,20 @@ recordButton?.addEventListener("click", async () => {
     }
 });
 
-
 // --- Recording Stop ---
 recordStop?.addEventListener("click", async () => {
+    isRecording = false;
+    resultLabel.innerText = "🔴 Not recording";
+    resultLabel.style.color = "gray";
+
     try {
-        alert("Recording Stopped");
         const response = await fetch(`${BASE_URL}/stop`, { method: "POST" });
         if (!response.ok) throw new Error("Failed to stop recording");
         const data = await response.json();
         console.log(data.message);
-        resultLabel.innerText = "No data currently" + "⚠️ ";
     } catch (error) {
         console.error("Error stopping recording:", error);
+        errorMessage.innerText = "⚠️ " + error.message;
     }
 });
 
@@ -91,11 +95,16 @@ downloadAudio?.addEventListener("click", async () => {
 
 // --- Prediction Polling ---
 function updatePrediction() {
+    if (!isRecording) return;
+
     fetch(`${BASE_URL}/predict`)
         .then(res => res.json())
         .then(data => {
             if (data.error) {
                 resultLabel.textContent = "⚠️ Error: " + data.error;
+                resultLabel.style.color = "gray";
+            } else if (data.status === "waiting") {
+                resultLabel.textContent = "⏳ Waiting for audio...";
                 resultLabel.style.color = "gray";
             } else {
                 const score = data.score;

@@ -1,11 +1,12 @@
 from flask import Flask, jsonify, send_file, render_template
-import subprocess
 import logging
 from flask_cors import CORS
 import os
 import audio_processor
 import threading
-import time
+import multiprocessing
+
+multiprocessing.set_start_method("spawn", force=True)
 
 app = Flask(__name__)
 CORS(app)
@@ -18,13 +19,14 @@ logging.basicConfig(
     datefmt="%Y-%m-%d %H:%M:%S"
 )
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+STOP_FLAG_PATH = os.path.join(BASE_DIR, "stop_flag.txt")
+
 def run_detection_loop():
     audio_processor.main_loop()  # your long-running function
 
 log = logging.getLogger('werkzeug')
 log.setLevel(logging.DEBUG)
-
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 @app.route('/')
 def index():
@@ -43,9 +45,25 @@ def run_script():
 
 @app.route("/stop", methods=["POST"])
 def stop_script():
-    with open("stop_flag.txt", "w") as f:
-        f.write("stop")
-    return jsonify({"message": "Recording stopped"}), 200
+    try:
+        with open(STOP_FLAG_PATH, "w") as f:
+            f.write("stop")
+        app.logger.info("Stop flag with 'stop' created.")
+
+        if recording_thread:
+            app.logger.info("Waiting for recording thread to finish...")
+            recording_thread.join(timeout=5)
+            if recording_thread.is_alive():
+                app.logger.warning("Recording thread still alive after join timeout.")
+            else:
+                app.logger.info("Recording thread stopped successfully.")
+        else:
+            app.logger.info("No recording thread running.")
+
+        return jsonify({"message": "Recording stopped"}), 200
+    except Exception as e:
+        app.logger.error(f"Error creating stop flag: {e}")
+        return jsonify({"error": str(e)}), 500
 
 
 @app.route('/download-audio/<filename>', methods=['GET'])
@@ -69,6 +87,11 @@ def download_audio(filename):
 def predict():
     try:
         score = audio_processor.detect_brainrot()
+
+        # Check if score is a special flag indicating silence or invalid audio
+        if score == -1:
+            return jsonify({'status': 'waiting', 'message': 'Waiting for valid audio input...'}), 200
+
         label = "brainrot" if score > audio_processor.THRESHOLD else "normal"
         return jsonify({'score': round(score, 3), 'label': label})
     except Exception as e:
