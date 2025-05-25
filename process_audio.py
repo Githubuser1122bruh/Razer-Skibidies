@@ -11,15 +11,13 @@ import time
 try:
     base_dir = os.path.expanduser("~")
     recordings_dir = os.path.join(base_dir, "Razer-Skibidies", "recordings")
-    os.makedirs(recordings_dir, exist_ok=True) 
-    # Load the recorded audio
+    os.makedirs(recordings_dir, exist_ok=True)
+    
     audio_data = np.load("recorded_audio.npy")
     print("Loaded audio data:", audio_data)
 
-    # Convert the NumPy array to a format compatible with pydub
-    audio_data = (audio_data * 32767).astype(np.int16)  # Scale to 16-bit PCM format
+    audio_data = (audio_data * 32767).astype(np.int16)
     sample_rate = 44100
-
 
     audio_data = np.load("recorded_audio.npy")
     print("Loaded audio data:", audio_data)
@@ -30,7 +28,7 @@ try:
 
     sample_rate = 44100
 
-    plt.figure(figsize=(10,4))
+    plt.figure(figsize=(10, 4))
     librosa.display.waveshow(audio_data, sr=sample_rate)
     plt.title("waveform of recorded audio")
     plt.xlabel("time in seconds")
@@ -44,7 +42,7 @@ try:
     mfccs_normalized = scaler.fit_transform(mfccs.T)
     print("normalized mfccs shape", mfccs_normalized.shape)
 
-    plt.figure(figsize=(10,4))
+    plt.figure(figsize=(10, 4))
     librosa.display.specshow(mfccs, sr=sample_rate, x_axis="time", cmap="viridis")
     plt.colorbar(format="%+2.0f dB")
     plt.title("Waveform of audio recorded")
@@ -56,6 +54,6 @@ try:
     print("prepared data shape:", mfccs_normalized.shape)
 
 except FileNotFoundError:
-    print("no file found, please run the script again ")
+    print("no file found, please run the script again")
 except Exception as e:
     print("an error occured" + str(e))

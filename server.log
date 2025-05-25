@@ -3844,3 +3844,566 @@
 2025-05-11 13:44:35 [INFO] 127.0.0.1 - - [11/May/2025 13:44:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
 2025-05-11 13:44:35 [INFO] 127.0.0.1 - - [11/May/2025 13:44:35] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
 2025-05-11 13:44:37 [INFO] Running audio_processor.py script
+2025-05-24 20:27:30 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.19:5001
+2025-05-24 20:27:30 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-24 20:27:30 [INFO]  * Restarting with stat
+2025-05-24 20:27:30 [WARNING]  * Debugger is active!
+2025-05-24 20:27:30 [INFO]  * Debugger PIN: 130-251-583
+2025-05-24 20:27:30 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:27:30 [INFO] 127.0.0.1 - - [24/May/2025 20:27:30] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:27:33 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:27:33 [INFO] 127.0.0.1 - - [24/May/2025 20:27:33] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:27:36 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:27:36 [INFO] 127.0.0.1 - - [24/May/2025 20:27:36] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:27:39 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:27:39 [INFO] 127.0.0.1 - - [24/May/2025 20:27:39] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:27:42 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:27:42 [INFO] 127.0.0.1 - - [24/May/2025 20:27:42] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:27:44 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:27:44 [INFO] 127.0.0.1 - - [24/May/2025 20:27:44] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:27:45 [INFO] 127.0.0.1 - - [24/May/2025 20:27:45] "GET / HTTP/1.1" 200 -
+2025-05-24 20:27:46 [INFO] 127.0.0.1 - - [24/May/2025 20:27:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-24 20:27:46 [INFO] 127.0.0.1 - - [24/May/2025 20:27:46] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-05-24 20:27:49 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:27:49 [INFO] 127.0.0.1 - - [24/May/2025 20:27:49] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:27:52 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:27:52 [INFO] 127.0.0.1 - - [24/May/2025 20:27:52] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:27:53 [INFO] 127.0.0.1 - - [24/May/2025 20:27:53] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-24 20:27:55 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:27:55 [INFO] 127.0.0.1 - - [24/May/2025 20:27:55] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:27:58 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:27:58 [INFO] 127.0.0.1 - - [24/May/2025 20:27:58] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:27:58 [INFO] 127.0.0.1 - - [24/May/2025 20:27:58] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-24 20:27:58 [INFO] 127.0.0.1 - - [24/May/2025 20:27:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-24 20:28:01 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:28:01 [INFO] 127.0.0.1 - - [24/May/2025 20:28:01] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:28:04 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:28:04 [INFO] 127.0.0.1 - - [24/May/2025 20:28:04] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:28:07 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:28:07 [INFO] 127.0.0.1 - - [24/May/2025 20:28:07] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:28:10 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:28:10 [INFO] 127.0.0.1 - - [24/May/2025 20:28:10] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:28:13 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:28:13 [INFO] 127.0.0.1 - - [24/May/2025 20:28:13] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:28:16 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:28:16 [INFO] 127.0.0.1 - - [24/May/2025 20:28:16] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:28:19 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:28:19 [INFO] 127.0.0.1 - - [24/May/2025 20:28:19] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:28:22 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:28:22 [INFO] 127.0.0.1 - - [24/May/2025 20:28:22] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:28:25 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:28:25 [INFO] 127.0.0.1 - - [24/May/2025 20:28:25] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:28:28 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:28:28 [INFO] 127.0.0.1 - - [24/May/2025 20:28:28] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:28:31 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:28:31 [INFO] 127.0.0.1 - - [24/May/2025 20:28:31] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:28:34 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:28:34 [INFO] 127.0.0.1 - - [24/May/2025 20:28:34] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:28:37 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:28:37 [INFO] 127.0.0.1 - - [24/May/2025 20:28:37] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:28:40 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:28:40 [INFO] 127.0.0.1 - - [24/May/2025 20:28:40] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:28:43 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:28:43 [INFO] 127.0.0.1 - - [24/May/2025 20:28:43] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:28:46 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:28:46 [INFO] 127.0.0.1 - - [24/May/2025 20:28:46] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:28:49 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:28:49 [INFO] 127.0.0.1 - - [24/May/2025 20:28:49] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:28:52 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:28:52 [INFO] 127.0.0.1 - - [24/May/2025 20:28:52] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:28:55 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:28:55 [INFO] 127.0.0.1 - - [24/May/2025 20:28:55] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:28:58 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:28:58 [INFO] 127.0.0.1 - - [24/May/2025 20:28:58] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:29:01 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:29:01 [INFO] 127.0.0.1 - - [24/May/2025 20:29:01] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:29:04 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:29:04 [INFO] 127.0.0.1 - - [24/May/2025 20:29:04] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:29:07 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:29:07 [INFO] 127.0.0.1 - - [24/May/2025 20:29:07] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:29:10 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:29:10 [INFO] 127.0.0.1 - - [24/May/2025 20:29:10] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:29:13 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:29:13 [INFO] 127.0.0.1 - - [24/May/2025 20:29:13] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:29:16 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:29:16 [INFO] 127.0.0.1 - - [24/May/2025 20:29:16] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:29:19 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:29:19 [INFO] 127.0.0.1 - - [24/May/2025 20:29:19] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:29:22 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:29:22 [INFO] 127.0.0.1 - - [24/May/2025 20:29:22] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:29:25 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:29:25 [INFO] 127.0.0.1 - - [24/May/2025 20:29:25] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:29:28 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:29:28 [INFO] 127.0.0.1 - - [24/May/2025 20:29:28] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:29:31 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:29:31 [INFO] 127.0.0.1 - - [24/May/2025 20:29:31] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:29:34 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:29:34 [INFO] 127.0.0.1 - - [24/May/2025 20:29:34] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:29:37 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:29:37 [INFO] 127.0.0.1 - - [24/May/2025 20:29:37] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:29:40 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:29:40 [INFO] 127.0.0.1 - - [24/May/2025 20:29:40] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:29:43 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:29:43 [INFO] 127.0.0.1 - - [24/May/2025 20:29:43] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:29:46 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:29:46 [INFO] 127.0.0.1 - - [24/May/2025 20:29:46] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:29:49 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:29:49 [INFO] 127.0.0.1 - - [24/May/2025 20:29:49] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:29:52 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:29:52 [INFO] 127.0.0.1 - - [24/May/2025 20:29:52] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:29:55 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:29:55 [INFO] 127.0.0.1 - - [24/May/2025 20:29:55] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:29:58 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:29:58 [INFO] 127.0.0.1 - - [24/May/2025 20:29:58] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:30:01 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:30:01 [INFO] 127.0.0.1 - - [24/May/2025 20:30:01] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:30:04 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:30:04 [INFO] 127.0.0.1 - - [24/May/2025 20:30:04] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:30:07 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:30:07 [INFO] 127.0.0.1 - - [24/May/2025 20:30:07] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:30:10 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:30:10 [INFO] 127.0.0.1 - - [24/May/2025 20:30:10] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:30:13 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:30:13 [INFO] 127.0.0.1 - - [24/May/2025 20:30:13] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:30:16 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:30:16 [INFO] 127.0.0.1 - - [24/May/2025 20:30:16] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:30:19 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:30:19 [INFO] 127.0.0.1 - - [24/May/2025 20:30:19] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:30:22 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:30:22 [INFO] 127.0.0.1 - - [24/May/2025 20:30:22] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:30:25 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:30:25 [INFO] 127.0.0.1 - - [24/May/2025 20:30:25] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:30:28 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:30:28 [INFO] 127.0.0.1 - - [24/May/2025 20:30:28] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:30:31 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:30:31 [INFO] 127.0.0.1 - - [24/May/2025 20:30:31] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:30:34 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:30:34 [INFO] 127.0.0.1 - - [24/May/2025 20:30:34] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:30:37 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:30:37 [INFO] 127.0.0.1 - - [24/May/2025 20:30:37] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:30:40 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:30:40 [INFO] 127.0.0.1 - - [24/May/2025 20:30:40] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:30:43 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:30:43 [INFO] 127.0.0.1 - - [24/May/2025 20:30:43] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:30:46 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:30:46 [INFO] 127.0.0.1 - - [24/May/2025 20:30:46] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:30:49 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:30:49 [INFO] 127.0.0.1 - - [24/May/2025 20:30:49] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:30:52 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:30:52 [INFO] 127.0.0.1 - - [24/May/2025 20:30:52] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:30:55 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:30:55 [INFO] 127.0.0.1 - - [24/May/2025 20:30:55] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:30:58 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:30:58 [INFO] 127.0.0.1 - - [24/May/2025 20:30:58] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:31:01 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:31:01 [INFO] 127.0.0.1 - - [24/May/2025 20:31:01] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:31:04 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:31:04 [INFO] 127.0.0.1 - - [24/May/2025 20:31:04] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:31:07 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:31:07 [INFO] 127.0.0.1 - - [24/May/2025 20:31:07] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:31:10 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:31:10 [INFO] 127.0.0.1 - - [24/May/2025 20:31:10] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:31:13 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:31:13 [INFO] 127.0.0.1 - - [24/May/2025 20:31:13] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:31:16 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:31:16 [INFO] 127.0.0.1 - - [24/May/2025 20:31:16] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:31:19 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:31:19 [INFO] 127.0.0.1 - - [24/May/2025 20:31:19] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:31:22 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:31:22 [INFO] 127.0.0.1 - - [24/May/2025 20:31:22] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:31:25 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:31:25 [INFO] 127.0.0.1 - - [24/May/2025 20:31:25] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:31:28 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:31:28 [INFO] 127.0.0.1 - - [24/May/2025 20:31:28] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:31:31 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:31:31 [INFO] 127.0.0.1 - - [24/May/2025 20:31:31] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:31:34 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:31:34 [INFO] 127.0.0.1 - - [24/May/2025 20:31:34] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:31:37 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:31:37 [INFO] 127.0.0.1 - - [24/May/2025 20:31:37] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:31:40 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:31:40 [INFO] 127.0.0.1 - - [24/May/2025 20:31:40] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:31:43 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:31:43 [INFO] 127.0.0.1 - - [24/May/2025 20:31:43] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:31:46 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:31:46 [INFO] 127.0.0.1 - - [24/May/2025 20:31:46] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:31:49 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:31:49 [INFO] 127.0.0.1 - - [24/May/2025 20:31:49] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:31:52 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:31:52 [INFO] 127.0.0.1 - - [24/May/2025 20:31:52] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:31:55 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:31:55 [INFO] 127.0.0.1 - - [24/May/2025 20:31:55] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:31:58 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:31:58 [INFO] 127.0.0.1 - - [24/May/2025 20:31:58] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:32:01 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:32:01 [INFO] 127.0.0.1 - - [24/May/2025 20:32:01] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:32:04 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:32:04 [INFO] 127.0.0.1 - - [24/May/2025 20:32:04] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:32:07 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:32:07 [INFO] 127.0.0.1 - - [24/May/2025 20:32:07] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:32:10 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:32:10 [INFO] 127.0.0.1 - - [24/May/2025 20:32:10] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:32:13 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:32:13 [INFO] 127.0.0.1 - - [24/May/2025 20:32:13] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:32:16 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:32:16 [INFO] 127.0.0.1 - - [24/May/2025 20:32:16] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:32:19 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:32:19 [INFO] 127.0.0.1 - - [24/May/2025 20:32:19] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:32:22 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:32:22 [INFO] 127.0.0.1 - - [24/May/2025 20:32:22] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:32:25 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:32:25 [INFO] 127.0.0.1 - - [24/May/2025 20:32:25] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:32:28 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:32:28 [INFO] 127.0.0.1 - - [24/May/2025 20:32:28] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:32:31 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:32:31 [INFO] 127.0.0.1 - - [24/May/2025 20:32:31] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:32:34 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:32:34 [INFO] 127.0.0.1 - - [24/May/2025 20:32:34] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:32:37 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:32:37 [INFO] 127.0.0.1 - - [24/May/2025 20:32:37] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:32:40 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:32:40 [INFO] 127.0.0.1 - - [24/May/2025 20:32:40] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:32:43 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:32:43 [INFO] 127.0.0.1 - - [24/May/2025 20:32:43] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:32:46 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:32:46 [INFO] 127.0.0.1 - - [24/May/2025 20:32:46] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:32:49 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:32:49 [INFO] 127.0.0.1 - - [24/May/2025 20:32:49] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:32:52 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:32:52 [INFO] 127.0.0.1 - - [24/May/2025 20:32:52] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:32:55 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:32:55 [INFO] 127.0.0.1 - - [24/May/2025 20:32:55] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:32:58 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:32:58 [INFO] 127.0.0.1 - - [24/May/2025 20:32:58] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:33:01 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:33:01 [INFO] 127.0.0.1 - - [24/May/2025 20:33:01] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:33:04 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:33:04 [INFO] 127.0.0.1 - - [24/May/2025 20:33:04] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:33:07 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:33:07 [INFO] 127.0.0.1 - - [24/May/2025 20:33:07] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:33:10 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:33:10 [INFO] 127.0.0.1 - - [24/May/2025 20:33:10] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:33:13 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:33:13 [INFO] 127.0.0.1 - - [24/May/2025 20:33:13] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:33:16 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:33:16 [INFO] 127.0.0.1 - - [24/May/2025 20:33:16] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:33:19 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:33:19 [INFO] 127.0.0.1 - - [24/May/2025 20:33:19] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:33:22 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:33:22 [INFO] 127.0.0.1 - - [24/May/2025 20:33:22] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:33:25 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:33:25 [INFO] 127.0.0.1 - - [24/May/2025 20:33:25] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:33:28 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:33:28 [INFO] 127.0.0.1 - - [24/May/2025 20:33:28] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:33:31 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:33:31 [INFO] 127.0.0.1 - - [24/May/2025 20:33:31] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:33:34 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:33:34 [INFO] 127.0.0.1 - - [24/May/2025 20:33:34] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:33:37 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:33:37 [INFO] 127.0.0.1 - - [24/May/2025 20:33:37] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:33:40 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:33:40 [INFO] 127.0.0.1 - - [24/May/2025 20:33:40] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:33:43 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:33:43 [INFO] 127.0.0.1 - - [24/May/2025 20:33:43] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:33:46 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:33:46 [INFO] 127.0.0.1 - - [24/May/2025 20:33:46] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:33:49 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:33:49 [INFO] 127.0.0.1 - - [24/May/2025 20:33:49] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:33:52 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:33:52 [INFO] 127.0.0.1 - - [24/May/2025 20:33:52] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:33:55 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:33:55 [INFO] 127.0.0.1 - - [24/May/2025 20:33:55] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:33:58 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:33:58 [INFO] 127.0.0.1 - - [24/May/2025 20:33:58] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:34:01 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:34:01 [INFO] 127.0.0.1 - - [24/May/2025 20:34:01] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:34:04 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:34:04 [INFO] 127.0.0.1 - - [24/May/2025 20:34:04] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:34:07 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:34:07 [INFO] 127.0.0.1 - - [24/May/2025 20:34:07] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:34:10 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:34:10 [INFO] 127.0.0.1 - - [24/May/2025 20:34:10] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:34:13 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:34:13 [INFO] 127.0.0.1 - - [24/May/2025 20:34:13] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:34:16 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:34:16 [INFO] 127.0.0.1 - - [24/May/2025 20:34:16] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:34:19 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:34:19 [INFO] 127.0.0.1 - - [24/May/2025 20:34:19] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:34:22 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:34:22 [INFO] 127.0.0.1 - - [24/May/2025 20:34:22] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:34:25 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:34:25 [INFO] 127.0.0.1 - - [24/May/2025 20:34:25] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:34:28 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:34:28 [INFO] 127.0.0.1 - - [24/May/2025 20:34:28] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:34:31 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:34:31 [INFO] 127.0.0.1 - - [24/May/2025 20:34:31] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:34:34 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:34:34 [INFO] 127.0.0.1 - - [24/May/2025 20:34:34] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:34:37 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:34:37 [INFO] 127.0.0.1 - - [24/May/2025 20:34:37] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:34:40 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:34:40 [INFO] 127.0.0.1 - - [24/May/2025 20:34:40] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:34:43 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:34:43 [INFO] 127.0.0.1 - - [24/May/2025 20:34:43] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:34:46 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:34:46 [INFO] 127.0.0.1 - - [24/May/2025 20:34:46] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:34:49 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:34:49 [INFO] 127.0.0.1 - - [24/May/2025 20:34:49] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:34:52 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:34:52 [INFO] 127.0.0.1 - - [24/May/2025 20:34:52] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:34:55 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:34:55 [INFO] 127.0.0.1 - - [24/May/2025 20:34:55] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:34:58 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:34:58 [INFO] 127.0.0.1 - - [24/May/2025 20:34:58] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:35:01 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:35:01 [INFO] 127.0.0.1 - - [24/May/2025 20:35:01] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:35:04 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:35:04 [INFO] 127.0.0.1 - - [24/May/2025 20:35:04] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:35:07 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:35:07 [INFO] 127.0.0.1 - - [24/May/2025 20:35:07] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:35:10 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:35:10 [INFO] 127.0.0.1 - - [24/May/2025 20:35:10] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:35:13 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:35:13 [INFO] 127.0.0.1 - - [24/May/2025 20:35:13] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:35:16 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:35:16 [INFO] 127.0.0.1 - - [24/May/2025 20:35:16] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:35:19 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:35:19 [INFO] 127.0.0.1 - - [24/May/2025 20:35:19] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:35:22 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:35:22 [INFO] 127.0.0.1 - - [24/May/2025 20:35:22] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:35:25 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:35:25 [INFO] 127.0.0.1 - - [24/May/2025 20:35:25] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:35:28 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:35:28 [INFO] 127.0.0.1 - - [24/May/2025 20:35:28] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:35:31 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:35:31 [INFO] 127.0.0.1 - - [24/May/2025 20:35:31] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:35:34 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:35:34 [INFO] 127.0.0.1 - - [24/May/2025 20:35:34] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:35:37 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:35:37 [INFO] 127.0.0.1 - - [24/May/2025 20:35:37] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:35:40 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:35:40 [INFO] 127.0.0.1 - - [24/May/2025 20:35:40] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:35:43 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:35:43 [INFO] 127.0.0.1 - - [24/May/2025 20:35:43] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:35:46 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:35:46 [INFO] 127.0.0.1 - - [24/May/2025 20:35:46] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:35:49 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:35:49 [INFO] 127.0.0.1 - - [24/May/2025 20:35:49] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:35:52 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:35:52 [INFO] 127.0.0.1 - - [24/May/2025 20:35:52] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:35:55 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:35:55 [INFO] 127.0.0.1 - - [24/May/2025 20:35:55] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:35:58 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:35:58 [INFO] 127.0.0.1 - - [24/May/2025 20:35:58] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:36:01 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:36:01 [INFO] 127.0.0.1 - - [24/May/2025 20:36:01] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:36:04 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:36:04 [INFO] 127.0.0.1 - - [24/May/2025 20:36:04] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:36:07 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:36:07 [INFO] 127.0.0.1 - - [24/May/2025 20:36:07] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:36:10 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:36:10 [INFO] 127.0.0.1 - - [24/May/2025 20:36:10] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:36:13 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:36:13 [INFO] 127.0.0.1 - - [24/May/2025 20:36:13] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:36:16 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:36:16 [INFO] 127.0.0.1 - - [24/May/2025 20:36:16] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:36:19 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:36:19 [INFO] 127.0.0.1 - - [24/May/2025 20:36:19] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:36:22 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:36:22 [INFO] 127.0.0.1 - - [24/May/2025 20:36:22] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:36:25 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:36:25 [INFO] 127.0.0.1 - - [24/May/2025 20:36:25] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:36:28 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:36:28 [INFO] 127.0.0.1 - - [24/May/2025 20:36:28] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:36:31 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:36:31 [INFO] 127.0.0.1 - - [24/May/2025 20:36:31] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:36:34 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:36:34 [INFO] 127.0.0.1 - - [24/May/2025 20:36:34] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:36:37 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:36:37 [INFO] 127.0.0.1 - - [24/May/2025 20:36:37] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:36:40 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:36:40 [INFO] 127.0.0.1 - - [24/May/2025 20:36:40] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:36:43 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:36:43 [INFO] 127.0.0.1 - - [24/May/2025 20:36:43] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:36:46 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:36:46 [INFO] 127.0.0.1 - - [24/May/2025 20:36:46] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:36:49 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:36:49 [INFO] 127.0.0.1 - - [24/May/2025 20:36:49] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:36:52 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:36:52 [INFO] 127.0.0.1 - - [24/May/2025 20:36:52] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:36:55 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:36:55 [INFO] 127.0.0.1 - - [24/May/2025 20:36:55] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:36:58 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:36:58 [INFO] 127.0.0.1 - - [24/May/2025 20:36:58] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:37:01 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:37:01 [INFO] 127.0.0.1 - - [24/May/2025 20:37:01] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:37:04 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:37:04 [INFO] 127.0.0.1 - - [24/May/2025 20:37:04] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:37:07 [ERROR] Prediction error: module 'audio_processor' has no attribute 'detect_brainrot'
+2025-05-24 20:37:07 [INFO] 127.0.0.1 - - [24/May/2025 20:37:07] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-05-24 20:37:07 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/main.py', reloading
+2025-05-24 20:37:07 [INFO]  * Restarting with stat
+2025-05-24 20:37:07 [WARNING]  * Debugger is active!
+2025-05-24 20:37:07 [INFO]  * Debugger PIN: 130-251-583
+2025-05-24 20:37:10 [INFO] 127.0.0.1 - - [24/May/2025 20:37:10] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:37:13 [INFO] 127.0.0.1 - - [24/May/2025 20:37:13] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:37:16 [INFO] 127.0.0.1 - - [24/May/2025 20:37:16] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:37:19 [INFO] 127.0.0.1 - - [24/May/2025 20:37:19] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:37:22 [INFO] 127.0.0.1 - - [24/May/2025 20:37:22] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:37:25 [INFO] 127.0.0.1 - - [24/May/2025 20:37:25] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:37:28 [INFO] 127.0.0.1 - - [24/May/2025 20:37:28] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:37:31 [INFO] 127.0.0.1 - - [24/May/2025 20:37:31] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:37:34 [INFO] 127.0.0.1 - - [24/May/2025 20:37:34] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:37:37 [INFO] 127.0.0.1 - - [24/May/2025 20:37:37] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:37:40 [INFO] 127.0.0.1 - - [24/May/2025 20:37:40] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:37:43 [INFO] 127.0.0.1 - - [24/May/2025 20:37:43] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:37:46 [INFO] 127.0.0.1 - - [24/May/2025 20:37:46] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:37:49 [INFO] 127.0.0.1 - - [24/May/2025 20:37:49] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:37:52 [INFO] 127.0.0.1 - - [24/May/2025 20:37:52] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:37:55 [INFO] 127.0.0.1 - - [24/May/2025 20:37:55] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:37:58 [INFO] 127.0.0.1 - - [24/May/2025 20:37:58] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:38:01 [INFO] 127.0.0.1 - - [24/May/2025 20:38:01] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:38:04 [INFO] 127.0.0.1 - - [24/May/2025 20:38:04] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:38:07 [INFO] 127.0.0.1 - - [24/May/2025 20:38:07] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:38:10 [INFO] 127.0.0.1 - - [24/May/2025 20:38:10] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:38:13 [INFO] 127.0.0.1 - - [24/May/2025 20:38:13] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:38:16 [INFO] 127.0.0.1 - - [24/May/2025 20:38:16] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:38:19 [INFO] 127.0.0.1 - - [24/May/2025 20:38:19] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:38:22 [INFO] 127.0.0.1 - - [24/May/2025 20:38:22] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:38:25 [INFO] 127.0.0.1 - - [24/May/2025 20:38:25] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:38:28 [INFO] 127.0.0.1 - - [24/May/2025 20:38:28] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:38:31 [INFO] 127.0.0.1 - - [24/May/2025 20:38:31] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:38:34 [INFO] 127.0.0.1 - - [24/May/2025 20:38:34] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:38:37 [INFO] 127.0.0.1 - - [24/May/2025 20:38:37] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:38:40 [INFO] 127.0.0.1 - - [24/May/2025 20:38:40] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:38:43 [INFO] 127.0.0.1 - - [24/May/2025 20:38:43] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:38:46 [INFO] 127.0.0.1 - - [24/May/2025 20:38:46] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:38:49 [INFO] 127.0.0.1 - - [24/May/2025 20:38:49] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:38:52 [INFO] 127.0.0.1 - - [24/May/2025 20:38:52] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:38:55 [INFO] 127.0.0.1 - - [24/May/2025 20:38:55] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:38:58 [INFO] 127.0.0.1 - - [24/May/2025 20:38:58] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:39:01 [INFO] 127.0.0.1 - - [24/May/2025 20:39:01] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:39:04 [INFO] 127.0.0.1 - - [24/May/2025 20:39:04] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:39:07 [INFO] 127.0.0.1 - - [24/May/2025 20:39:07] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:39:10 [INFO] 127.0.0.1 - - [24/May/2025 20:39:10] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:39:13 [INFO] 127.0.0.1 - - [24/May/2025 20:39:13] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:39:16 [INFO] 127.0.0.1 - - [24/May/2025 20:39:16] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:39:19 [INFO] 127.0.0.1 - - [24/May/2025 20:39:19] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:39:22 [INFO] 127.0.0.1 - - [24/May/2025 20:39:22] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:39:25 [INFO] 127.0.0.1 - - [24/May/2025 20:39:25] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:39:28 [INFO] 127.0.0.1 - - [24/May/2025 20:39:28] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:39:31 [INFO] 127.0.0.1 - - [24/May/2025 20:39:31] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:39:34 [INFO] 127.0.0.1 - - [24/May/2025 20:39:34] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:39:37 [INFO] 127.0.0.1 - - [24/May/2025 20:39:37] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:39:40 [INFO] 127.0.0.1 - - [24/May/2025 20:39:40] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:39:43 [INFO] 127.0.0.1 - - [24/May/2025 20:39:43] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:39:46 [INFO] 127.0.0.1 - - [24/May/2025 20:39:46] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:39:49 [INFO] 127.0.0.1 - - [24/May/2025 20:39:49] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:39:52 [INFO] 127.0.0.1 - - [24/May/2025 20:39:52] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:39:55 [INFO] 127.0.0.1 - - [24/May/2025 20:39:55] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:39:58 [INFO] 127.0.0.1 - - [24/May/2025 20:39:58] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:40:01 [INFO] 127.0.0.1 - - [24/May/2025 20:40:01] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:40:04 [INFO] 127.0.0.1 - - [24/May/2025 20:40:04] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:40:07 [INFO] 127.0.0.1 - - [24/May/2025 20:40:07] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:40:10 [INFO] 127.0.0.1 - - [24/May/2025 20:40:10] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:40:13 [INFO] 127.0.0.1 - - [24/May/2025 20:40:13] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:40:16 [INFO] 127.0.0.1 - - [24/May/2025 20:40:16] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:40:19 [INFO] 127.0.0.1 - - [24/May/2025 20:40:19] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:40:22 [INFO] 127.0.0.1 - - [24/May/2025 20:40:22] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:40:25 [INFO] 127.0.0.1 - - [24/May/2025 20:40:25] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:40:28 [INFO] 127.0.0.1 - - [24/May/2025 20:40:28] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:40:31 [INFO] 127.0.0.1 - - [24/May/2025 20:40:31] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:40:34 [INFO] 127.0.0.1 - - [24/May/2025 20:40:34] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:40:37 [INFO] 127.0.0.1 - - [24/May/2025 20:40:37] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:40:40 [INFO] 127.0.0.1 - - [24/May/2025 20:40:40] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:40:43 [INFO] 127.0.0.1 - - [24/May/2025 20:40:43] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:40:46 [INFO] 127.0.0.1 - - [24/May/2025 20:40:46] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:40:49 [INFO] 127.0.0.1 - - [24/May/2025 20:40:49] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:40:52 [INFO] 127.0.0.1 - - [24/May/2025 20:40:52] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:40:55 [INFO] 127.0.0.1 - - [24/May/2025 20:40:55] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:40:58 [INFO] 127.0.0.1 - - [24/May/2025 20:40:58] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:41:01 [INFO] 127.0.0.1 - - [24/May/2025 20:41:01] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:41:04 [INFO] 127.0.0.1 - - [24/May/2025 20:41:04] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:41:07 [INFO] 127.0.0.1 - - [24/May/2025 20:41:07] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:41:10 [INFO] 127.0.0.1 - - [24/May/2025 20:41:10] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:41:13 [INFO] 127.0.0.1 - - [24/May/2025 20:41:13] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:41:16 [INFO] 127.0.0.1 - - [24/May/2025 20:41:16] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:41:19 [INFO] 127.0.0.1 - - [24/May/2025 20:41:19] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:41:22 [INFO] 127.0.0.1 - - [24/May/2025 20:41:22] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:41:25 [INFO] 127.0.0.1 - - [24/May/2025 20:41:25] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:41:28 [INFO] 127.0.0.1 - - [24/May/2025 20:41:28] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:41:31 [INFO] 127.0.0.1 - - [24/May/2025 20:41:31] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:41:34 [INFO] 127.0.0.1 - - [24/May/2025 20:41:34] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:41:37 [INFO] 127.0.0.1 - - [24/May/2025 20:41:37] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:41:40 [INFO] 127.0.0.1 - - [24/May/2025 20:41:40] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:41:43 [INFO] 127.0.0.1 - - [24/May/2025 20:41:43] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:41:46 [INFO] 127.0.0.1 - - [24/May/2025 20:41:46] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:41:49 [INFO] 127.0.0.1 - - [24/May/2025 20:41:49] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:41:52 [INFO] 127.0.0.1 - - [24/May/2025 20:41:52] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:41:55 [INFO] 127.0.0.1 - - [24/May/2025 20:41:55] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:41:58 [INFO] 127.0.0.1 - - [24/May/2025 20:41:58] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:42:01 [INFO] 127.0.0.1 - - [24/May/2025 20:42:01] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:42:04 [INFO] 127.0.0.1 - - [24/May/2025 20:42:04] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:42:07 [INFO] 127.0.0.1 - - [24/May/2025 20:42:07] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:42:10 [INFO] 127.0.0.1 - - [24/May/2025 20:42:10] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:42:13 [INFO] 127.0.0.1 - - [24/May/2025 20:42:13] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:42:16 [INFO] 127.0.0.1 - - [24/May/2025 20:42:16] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:42:19 [INFO] 127.0.0.1 - - [24/May/2025 20:42:19] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:42:22 [INFO] 127.0.0.1 - - [24/May/2025 20:42:22] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:42:25 [INFO] 127.0.0.1 - - [24/May/2025 20:42:25] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:42:28 [INFO] 127.0.0.1 - - [24/May/2025 20:42:28] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:42:31 [INFO] 127.0.0.1 - - [24/May/2025 20:42:31] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:42:34 [INFO] 127.0.0.1 - - [24/May/2025 20:42:34] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:42:37 [INFO] 127.0.0.1 - - [24/May/2025 20:42:37] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:42:40 [INFO] 127.0.0.1 - - [24/May/2025 20:42:40] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:42:43 [INFO] 127.0.0.1 - - [24/May/2025 20:42:43] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:42:46 [INFO] 127.0.0.1 - - [24/May/2025 20:42:46] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:42:49 [INFO] 127.0.0.1 - - [24/May/2025 20:42:49] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:42:52 [INFO] 127.0.0.1 - - [24/May/2025 20:42:52] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:42:55 [INFO] 127.0.0.1 - - [24/May/2025 20:42:55] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:42:58 [INFO] 127.0.0.1 - - [24/May/2025 20:42:58] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:43:01 [INFO] 127.0.0.1 - - [24/May/2025 20:43:01] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:43:04 [INFO] 127.0.0.1 - - [24/May/2025 20:43:04] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:43:07 [INFO] 127.0.0.1 - - [24/May/2025 20:43:07] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:43:10 [INFO] 127.0.0.1 - - [24/May/2025 20:43:10] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:43:13 [INFO] 127.0.0.1 - - [24/May/2025 20:43:13] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:43:16 [INFO] 127.0.0.1 - - [24/May/2025 20:43:16] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:43:19 [INFO] 127.0.0.1 - - [24/May/2025 20:43:19] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:43:22 [INFO] 127.0.0.1 - - [24/May/2025 20:43:22] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:43:25 [INFO] 127.0.0.1 - - [24/May/2025 20:43:25] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-05-24 20:43:26 [INFO] 127.0.0.1 - - [24/May/2025 20:43:26] "GET / HTTP/1.1" 200 -
+2025-05-24 20:43:27 [INFO] 127.0.0.1 - - [24/May/2025 20:43:27] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-24 20:43:27 [INFO] 127.0.0.1 - - [24/May/2025 20:43:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-24 20:43:27 [INFO] 127.0.0.1 - - [24/May/2025 20:43:27] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-05-24 20:43:33 [INFO] 127.0.0.1 - - [24/May/2025 20:43:33] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-05-24 20:43:41 [INFO] 127.0.0.1 - - [24/May/2025 20:43:41] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-05-24 20:43:46 [INFO] 127.0.0.1 - - [24/May/2025 20:43:46] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-24 20:43:46 [INFO] 127.0.0.1 - - [24/May/2025 20:43:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-24 20:44:31 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/main.py', reloading
+2025-05-24 20:44:31 [INFO]  * Restarting with stat
+2025-05-24 20:44:32 [WARNING]  * Debugger is active!
+2025-05-24 20:44:32 [INFO]  * Debugger PIN: 130-251-583
+2025-05-24 20:44:48 [INFO] 127.0.0.1 - - [24/May/2025 20:44:48] "GET / HTTP/1.1" 200 -
+2025-05-24 20:44:48 [INFO] 127.0.0.1 - - [24/May/2025 20:44:48] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-24 20:44:48 [INFO] 127.0.0.1 - - [24/May/2025 20:44:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-24 20:44:48 [INFO] 127.0.0.1 - - [24/May/2025 20:44:48] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-05-24 20:44:55 [ERROR] Error in /upload: module 'audio_processor' has no attribute 'predict_from_file'
+Traceback (most recent call last):
+  File "/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/main.py", line 50, in upload_audio
+    score = audio_processor.predict_from_file(filepath)
+AttributeError: module 'audio_processor' has no attribute 'predict_from_file'
+2025-05-24 20:44:55 [INFO] 127.0.0.1 - - [24/May/2025 20:44:55] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-05-24 20:56:53 [INFO] 127.0.0.1 - - [24/May/2025 20:56:53] "GET / HTTP/1.1" 200 -
+2025-05-24 20:56:53 [INFO] 127.0.0.1 - - [24/May/2025 20:56:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-24 20:56:53 [INFO] 127.0.0.1 - - [24/May/2025 20:56:53] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2025-05-24 20:56:55 [ERROR] Error in /upload: module 'audio_processor' has no attribute 'predict_from_file'
+Traceback (most recent call last):
+  File "/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/main.py", line 50, in upload_audio
+    score = audio_processor.predict_from_file(filepath)
+AttributeError: module 'audio_processor' has no attribute 'predict_from_file'
+2025-05-24 20:56:55 [INFO] 127.0.0.1 - - [24/May/2025 20:56:55] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-05-25 09:51:47 [INFO]  * Detected change in '/Users/samhithpola/Documents/GitHub/Razer-Skibidies#/audio_processor.py', reloading
+2025-05-25 09:51:47 [INFO]  * Restarting with stat

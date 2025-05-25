@@ -2,7 +2,6 @@ body {
     background: linear-gradient(to right, #6bc467, #1b7d19);
     margin: 0;
     padding: 20px;
-
     display: flex;
     flex-direction: column; 
     align-items: center;
@@ -56,11 +55,11 @@ button:hover {
 }
 
 canvas {
-        display:block;
-        margin: 40px auto; /* Center the canvas horizontally and add spacing above */
-        border: 2px solid rgb(158, 210, 210); /* Light teal border */
-        border-radius: 5px;
-        background-color: #a03e3e; /* Black background */
-        width: 300px; /* Fixed width */
-        height: 150px; /* Fixed height */
+    display: block;
+    margin: 40px auto;
+    border: 2px solid rgb(158, 210, 210);
+    border-radius: 5px;
+    background-color: #a03e3e;
+    width: 300px;
+    height: 150px;
 }

@@ -7,6 +7,7 @@ const canvas = document.getElementById("canvas");
 const startVisualizerButton = document.getElementById("startVisualizer");
 const stopVisualizerButton = document.getElementById("stopVisualizer");
 const resultLabel = document.getElementById("resultLabel");
+const realtimeStatusLabel = document.getElementById("realtimeStatusLabel");
 
 let controlsMuted = false;
 let visualizerActive = false;
@@ -14,80 +15,92 @@ let audioCtx = null;
 let animationId = null;
 
 const BASE_URL = "";
+const WS_URL = "ws://localhost:5001/ws/realtime-predictions";
 
-let selectedDeviceId = null;
+let mediaRecorder, recordedChunks = [];
+let realTimeWebSocket = null;
 
-// Create device selector dropdown
-navigator.mediaDevices.enumerateDevices().then(devices => {
-    const audioInputs = devices.filter(d => d.kind === 'audioinput');
-    const selector = document.createElement('select');
-    selector.id = "deviceSelector";
-    selector.style.margin = "10px";
+function updateResultLabel(text, color) {
+    resultLabel.textContent = text;
+    resultLabel.style.color = color;
+}
 
-    audioInputs.forEach((device, index) => {
-        const option = document.createElement("option");
-        option.value = device.deviceId;
-        option.textContent = device.label || `Microphone ${index + 1}`;
-        selector.appendChild(option);
-    });
+function updateErrorMessage(text) {
+    errorMessage.innerText = text;
+}
 
-    selector.addEventListener("change", () => {
-        selectedDeviceId = selector.value;
-        console.log("Selected device ID:", selectedDeviceId);
-    });
-
-    document.body.insertBefore(selector, document.body.firstChild);
-
-    if (audioInputs.length > 0) {
-        selectedDeviceId = audioInputs[0].deviceId;
+function updateRealtimeStatus(statusText, statusColor) {
+    if (realtimeStatusLabel) {
+        realtimeStatusLabel.textContent = `Real-time Analysis: ${statusText}`;
+        realtimeStatusLabel.style.color = statusColor;
     }
-});
+}
 
-// --- Recording Start ---
 recordButton?.addEventListener("click", async () => {
     try {
-        // Request mic permissions on selected device
-        const stream = await navigator.mediaDevices.getUserMedia({ audio: { deviceId: selectedDeviceId } });
+        stopRealtimeDetection();
+        updateRealtimeStatus("Stopped", "gray");
 
-        // Stop tracks immediately (we just want permission)
-        stream.getTracks().forEach(track => track.stop());
+        const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+        mediaRecorder = new MediaRecorder(stream);
+        recordedChunks = [];
 
-        // Tell backend to start recording with selected device
-        const response = await fetch(`${BASE_URL}/run-script`, {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ deviceId: selectedDeviceId })
-        });
-        if (!response.ok) throw new Error("Failed to start recording script");
+        mediaRecorder.ondataavailable = event => {
+            if (event.data.size > 0) recordedChunks.push(event.data);
+        };
 
-        const data = await response.json();
-        console.log(data.message);
-        alert("Recording Started");
-        resultLabel.textContent = "Recording...";
-        resultLabel.style.color = "green";
-    } catch (error) {
-        console.error("Error starting recording:", error);
-        errorMessage.innerText = "⚠️ Could not start recording: " + error.message;
+        mediaRecorder.onstop = async () => {
+            const blob = new Blob(recordedChunks, { type: "audio/webm" });
+            const formData = new FormData();
+            formData.append("audio", blob, "recording.webm");
+
+            updateResultLabel("Analyzing...", "orange");
+
+            try {
+                const response = await fetch(`${BASE_URL}/upload`, {
+                    method: "POST",
+                    body: formData
+                });
+
+                if (!response.ok) {
+                    const text = await response.text();
+                    throw new Error(`Server error: ${text}`);
+                }
+
+                const data = await response.json();
+
+                if (data.error) {
+                    updateResultLabel("⚠️ Error: " + data.error, "gray");
+                } else {
+                    const { score, label } = data;
+                    updateResultLabel(
+                        label === "brainrot" ?
+                        `🧠 Your brain is ROTTING (${score})` :
+                        `✅ No brainrot your good for now... (${score})`,
+                        label === "brainrot" ? "red" : "green"
+                    );
+                }
+            } catch (error) {
+                updateResultLabel("⚠️ " + error.message, "gray");
+                console.error("Upload error:", error);
+            }
+        };
+
+        mediaRecorder.start();
+        updateResultLabel("Recording...", "green");
+    } catch (err) {
+        console.error("Mic access error:", err);
+        updateErrorMessage("Mic access blocked or unavailable.");
     }
 });
 
-// --- Recording Stop ---
-recordStop?.addEventListener("click", async () => {
-    try {
-        alert("Recording Stopped");
-        const response = await fetch(`${BASE_URL}/stop`, { method: "POST" });
-        if (!response.ok) throw new Error("Failed to stop recording");
-        const data = await response.json();
-        console.log(data.message);
-        resultLabel.textContent = "Not Recording";
-        resultLabel.style.color = "gray";
-    } catch (error) {
-        console.error("Error stopping recording:", error);
-        errorMessage.innerText = "⚠️ Could not stop recording: " + error.message;
+recordStop?.addEventListener("click", () => {
+    if (mediaRecorder && mediaRecorder.state !== "inactive") {
+        mediaRecorder.stop();
+        updateResultLabel("Analyzing...", "orange");
     }
 });
 
-// --- Mute / Unmute Controls ---
 muteButton?.addEventListener("click", () => {
     controlsMuted = !controlsMuted;
     recordButton.disabled = controlsMuted;
@@ -98,17 +111,32 @@ muteButton?.addEventListener("click", () => {
         btn.style.backgroundColor = controlsMuted ? "#778275" : "#3d7340";
         btn.style.cursor = controlsMuted ? "default" : "pointer";
     });
+
+    if (controlsMuted) {
+        stopRealtimeDetection();
+        stopVisualizer();
+        updateRealtimeStatus("Stopped (Muted)", "gray");
+    }
 });
 
-// --- Download Latest Audio ---
 downloadAudio?.addEventListener("click", async () => {
     try {
         const response = await fetch(`${BASE_URL}/get-latest-audio`);
-        if (!response.ok) throw new Error("No recent audio to download.");
+        if (!response.ok) {
+            const errorText = await response.text();
+            throw new Error(`Server error getting latest audio: ${errorText}`);
+        }
 
         const { filename } = await response.json();
+        if (!filename) {
+            throw new Error("No recent audio to download.");
+        }
+
         const audioResponse = await fetch(`${BASE_URL}/download-audio/${filename}`);
-        if (!audioResponse.ok) throw new Error("Audio file not found on server.");
+        if (!audioResponse.ok) {
+            const errorText = await audioResponse.text();
+            throw new Error(`Audio file not found on server or download failed: ${errorText}`);
+        }
 
         const blob = await audioResponse.blob();
         const url = window.URL.createObjectURL(blob);
@@ -118,42 +146,14 @@ downloadAudio?.addEventListener("click", async () => {
         document.body.appendChild(a);
         a.click();
         a.remove();
+        window.URL.revokeObjectURL(url);
+        updateErrorMessage("");
     } catch (error) {
         console.error("Download failed:", error);
-        errorMessage.innerText = "⚠️ " + error.message;
+        updateErrorMessage("⚠️ " + error.message);
     }
 });
 
-// --- Prediction Polling ---
-function updatePrediction() {
-    fetch(`${BASE_URL}/predict`)
-        .then(res => res.json())
-        .then(data => {
-            if (data.status === "waiting") {
-                resultLabel.textContent = "⏳ Waiting for audio input...";
-                resultLabel.style.color = "gray";
-            } else if (data.error) {
-                resultLabel.textContent = "⚠️ Error: " + data.error;
-                resultLabel.style.color = "gray";
-            } else {
-                const score = data.score;
-                if (score > 0.5) {  // threshold set to 0.5
-                    resultLabel.textContent = `🧠 You have brainrot (${score.toFixed(2)})`;
-                    resultLabel.style.color = "red";
-                } else {
-                    resultLabel.textContent = `✅ No brainrot detected (${score.toFixed(2)})`;
-                    resultLabel.style.color = "green";
-                }
-            }
-        })
-        .catch(() => {
-            resultLabel.textContent = "⚠️ Error fetching prediction";
-            resultLabel.style.color = "gray";
-        });
-}
-setInterval(updatePrediction, 3000);
-
-// --- Visualizer Logic ---
 function getCanvasContext() {
     if (!canvas) return null;
     return canvas.getContext("2d");
@@ -165,6 +165,8 @@ function startVisualizer() {
 
     canvas.width = window.innerWidth;
     canvas.height = 200;
+
+    if (visualizerActive) return;
 
     navigator.mediaDevices.getUserMedia({ audio: true }).then(stream => {
         audioCtx = audioCtx || new (window.AudioContext || window.webkitAudioContext)();
@@ -202,9 +204,11 @@ function startVisualizer() {
         }
 
         draw();
+        updateErrorMessage("");
     }).catch(err => {
-        console.error("Microphone access error:", err);
-        errorMessage.innerText = "Mic access blocked or unavailable.";
+        console.error("Microphone access error for visualizer:", err);
+        updateErrorMessage("Mic access blocked or unavailable for visualizer.");
+        visualizerActive = false;
     });
 }
 
@@ -212,13 +216,90 @@ function stopVisualizer() {
     const ctx = getCanvasContext();
     if (!ctx) return;
 
+    if (!visualizerActive) return;
+
     visualizerActive = false;
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     cancelAnimationFrame(animationId);
+    if (audioCtx) {
+        audioCtx.close().then(() => {
+            audioCtx = null;
+        });
+    }
 }
 
-// --- DOM Setup ---
+function startRealtimeDetection() {
+    if (realTimeWebSocket && realTimeWebSocket.readyState === WebSocket.OPEN) {
+        console.log("Real-time detection already active.");
+        return;
+    }
+
+    updateRealtimeStatus("Connecting...", "orange");
+    updateResultLabel("Listening for brainrot...", "purple");
+
+    realTimeWebSocket = new WebSocket(WS_URL);
+
+    realTimeWebSocket.onopen = (event) => {
+        console.log("WebSocket opened:", event);
+        updateRealtimeStatus("Active", "green");
+        updateErrorMessage("");
+    };
+
+    realTimeWebSocket.onmessage = (event) => {
+        try {
+            const data = JSON.parse(event.data);
+            if (data.error) {
+                updateResultLabel("⚠️ Real-time Error: " + data.error, "gray");
+                console.error("Real-time detection error:", data.error);
+            } else {
+                const { score, label } = data;
+                updateResultLabel(
+                    label === "brainrot" ?
+                    `🧠 LIVE: Brainrot Detected (${score})` :
+                    `✅ LIVE: No brainrot (${score})`,
+                    label === "brainrot" ? "red" : "green"
+                );
+            }
+        } catch (e) {
+            console.error("Failed to parse WebSocket message:", e, event.data);
+            updateResultLabel("⚠️ Live Data Error", "gray");
+        }
+    };
+
+    realTimeWebSocket.onclose = (event) => {
+        console.log("WebSocket closed:", event);
+        updateRealtimeStatus("Stopped", "gray");
+        updateResultLabel("Real-time analysis stopped.", "gray");
+        realTimeWebSocket = null;
+    };
+
+    realTimeWebSocket.onerror = (error) => {
+        console.error("WebSocket error:", error);
+        updateRealtimeStatus("Error", "red");
+        updateErrorMessage("WebSocket connection error. Check server logs.");
+        if (realTimeWebSocket) realTimeWebSocket.close();
+    };
+}
+
+function stopRealtimeDetection() {
+    if (realTimeWebSocket && realTimeWebSocket.readyState === WebSocket.OPEN) {
+        console.log("Closing WebSocket for real-time detection.");
+        realTimeWebSocket.close();
+    } else {
+        console.log("Real-time detection not active or already stopped.");
+    }
+    updateRealtimeStatus("Stopped", "gray");
+}
+
 document.addEventListener("DOMContentLoaded", () => {
-    startVisualizerButton?.addEventListener("click", startVisualizer);
-    stopVisualizerButton?.addEventListener("click", stopVisualizer);
+    startVisualizerButton?.addEventListener("click", () => {
+        startVisualizer();
+        startRealtimeDetection();
+    });
+    stopVisualizerButton?.addEventListener("click", () => {
+        stopVisualizer();
+        stopRealtimeDetection();
+    });
+
+    updateRealtimeStatus("Not Started", "gray");
 });

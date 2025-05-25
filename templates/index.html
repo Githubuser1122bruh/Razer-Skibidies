@@ -13,16 +13,19 @@
         </header>
         <main>
             <h2>Welcome to the Razer Skibidi website!</h2>
-            <h2>Hit start recording if you want to start analyzing your brainrot!</h2>
+            <p>Use "Start Recording" for a single analysis of a segment you record.</p>
+            <p>Use "Start Visualizer" to begin continuous, real-time brainrot detection and visualize audio.</p>
         </main>
-        <button id="recordButton">Start Recording</button>
-        <button id="recordStop">Stop Recording</button>
-        <button id="muteButton">Mute</button>
-        <button id="downloadAudio">Download Audio</button>
-        <button id="startVisualizer">Start Visualizer</button>
-        <button id ="stopVisualizer">Stop Visualizer</button>
+        <button id="recordButton">Start Recording (Single Analysis)</button>
+        <button id="recordStop">Stop Recording (Single Analysis)</button>
+        <button id="muteButton">Mute Controls</button>
+        <button id="downloadAudio">Download Latest Audio</button>
+        <br><br>
+        <button id="startVisualizer">Start Real-time Visualizer & Detection</button>
+        <button id ="stopVisualizer">Stop Real-time Visualizer & Detection</button>
         <canvas id="canvas"></canvas>
-        <label id="resultLabel">Waiting...</label>
+        <label id="realtimeStatusLabel">Real-time Analysis: Not Started</label>
+        <label id="resultLabel">Waiting for analysis...</label>
         <p id="errorMessage" style="color: red;"></p>
     </div>
     <a href="https://hackclub.com/"><img style="position: absolute; top: 0; left: 10px; border: 0; width: 256px; z-index: 999;" src="https://assets.hackclub.com/flag-orpheus-top.svg" alt="Hack Club"/></a>
